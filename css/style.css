@@ -1,9 +1,14 @@
+body {
+    background-repeat:no-repeat;
+}
+
+
 /* Navigation Bar */
 
 .main-nav {
     background-color: rgb(110, 161, 202);
     color: rgb(10, 20, 63);
-    
+
 }
 
 .main-nav ul {
@@ -15,7 +20,8 @@
     margin: 10px 10px;
 }
 
-.main-nav a{
+.main-nav a {
     color: white;
     text-decoration: none;
 }
+
