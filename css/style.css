@@ -1,9 +1,8 @@
 body {
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
-
-/* Navigation Bar */
 
 .main-nav {
     background-color: rgb(110, 161, 202);
@@ -25,3 +24,22 @@ body {
     text-decoration: none;
 }
 
+.profile {
+    color: rgb(10, 10, 10);
+    marging-top: 100px;
+
+}
+
+.profile p {
+    color: white;
+}
+
+.profile-container {
+    margin-top: 1030px;
+    padding-left: 20px;
+    ;
+}
+
+.experience-container {
+    padding-left: 20px;
+}
