@@ -77,3 +77,16 @@ body {
     border-radius: 8px 0 8px 0;
     display: inline-block;
 }
+
+footer {
+    background-color: rgb(110, 161, 202);
+    padding: 20px;
+}
+
+.contact-details {
+    margin: 20px 0 0 300px;
+}
+
+.contact-details-container {
+    margin: 30px;
+}
