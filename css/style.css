@@ -1,6 +1,6 @@
 body {
     background-repeat: no-repeat;
-    min-height: 100vh;
+    background-size: auto;
     background-color: rgb(107, 142, 172);
 }
 
@@ -17,7 +17,7 @@ body {
 
 .main-nav li {
     display: inline-block;
-    margin: 10px 10px;
+    margin: 20px 50px;
 }
 
 .main-nav a {
@@ -36,24 +36,23 @@ body {
 }
 
 .profile-container {
-    margin-top: 1030px;
-    padding-left: 20px;
+    margin-top: 1400px;
+    padding-left: 160px;
     ;
 }
 
 .experience-container {
-    padding-left: 200px;
+    padding-left: 1200px;
 }
 
 .education-container {
-    padding-left: 20px;
+    padding-left: 420px;
 }
 
 .skills {
     width: 350px;
     background-color: rgb(98, 142, 201);
-    padding-left: 20px;
-    margin: 10px 8px;
+    margin: 10px;
     width: 400px;
     height: 220px;
     padding: 10px;
@@ -66,7 +65,7 @@ body {
     padding: 200px;
 }
 
-.certificate-and-languages{
+.certificate-and-languages {
     width: 100px;
     background-color: rgb(98, 142, 201);
     padding-left: 20px;
