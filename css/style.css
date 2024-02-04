@@ -25,28 +25,50 @@ body {
     text-decoration: none;
 }
 
+
 .profile {
     color: rgb(10, 10, 10);
     marging-top: 100px;
 
 }
 
+#photo {
+    margin: 550px 0 0 500px;
+}
+
 .profile p {
     color: white;
 }
 
+.inspirational-text {
+    color: rgb(208, 216, 233);
+    margin: 10px 0 0 900px;
+    background-color: rgba(48, 97, 138, 0.63);
+}
+
 .profile-container {
-    margin-top: 1400px;
+    margin-top: 250px;
     padding-left: 160px;
-    ;
+}
+
+.profile-container p {
+    background-color: orange;
 }
 
 .experience-container {
     padding-left: 1200px;
 }
 
+.experience-container p {
+    background-color: orange;
+}
+
 .education-container {
     padding-left: 420px;
+}
+
+.education-container ul {
+    background-color: orange;
 }
 
 .skills {
