@@ -52,7 +52,7 @@ body {
 .skills {
     width: 350px;
     background-color: rgb(98, 142, 201);
-    padding-left; 20px;
+    padding-left: 20px;
     margin: 10px 8px;
     width: 400px;
     height: 220px;
@@ -64,4 +64,17 @@ body {
 
 .set-of-skills {
     padding: 200px;
+}
+
+.certificate-and-languages{
+    width: 100px;
+    background-color: rgb(98, 142, 201);
+    padding-left: 20px;
+    margin: 10px 8px;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid darkorange;
+    border-radius: 8px 0 8px 0;
+    display: inline-block;
 }
