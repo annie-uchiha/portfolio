@@ -1,0 +1,12 @@
+
+.main-nav {
+    background-color: rgb(59, 88, 112);
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+}
