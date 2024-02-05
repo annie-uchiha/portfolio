@@ -56,6 +56,10 @@ body {
     padding-left: 10px;
 }
 
+.purple-lightning {
+    background-color: rgba(204, 135, 45, 0.486);
+}
+
 .it-knowledge {
     margin: 0 700px;
     background-color: rgb(51, 89, 138);
