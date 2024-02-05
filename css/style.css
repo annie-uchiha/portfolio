@@ -48,7 +48,7 @@ body {
 
 .profile-container {
     margin-top: 250px;
-    padding-left: 160px;
+    padding-left: 260px;
 }
 
 .profile-container p {
@@ -57,7 +57,7 @@ body {
 }
 
 .it-knowledge {
-    margin-left: 700px;
+    margin: 0 700px;
     background-color: rgb(51, 89, 138);
     padding-left: 10px;
 }
