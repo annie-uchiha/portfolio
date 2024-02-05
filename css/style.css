@@ -52,11 +52,17 @@ body {
 }
 
 .profile-container p {
-    background-color: orange;
+    background-color: rgb(255, 166, 0);
 }
 
+.it-knowledge {
+    margin-left: 700px;
+    background-color: rgb(51, 89, 138);
+}
+
+
 .experience-container {
-    padding-left: 1200px;
+    padding-left: 100px;
 }
 
 .experience-container p {
@@ -64,7 +70,7 @@ body {
 }
 
 .education-container {
-    padding-left: 300px;
+    padding-left: 1300px;
 }
 
 .education-container ul {
