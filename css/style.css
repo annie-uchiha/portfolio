@@ -53,11 +53,13 @@ body {
 
 .profile-container p {
     background-color: rgb(255, 166, 0);
+    padding-left: 10px;
 }
 
 .it-knowledge {
     margin-left: 700px;
     background-color: rgb(51, 89, 138);
+    padding-left: 10px;
 }
 
 
@@ -67,6 +69,7 @@ body {
 
 .experience-container p {
     background-color: orange;
+    padding-left: 10px;
 }
 
 .education-container {
@@ -75,6 +78,7 @@ body {
 
 .education-container ul {
     background-color: orange;
+    padding-left: 25px;
 }
 
 .skills {
