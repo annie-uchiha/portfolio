@@ -64,7 +64,7 @@ body {
 }
 
 .education-container {
-    padding-left: 420px;
+    padding-left: 300px;
 }
 
 .education-container ul {
@@ -75,8 +75,6 @@ body {
     width: 350px;
     background-color: rgb(98, 142, 201);
     margin: 10px;
-    width: 400px;
-    height: 220px;
     padding: 10px;
     border: 2px solid darkorange;
     border-radius: 8px 0 8px 0;
@@ -84,7 +82,7 @@ body {
 }
 
 .set-of-skills {
-    padding: 200px;
+    padding: 20px 0 40px 450px;
 }
 
 .certificate-and-languages {
@@ -110,5 +108,5 @@ footer {
 }
 
 .contact-details-container {
-    margin: 30px;
+    margin: 30px 0 0 1200px;
 }
