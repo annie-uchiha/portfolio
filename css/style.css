@@ -1,140 +1,135 @@
 body {
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-color: rgb(107, 142, 172);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgb(107, 142, 172);
 }
 
 h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 .main-nav {
-    background-color: rgb(110, 161, 202);
-    color: rgb(10, 20, 63);
-
+  background-color: rgb(110, 161, 202);
+  color: rgb(10, 20, 63);
+  width: 2560px;
 }
 
 .main-nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 .main-nav li {
-    display: inline-block;
-    margin: 20px 50px;
+  display: inline-block;
+  margin: 20px 50px;
 }
 
 .main-nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-
 .profile {
-    color: rgb(10, 10, 10);
-    margin-top: 100px;
-    width: 2100px;
-
+  color: rgb(10, 10, 10);
+  margin-top: 100px;
+  width: 2560px;
 }
 
 #photo {
-    margin: 550px 0 0 500px;
+  margin: 550px 0 0 500px;
 }
 
-
 .profile p {
-    color: white;
+  color: white;
 }
 
 .inspirational-text {
-    color: rgb(208, 216, 233);
-    margin: 10px 0 0 900px;
-    background-color: rgba(48, 97, 138, 0.63);
+  color: rgb(208, 216, 233);
+  margin: 10px 0 0 900px;
+  background-color: rgba(48, 97, 138, 0.63);
+  height: 100px;
+  width: 1660px;
 }
 
 .profile-container {
-    margin-top: 250px;
-    padding-left: 260px;
-    height: 5px;
-    width: 2280px;
+  margin-top: 200px;
+  padding-left: 260px;
+  height: 5px;
+  width: 1000px;
 }
 
 .profile-container p {
-    background-color: rgb(255, 166, 0);
-    padding-left: 10px;
-}
-
-.purple-lightning {
-    background-color: rgba(204, 135, 45, 0.486);
+  background-color: rgb(255, 166, 0);
+  padding-left: 10px;
 }
 
 .it-knowledge {
-    margin: 120px 700px 0 700px;
-    background-color: rgb(51, 89, 138);
-    padding-left: 10px;
-    width: 700px;
-    height:
+  margin: 120px 700px 0 700px;
+  background-color: rgb(51, 89, 138);
+  padding-left: 10px;
+  width: 700px;
+  height: ;
 }
 
-
 .experience-container {
-    padding-left: 100px;
-    width: 3100px;
+  padding-left: 100px;
+  width: 2000px;
 }
 
 .experience-container p {
-    background-color: orange;
-    padding-left: 10px;
+  background-color: orange;
+  padding-left: 10px;
 }
 
 .education-container {
-    padding-left: 1300px;
+  padding-left: 1300px;
 }
 
 .education-container ul {
-    background-color: orange;
-    padding-left: 25px;
-    width: 2100px;
+  background-color: orange;
+  padding-left: 25px;
+  width: 610px;
 }
 
 .skills {
-    width: 350px;
-    background-color: rgb(98, 142, 201);
-    margin: 10px;
-    padding: 10px;
-    border: 2px solid darkorange;
-    border-radius: 8px 0 8px 0;
-    display: inline-block;
+  width: 350px;
+  background-color: rgb(98, 142, 201);
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid darkorange;
+  border-radius: 8px 0 8px 0;
+  display: inline-block;
 }
 
 .set-of-skills {
-    padding: 20px 0 40px 450px;
+  padding: 20px 0 40px 450px;
+  width: 1000px;
 }
 
 .certificate-and-languages {
-    width: 100px;
-    background-color: rgb(98, 142, 201);
-    padding-left: 20px;
-    margin: 10px 8px;
-    width: 300px;
-    height: 150px;
-    padding: 10px;
-    border: 2px solid darkorange;
-    border-radius: 8px 0 8px 0;
-    display: inline-block;
+  width: 100px;
+  background-color: rgb(98, 142, 201);
+  padding-left: 20px;
+  margin: 10px 8px;
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid darkorange;
+  border-radius: 8px 0 8px 0;
+  display: inline-block;
 }
 
 footer {
-    background-color: rgb(110, 161, 202);
-    padding: 20px;
+  background-color: rgb(110, 161, 202);
+  padding: 20px;
+  width: 2560px;
 }
 
 .contact-details {
-    margin: 20px 0 0 300px;
+  margin: 20px 0 0 300px;
 }
 
 .contact-details-container {
-    margin: 30px 0 0 1200px;
-    height: 170px;
-    width: 300px;
+  margin: 30px 0 0 1200px;
+  height: 170px;
+  width: 300px;
 }
