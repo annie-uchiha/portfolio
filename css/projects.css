@@ -1,0 +1,40 @@
+body {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgb(107, 142, 172);
+}
+
+.main-nav-2 {
+  background-color: rgb(110, 161, 202);
+  color: rgb(10, 20, 63);
+}
+
+.main-nav-2 ul {
+  list-style: none;
+}
+
+.main-nav-2 li {
+  display: inline-block;
+  margin: 20px 50px;
+}
+
+.main-nav-2 a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(110, 161, 202);
+  margin: 980px 6px 0 0;
+  padding: 20px;
+}
+
+.contact-me {
+  margin: 20px 0 0 300px;
+}
+
+.contact-me-container {
+  margin: 2px 0 0 1000px;
+  height: 170px;
+  width: 200px;
+}
