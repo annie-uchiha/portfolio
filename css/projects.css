@@ -1,12 +1,12 @@
 body {
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: rgb(107, 142, 172);
+  background-color: rgb(238, 122, 45);
 }
 
 .main-nav-2 {
-  background-color: rgb(110, 161, 202);
-  color: rgb(10, 20, 63);
+  background-color: rgba(236, 87, 0, 0.74);
+  color: rgb(70, 83, 139);
 }
 
 .main-nav-2 ul {
@@ -24,7 +24,7 @@ body {
 }
 
 footer {
-  background-color: rgb(110, 161, 202);
+  background-color: rgba(236, 87, 0, 0.74);
   margin: 980px 6px 0 0;
   padding: 20px;
 }
