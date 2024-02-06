@@ -32,15 +32,14 @@ h2 {
 
 .profile {
     color: rgb(10, 10, 10);
-    marging-top: 100px;
+    margin-top: 100px;
+    width: 2100px;
 
 }
 
 #photo {
     margin: 550px 0 0 500px;
 }
-
-
 
 
 .profile p {
@@ -56,6 +55,8 @@ h2 {
 .profile-container {
     margin-top: 250px;
     padding-left: 260px;
+    height: 5px;
+    width: 2280px;
 }
 
 .profile-container p {
@@ -68,14 +69,17 @@ h2 {
 }
 
 .it-knowledge {
-    margin: 0 700px;
+    margin: 120px 700px 0 700px;
     background-color: rgb(51, 89, 138);
     padding-left: 10px;
+    width: 700px;
+    height: 
 }
 
 
 .experience-container {
     padding-left: 100px;
+    width: 3100px;
 }
 
 .experience-container p {
@@ -90,6 +94,7 @@ h2 {
 .education-container ul {
     background-color: orange;
     padding-left: 25px;
+    width: 2100px;
 }
 
 .skills {
