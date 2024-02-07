@@ -7,6 +7,7 @@ body {
 .main-nav-2 {
   background-color: rgba(236, 87, 0, 0.74);
   color: rgb(70, 83, 139);
+  width: 2560px;
 }
 
 .main-nav-2 ul {
@@ -25,16 +26,18 @@ body {
 
 footer {
   background-color: rgba(236, 87, 0, 0.74);
-  margin: 980px 6px 0 0;
+  margin: 1080px 0 0 0px;
   padding: 20px;
+  width: 2520px;
+  height: 200px;
 }
 
 .contact-me {
-  margin: 20px 0 0 300px;
+  margin: 50px 0 0 700px;
 }
 
 .contact-me-container {
-  margin: 2px 0 0 900px;
+  margin: 2px 0 0 300px;
   height: 170px;
   width: 300px;
 }
