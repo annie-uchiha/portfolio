@@ -28,6 +28,10 @@ h2 {
   text-decoration: none;
 }
 
+.main-nav a:hover {
+  color: rgb(5, 48, 83);
+}
+
 .profile {
   color: rgb(10, 10, 10);
   margin: 100px 0 0 0;
@@ -42,17 +46,9 @@ h2 {
   color: white;
 }
 
-.inspirational-text {
-  color: rgb(208, 216, 233);
-  margin: 10px 0 0 900px;
-  background-color: rgba(48, 97, 138, 0.63);
-  height: 100px;
-  width: 1660px;
-}
-
 .profile-container {
-  margin-top: 200px;
-  padding-left: 260px;
+  margin-top: 330px;
+  padding-left: 460px;
   height: 5px;
   width: 1000px;
 }
@@ -63,15 +59,18 @@ h2 {
 }
 
 .it-knowledge {
-  margin: 120px 700px 0 700px;
-  background-color: rgb(51, 89, 138);
+  transform: translateY(-1200px);
+  margin-left: 1000px;
+  background-color: rgba(51, 89, 138, 0.801);
   padding-left: 10px;
-  width: 700px;
+  width: 1000px;
+  font-size: 25px;
 }
 
 .experience-container {
   padding-left: 100px;
   width: 2000px;
+  transform: translateY(-500px);
 }
 
 .experience-container p {
@@ -81,6 +80,7 @@ h2 {
 
 .education-container {
   padding-left: 1300px;
+  transform: translateY(-400px);
 }
 
 .education-container ul {
@@ -93,27 +93,30 @@ hr {
   border: none;
   border-top: 2px solid darkorange;
   margin: 30px 0;
+  transform: translateY(-350px);
 }
 
 #skills-and-certificates {
   color: white;
   width: 300px;
   margin-left: 1000px;
-}
-
-.skills {
-  width: 350px;
-  background-color: rgb(98, 142, 201);
-  margin: 10px;
-  padding: 10px;
-  border: 2px solid darkorange;
-  border-radius: 8px 0 8px 0;
-  display: inline-block;
+  transform: translateY(-330px);
 }
 
 .set-of-skills {
   padding: 20px 0 40px 450px;
   width: 1600px;
+}
+
+.skills {
+  width: 350px;
+  margin: 5px;
+  background-color: rgb(98, 142, 201);
+  padding: 10px;
+  border: 2px solid darkorange;
+  border-radius: 8px 0 8px 0;
+  display: inline-block;
+  transform: translateY(-350px);
 }
 
 .certificate-and-languages {
