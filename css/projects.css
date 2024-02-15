@@ -4,8 +4,14 @@ body {
   background-color: rgb(238, 122, 45);
 }
 
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .main-nav-2 {
-  background-color: rgba(236, 87, 0, 0.74);
+  background-color: rgba(11, 38, 63, 0.74);
   color: rgb(70, 83, 139);
   width: 2560px;
 }
@@ -24,20 +30,39 @@ body {
   text-decoration: none;
 }
 
-footer {
-  background-color: rgba(236, 87, 0, 0.74);
-  margin: 1080px 0 0 0px;
-  padding: 20px;
-  width: 2520px;
-  height: 200px;
+.flex-container-one {
+  background-color: rgba(15, 61, 82, 0.966);
+  color: rgb(235, 227, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding-top: 5px;
+  text-align: center;
+  transform: translateX(1000px);
 }
 
-.contact-me {
-  margin: 50px 0 0 700px;
+.flex-container-two {
+  background-color: rgba(15, 61, 82, 0.966);
+  color: rgb(235, 227, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding-bottom: 5px;
+  text-align: center;
+  transform: translateX(1400px);
 }
 
-.contact-me-container {
-  margin: 2px 0 0 300px;
-  height: 170px;
-  width: 300px;
+.flex-container-three {
+background-color: rgba(15, 61, 82, 0.966);
+  color: rgb(235, 227, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding-top: 5px;
+  text-align: center;
+  transform: translateX(1000px);
 }
+
