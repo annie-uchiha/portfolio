@@ -9,7 +9,7 @@ h2 {
 }
 
 .main-nav {
-  background-color: rgb(110, 161, 202);
+  background-color: rgb(70, 93, 170);
   color: rgb(10, 20, 63);
   width: 2560px;
 }
@@ -60,7 +60,7 @@ h2 {
 
 .it-knowledge {
   transform: translateY(-1200px);
-  margin-left: 1000px;
+  margin-left: 800px;
   background-color: rgba(51, 89, 138, 0.801);
   padding-left: 10px;
   width: 1000px;
