@@ -10,30 +10,30 @@
   <title>Uchiha-Annie</title>
   <link rel="stylesheet" href="../CV-webpage-CSS-practice/css/normalize.css" type="text/css" />
   <link rel="stylesheet" href="../CV-webpage-CSS-practice/css/style.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 </head>
 
 <body background="./images/1337462.png">
-  <header id="page-header">
+  <header>
     <nav class="main-nav">
-      <ul>
-        <li><a href="#profile">Profile</a></li>
-        <li><a href="#it-skills">IT Skills</a></li>
-        <li><a href="./pages/projects.html">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact-details">Contact me</a></li>
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="#profile" class="main-nav__link">Home</a></li>
+        <li class="main-nav__item"><a href="./pages/projects.html" class="main-nav__link">Projects</a></li>
+        <li class="main-nav__item"><a href="#contact-details" class="main-nav__link">Contact me</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
 
-    <img src="./images/db8a4ad7bef43646b7ed9d94d7c496bb.png" alt="cv-image" width="300" height="500" id="photo"/>
-    
+    <img src="./images/db8a4ad7bef43646b7ed9d94d7c496bb.png" alt="cv-image" width="300" height="500"
+      class="profile-photo" />
+
     <div class="profile-container">
-      <h2 class="profile" id="profile">Profile</h2>
-      <p>
+      <h2 class="profile-container__title">Profile</h2>
+      <p class="profile-container__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -44,54 +44,54 @@
       </p>
     </div>
 
-    <div class="it-knowledge" id="it-skills">
-      <h2>IT Skills</h2>
-      <p>
+    <div class="it-knowledge">
+      <h2 class="it-knowledge__title">IT Skills</h2>
+      <p class="it-knowledge__text">
         <strong>Front-end development</strong>
         <br />HTML + CSS + JavaScript <br />!undergoing online course at
         Beetroot Academy!
       </p>
-      <h3>Professional skills</h3>
-      <ul>
-        <li>Knowledge of HTML and skills of semantics markup</li>
-        <li>
+      <h3 class="it-knowledge__subtitle">Professional skills</h3>
+      <ul class="it-knowledge__list">
+        <li class="it-knowledge__item">Knowledge of HTML and skills of semantics markup</li>
+        <li class="it-knowledge__item">
           Experience in creating CSS animations, transformations and using other
           styles
         </li>
-        <li>Skills in using pre- and post-processors</li>
-        <li>Skills of working with JavaScript tools</li>
-        <li>Experience working with web servers</li>
-        <li>Experience with Git and GitHub</li>
-        <li>Understanding of BEM methodology</li>
-        <li>Experience with Figma</li>
-        <li>
+        <li class="it-knowledge__item">Skills in using pre- and post-processors</li>
+        <li class="it-knowledge__item">Skills of working with JavaScript tools</li>
+        <li class="it-knowledge__item">Experience working with web servers</li>
+        <li class="it-knowledge__item">Experience with Git and GitHub</li>
+        <li class="it-knowledge__item">Understanding of BEM methodology</li>
+        <li class="it-knowledge__item">Experience with Figma</li>
+        <li class="it-knowledge__item">
           Ability to work with console and DevTools, check the code for errors,
           perform debugging
         </li>
-        <li>
+        <li class="it-knowledge__item">
           Knowledge of the logic of client-server architecture when building
           applications
         </li>
-        <li>Skills in applying CSS-styles and visual effects to the layout</li>
-        <li>Experience creating responsive websites</li>
-        <li>
+        <li class="it-knowledge__item">Skills in applying CSS-styles and visual effects to the layout</li>
+        <li class="it-knowledge__item">Experience creating responsive websites</li>
+        <li class="it-knowledge__item">
           Experience using JavaScript (primitives, objects, arrays, functions)
         </li>
-        <li>Experience with manipulating the DOM tree</li>
-        <li>Experience in creating web applications with React</li>
+        <li class="it-knowledge__item">Experience with manipulating the DOM tree</li>
+        <li class="it-knowledge__item">Experience in creating web applications with React</li>
       </ul>
     </div>
 
     <div class="experience-container">
-      <h2 class="experience" id="experience">Experience</h2>
-      <p>
+      <h2 class="experience-container__title">Experience</h2>
+      <p class="experience-container__text">
         <b>Owner of a Private Sound Recording Studio</b> <br /><i>Sound Recording, Sound Editing, Post-production</i>
         <br />Experienced at recording and directing dialogue and other vocal
         tracks with actors and other voice-over artists. <br />
         September 2020 - present
       </p>
 
-      <p>
+      <p class="experience-container__text">
         <b>Film Editing and Post-production at "Filizi 33", Sofia, Bulgaria</b>
         <br /><i>Video and Audio Editing, Audio Recording, Post-production, Technical
           Support, Assistant</i>
@@ -102,7 +102,7 @@
         <br />October 2013 - May 2020
       </p>
 
-      <p>
+      <p class="experience-container__text">
         <b>Assistant Office Manager at Aramark, Lake Powell Resorts and Marinas,
           Wahweap Marina, Page, AZ, USA</b>
         <br /><i>Delegation, Managing Processes, Supervision, Developing Standards,
@@ -116,9 +116,9 @@
     </div>
 
     <div class="education-container">
-      <h2 class="education" id="education">Education</h2>
-      <ul>
-        <li>
+      <h2 class="education-container__title">Education</h2>
+      <ul class="education-container__list">
+        <li class="education-container__item">
           <b>
             Master's Degree in Marketing Management, New Bulgarian University,
             Sofia, Bulgaria
@@ -126,7 +126,7 @@
           <br />February 2017 - July 2019
         </li>
 
-        <li>
+        <li class="education-container__item">
           <b>
             Bachelor's Degree in Film Directing, New Bulgarian University,
             Sofia, Bulgaria
@@ -136,93 +136,75 @@
       </ul>
     </div>
 
-    <hr>
-
-    <h2 id="skills-and-certificates">Skills and Certificates</h2>
-
-    <div class="set-of-skills" id="skills">
-      <div class="skills">
-        <h3>Software Skills</h3>
-        <ul>
-          <li>
-            Adobe Premiere Pro <meter value="100" min="0" max="100"></meter>
-          </li>
-          <li>Adobe Audition <meter value="100" min="0" max="100"></meter></li>
-          <li>Adobe Photoshop <meter value="90" min="0" max="100"></meter></li>
-          <li>
-            Adobe After Effects <meter value="70" min="0" max="100"></meter>
-          </li>
-          <li>Adobe Encore <meter value="100" min="0" max="100"></meter></li>
-          <li>
-            Home Design Suite 8.0 <meter value="50" min="0" max="100"></meter>
-          </li>
-        </ul>
-      </div>
-      <div class="skills">
-        <h3>Skills from past work experience</h3>
-        <ul>
-          <li>Editing Video <meter value="100" min="0" max="100"></meter></li>
-          <li>
-            Post-production skills <meter value="80" min="0" max="100"></meter>
-          </li>
-          <li>Audio Recording <meter value="100" min="0" max="100"></meter></li>
-          <li>Audio Editing <meter value="100" min="0" max="100"></meter></li>
-          <li>
-            High Attention to Details
-            <meter value="100" min="0" max="100"></meter>
-          </li>
-          <li>
-            Deadline Oriented <meter value="100" min="0" max="100"></meter>
-          </li>
-          <li>
-            Good Time Management Skills
-            <meter value="100" min="0" max="100"></meter>
-          </li>
-          <li>
-            Leadership and Teamwork
-            <meter value="100" min="0" max="100"></meter>
-          </li>
-        </ul>
-      </div>
-      <div class="skills">
-        <section id="languages">
-          <h3>Languages</h3>
-          <ul>
-            <li>English (advanced)</li>
-            <li>Russian (basic)</li>
-            <li>Bulgarian (mother tongue)</li>
-          </ul>
-        </section>
-      </div>
-      <div class="skills">
-        <section id="certificates">
-          <h3>Certificates</h3>
-          <ul>
-            <li>
-              Cambridge ESOL Level 2, Certificate in ESOL International, CAE
-              Level C1, date of issue 08/02/2011
-            </li>
-          </ul>
-        </section>
-      </div>
+    <div class="skills">
+      <h3 class="skills__title">Software Skills</h3>
+      <ul class="skills__list">
+        <li class="skills__item">
+          Adobe Premiere Pro <meter value="100" min="0" max="100"></meter>
+        </li>
+        <li class="skills__item">Adobe Audition <meter value="100" min="0" max="100"></meter></li>
+        <li class="skills__item">Adobe Photoshop <meter value="90" min="0" max="100"></meter></li>
+        <li class="skills__item">
+          Adobe After Effects <meter value="70" min="0" max="100"></meter>
+        </li>
+        <li class="skills__item">Adobe Encore <meter value="100" min="0" max="100"></meter></li>
+        <li class="skills__item">
+          Home Design Suite 8.0 <meter value="50" min="0" max="100"></meter>
+        </li>
+      </ul>
     </div>
-  </main>
 
-  <footer>
-    <div class="contact-details">
-      <section id="contact-details" class="contact-details-container">
-        <h4>Contact Me</h4>
-        <ul>
-          <li><b>Phone:</b> +359 --- -- -- --</li>
-          <li><b>e-mail:</b> --------------@yahoo.com</li>
-          <li>
-            <b>Linked In:</b>
-            <a href="https://www.linkedin.com/">linkedin.com/----------</a>
+    <div class="skills">
+      <h3 class="skills__title">Skills from past work experience</h3>
+      <ul class="skills__list">
+        <li class="skills__item">Editing Video <meter value="100" min="0" max="100"></meter></li>
+        <li class="skills__item">
+          Post-production skills <meter value="80" min="0" max="100"></meter>
+        </li>
+        <li class="skills__item">Audio Recording <meter value="100" min="0" max="100"></meter></li>
+        <li class="skills__item">Audio Editing <meter value="100" min="0" max="100"></meter></li>
+        <li class="skills__item">
+          High Attention to Details
+          <meter value="100" min="0" max="100"></meter>
+        </li>
+        <li class="skills__item">
+          Deadline Oriented <meter value="100" min="0" max="100"></meter>
+        </li>
+        <li class="skills__item">
+          Good Time Management Skills
+          <meter value="100" min="0" max="100"></meter>
+        </li>
+        <li class="skills__item">
+          Leadership and Teamwork
+          <meter value="100" min="0" max="100"></meter>
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills">
+      <section class="skills__section">
+        <h3 class="skills__title">Languages</h3>
+        <ul class="skills_list">
+          <li class="skills__item">English (advanced)</li>
+          <li class="skills__item">Russian (basic)</li>
+          <li class="skills__item">Bulgarian (mother tongue)</li>
+        </ul>
+      </section>
+    </div>
+    <div class="skills">
+      <section class="skills__section">
+        <h3 class="skills__title">Certificates</h3>
+        <ul class="skills_list">
+          <li class="skills__item">
+            Cambridge ESOL Level 2, Certificate in ESOL International, CAE
+            Level C1, date of issue 08/02/2011
           </li>
         </ul>
       </section>
     </div>
-  </footer>
+  </main>
+
+
 </body>
 
 </html>
