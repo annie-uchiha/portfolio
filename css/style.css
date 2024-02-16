@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: rgb(107, 142, 172);
+  background-color: rgb(60, 76, 126);
 }
 
 h2 {
@@ -38,12 +38,8 @@ h2 {
   width: 200px;
 }
 
-#photo {
+.profile-photo {
   margin: 550px 0 0 500px;
-}
-
-.profile p {
-  color: white;
 }
 
 .profile-container {
@@ -53,8 +49,8 @@ h2 {
   width: 1000px;
 }
 
-.profile-container p {
-  background-color: rgb(255, 166, 0);
+.profile-container__text {
+  background-color: rgba(145, 144, 233, 0.918);
   padding-left: 10px;
 }
 
@@ -68,32 +64,25 @@ h2 {
 }
 
 .experience-container {
-  padding-left: 100px;
+  padding-left: 500px;
   width: 2000px;
-  transform: translateY(-500px);
+  transform: translateY(-600px);
 }
 
-.experience-container p {
-  background-color: orange;
+.experience-container__text {
+  background-color: rgba(145, 144, 233, 0.918);
   padding-left: 10px;
 }
 
 .education-container {
-  padding-left: 1300px;
-  transform: translateY(-400px);
+  padding-left: 500px;
+  transform: translateY(-600px);
 }
 
 .education-container ul {
-  background-color: orange;
+  background-color: rgba(145, 144, 233, 0.918);
   padding-left: 25px;
   width: 610px;
-}
-
-hr {
-  border: none;
-  border-top: 2px solid darkorange;
-  margin: 30px 0;
-  transform: translateY(-350px);
 }
 
 #skills-and-certificates {
@@ -103,20 +92,17 @@ hr {
   transform: translateY(-330px);
 }
 
-.set-of-skills {
-  padding: 20px 0 40px 450px;
-  width: 1600px;
-}
-
 .skills {
   width: 350px;
-  margin: 5px;
+  margin: 25px;
   background-color: rgb(98, 142, 201);
   padding: 10px;
   border: 2px solid darkorange;
   border-radius: 8px 0 8px 0;
-  display: inline-block;
-  transform: translateY(-350px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-1350px);
 }
 
 .certificate-and-languages {
