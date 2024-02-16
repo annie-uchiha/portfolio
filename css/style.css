@@ -41,7 +41,6 @@ h2 {
 
 .profile {
   color: rgb(10, 10, 10);
-  margin: 100px 0 0 0;
   width: 200px;
 }
 
@@ -143,8 +142,7 @@ footer {
 
 footer {
   background-color: rgb(43, 57, 102);
-  color:aliceblue;
+  color: aliceblue;
   width: 2540px;
   transform: translateY(1000px);
 }
-
