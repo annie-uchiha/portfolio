@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: rgb(60, 76, 126);
+  background-color: rgb(83, 114, 143);
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -16,7 +16,7 @@ h2 {
 }
 
 .main-nav {
-  background-color: rgb(70, 93, 170);
+  background-color: rgb(132, 171, 207);
   color: rgb(10, 20, 63);
   width: 2560px;
 }
@@ -39,6 +39,20 @@ h2 {
   color: rgb(5, 48, 83);
 }
 
+.flex-container-it-skills-king-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.it-knowledge {
+  background-color: rgba(51, 89, 138, 0.801);
+  padding-left: 30px;
+  width: 900px;
+  height: 600px;
+  font-size: 20px;
+}
+
 .profile {
   color: rgb(10, 10, 10);
   width: 200px;
@@ -58,15 +72,6 @@ h2 {
 .profile-container__text {
   background-color: rgba(145, 144, 233, 0.918);
   padding-left: 10px;
-}
-
-.it-knowledge {
-  transform: translateY(-1200px);
-  margin-left: 800px;
-  background-color: rgba(51, 89, 138, 0.801);
-  padding-left: 10px;
-  width: 1000px;
-  font-size: 25px;
 }
 
 .experience-container {
@@ -94,11 +99,10 @@ h2 {
 #skills-and-certificates {
   color: white;
   width: 300px;
-  margin-left: 1000px;
-  transform: translateY(-330px);
 }
 
 .skills {
+  transform: translateY(500px);
   width: 400px;
   margin: 25px;
   background-color: rgb(98, 142, 201);
@@ -108,7 +112,6 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(-1350px);
 }
 
 .certificate-and-languages {
@@ -127,7 +130,17 @@ h2 {
 footer {
   background-color: rgb(110, 161, 202);
   padding: 20px;
-  width: 2519px;
+  width: 100%;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+
+.flex-container-contact-me {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1000px;
 }
 
 .contact-details {
@@ -141,7 +154,7 @@ footer {
 }
 
 footer {
-  background-color: rgb(43, 57, 102);
+  background-color: rgb(132, 171, 207);
   color: aliceblue;
   width: 2540px;
   transform: translateY(1000px);
