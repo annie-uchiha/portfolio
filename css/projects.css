@@ -66,3 +66,41 @@ body {
   text-align: center;
   transform: translateX(1000px);
 }
+
+footer {
+  background-color: rgb(110, 161, 202);
+  padding: 20px;
+  width: 100%;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+
+.flex-container-contact-me {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1000px;
+}
+
+.contact-details {
+  margin: 20px 0 0 300px;
+}
+
+.contact-details-container {
+  margin: 30px 0 0 1200px;
+  height: 100px;
+  width: 310px;
+}
+
+.text-center {
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(132, 171, 207);
+  color: aliceblue;
+  width: 100%;
+  transform: translateY(100px);
+}

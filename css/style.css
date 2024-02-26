@@ -43,6 +43,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .it-knowledge {
@@ -53,47 +54,32 @@ h2 {
   font-size: 20px;
 }
 
-.profile {
-  color: rgb(10, 10, 10);
-  width: 200px;
-}
-
-.profile-photo {
-  margin: 550px 0 0 500px;
-}
-
 .profile-container {
   margin-top: 220px;
   padding-left: 460px;
-  height: 5px;
-  width: 1200px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  transform: translateY(-150px);
+}
+
+.profile {
+  color: rgb(10, 10, 10);
 }
 
 .profile-container__text {
-  background-color: rgba(145, 144, 233, 0.918);
-  padding-left: 10px;
+  background-color: rgba(51, 89, 138, 0.801);
+  background: linear-gradient(
+    to right,
+    rgba(51, 89, 138, 0.801),
+    rgba(170, 208, 240, 0.397)
+  );
+  padding: 20px;
 }
 
-.experience-container {
-  padding-left: 500px;
-  width: 2000px;
+.knitting-img {
   transform: translateY(-600px);
-}
-
-.experience-container__text {
-  background-color: rgba(145, 144, 233, 0.918);
-  padding-left: 10px;
-}
-
-.education-container {
-  padding-left: 500px;
-  transform: translateY(-600px);
-}
-
-.education-container ul {
-  background-color: rgba(145, 144, 233, 0.918);
-  padding-left: 25px;
-  width: 610px;
+  margin-left: 50px;
 }
 
 #skills-and-certificates {
@@ -102,12 +88,12 @@ h2 {
 }
 
 .skills {
-  transform: translateY(500px);
+  transform: translateY(-600px);
   width: 400px;
   margin: 25px;
-  background-color: rgb(98, 142, 201);
+  background-color: rgb(51, 89, 138, 0.801);
   padding: 10px;
-  border: 2px solid darkorange;
+  border: 2px solid rgb(167, 126, 76);
   border-radius: 8px 0 8px 0;
   display: flex;
   flex-direction: column;
@@ -125,6 +111,41 @@ h2 {
   border: 2px solid darkorange;
   border-radius: 8px 0 8px 0;
   display: inline-block;
+}
+
+.experience-container {
+  padding-left: 500px;
+  width: 1000px;
+  transform: translateY(-1500px);
+}
+
+.experience-container__text {
+  background-color: rgba(51, 89, 138, 0.801);
+  background: linear-gradient(
+    to right,
+    rgba(51, 89, 138, 0.801),
+    rgba(170, 208, 240, 0.397)
+  );
+  padding: 10px;
+}
+
+.education-container {
+  padding-left: 500px;
+  transform: translateY(-1500px);
+  width: 610px;
+}
+
+.education-container ul {
+  background-color: rgba(51, 89, 138, 0.801);
+  background: linear-gradient(
+    to right,
+    rgba(51, 89, 138, 0.801),
+    rgba(170, 208, 240, 0.397)
+  );
+}
+
+.education-container__item {
+  padding: 10px;
 }
 
 footer {
@@ -153,9 +174,14 @@ footer {
   width: 310px;
 }
 
+.text-center {
+  text-align: center;
+  padding: 10px;
+}
+
 footer {
   background-color: rgb(132, 171, 207);
   color: aliceblue;
-  width: 2540px;
-  transform: translateY(1000px);
+  width: 100%;
+  transform: translateY(840px);
 }
