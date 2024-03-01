@@ -67,6 +67,49 @@ body {
   transform: translateX(1000px);
 }
 
+.project-1-calculator {
+  color: antiquewhite;
+  padding-left: 170px;
+}
+
+.project-1-calculator:hover {
+  color: rgb(14, 67, 128);
+}
+
+.calculator-container {
+  width: 380px;
+  padding: 30px;
+  margin-left: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 4px rgba(11, 38, 63, 0.74);
+  background-color: rgb(218, 144, 34);
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1 fr);
+  grid-gap: 10px;
+}
+
+.calculator-container button {
+  font-size: 50px;
+  width: 60px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(11, 38, 63, 0.74);
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.plus-btn {
+  height: 90px;
+}
+
+.equal-btn {
+  height: 90px;
+}
+
+.reset-btn {
+  width: 5px;
+}
+
 footer {
   background-color: rgb(110, 161, 202);
   padding: 20px;
