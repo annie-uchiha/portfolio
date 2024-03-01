@@ -90,29 +90,29 @@ body {
   grid-gap: 10px;
 }
 
-input[type="button"] { 
-  width: 100%; 
-  padding: 10px 30px; 
+input[type="button"] {
+  width: 100%;
+  padding: 10px 30px;
   font-size: 32px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(1, 9, 17, 0.74);
-} 
+}
 
-input[type="text"] { 
-  padding: 10px 20px; 
-  font-size: 24px; 
-  font-weight: bold; 
-  border: none; 
-  border-radius: 5px; 
-  border: 2px solid black; 
-} 
+input[type="text"] {
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+}
 
 .result {
   width: 580px;
 }
 
 .equal-btn {
-  background-color: rgb(233, 93,12);
+  background-color: rgb(233, 93, 12);
 }
 
 .reset-btn {
