@@ -77,37 +77,47 @@ body {
 }
 
 .calculator-container {
-  width: 380px;
+  width: 800px;
   padding: 30px;
   margin-left: 100px;
   border-radius: 20px;
-  box-shadow: 10px 10px 4px rgba(11, 38, 63, 0.74);
+  box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
   background-color: rgb(218, 144, 34);
+  background: linear-gradient(to top, rgb(218, 144, 34), rgb(233, 93, 12));
   align-items: center;
   display: grid;
   grid-template-columns: repeat(4, 1 fr);
   grid-gap: 10px;
 }
 
-.calculator-container button {
-  font-size: 50px;
-  width: 60px;
+input[type="button"] { 
+  width: 100%; 
+  padding: 10px 30px; 
+  font-size: 32px;
   border-radius: 20px;
-  box-shadow: 2px 2px 4px rgba(11, 38, 63, 0.74);
-  grid-column: span 1;
-  grid-row: span 1;
-}
+  box-shadow: 2px 2px 4px rgba(1, 9, 17, 0.74);
+} 
 
-.plus-btn {
-  height: 90px;
+input[type="text"] { 
+  padding: 10px 20px; 
+  font-size: 24px; 
+  font-weight: bold; 
+  border: none; 
+  border-radius: 5px; 
+  border: 2px solid black; 
+} 
+
+.result {
+  width: 580px;
 }
 
 .equal-btn {
-  height: 90px;
+  background-color: rgb(233, 93,12);
 }
 
 .reset-btn {
-  width: 5px;
+  width: 500px;
+  background-color: rgb(173, 173, 177);
 }
 
 footer {
