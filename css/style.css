@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: rgb(83, 114, 143);
+  background-color: rgb(30, 43, 56);
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -39,19 +39,8 @@ h2 {
   color: rgb(5, 48, 83);
 }
 
-.flex-container-it-skills-king-img {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 60px;
-}
-
-.it-knowledge {
-  background-color: rgba(51, 89, 138, 0.801);
-  padding-left: 30px;
-  width: 900px;
-  height: 600px;
-  font-size: 20px;
+.oracle-bell-img {
+  transform: translateX(700px);
 }
 
 .profile-container {
@@ -67,6 +56,22 @@ h2 {
   color: rgb(10, 10, 10);
 }
 
+.flex-container-it-skills-king-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.it-knowledge {
+  background-color: rgba(51, 89, 138, 0.801);
+  padding-left: 30px;
+  width: 900px;
+  height: 600px;
+  font-size: 20px;
+}
+
+
 .profile-container__text {
   background-color: rgba(51, 89, 138, 0.801);
   background: linear-gradient(
@@ -77,18 +82,12 @@ h2 {
   padding: 20px;
 }
 
-.knitting-img {
-  transform: translateY(-600px);
-  margin-left: 50px;
-}
-
 #skills-and-certificates {
   color: white;
   width: 300px;
 }
 
 .skills {
-  transform: translateY(-600px);
   width: 400px;
   margin: 25px;
   background-color: rgb(51, 89, 138, 0.801);
@@ -116,7 +115,7 @@ h2 {
 .experience-container {
   padding-left: 500px;
   width: 1000px;
-  transform: translateY(-1500px);
+  transform: translateY(-900px);
 }
 
 .experience-container__text {
@@ -131,7 +130,7 @@ h2 {
 
 .education-container {
   padding-left: 500px;
-  transform: translateY(-1500px);
+  transform: translateY(-900px);
   width: 610px;
 }
 
