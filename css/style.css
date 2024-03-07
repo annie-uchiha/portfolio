@@ -1,7 +1,5 @@
 body {
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-color: rgb(30, 43, 56);
+  background-color: #ff9f06;
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -16,7 +14,7 @@ h2 {
 }
 
 .main-nav {
-  background-color: rgb(132, 171, 207);
+  background-color: #ff7e2e;
   color: rgb(10, 20, 63);
   width: 2560px;
 }
@@ -32,31 +30,51 @@ h2 {
 
 .main-nav a {
   color: white;
+  font-size: 22px;
   text-decoration: none;
 }
 
 .main-nav a:hover {
-  color: rgb(5, 48, 83);
+  color: rgb(230, 201, 75);
+  text-decoration: underline overline;
 }
 
-.oracle-bell-img {
-  transform: translateX(700px);
+.naruto-tribute-img {
+  margin-left: 60%;
+  transform: translateY(-16px);
 }
 
-.profile-container {
-  margin-top: 220px;
-  padding-left: 460px;
+.profile-container-flex {
+  margin-left: 300px;
+  margin-block-start: -600px;
+  padding: 100px;
   width: 1000px;
   display: flex;
   flex-direction: row;
-  transform: translateY(-150px);
+  justify-content: center;
 }
 
-.profile {
-  color: rgb(10, 10, 10);
+.profile-container-flex p {
+  border: none;
+  border-radius: 12px 20px 45px 10px;
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
+  padding: 20px;
 }
 
-.flex-container-it-skills-king-img {
+.profile-container-flex img {
+  padding-left: 300px;
+}
+
+.leaf-village-sign {
+  margin-left: 50px;
+}
+
+.leaf-village-sign:hover {
+  transform: rotateY(45deg);
+}
+
+.flex-container-it-skills {
+  background-color: #e76114;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -64,22 +82,10 @@ h2 {
 }
 
 .it-knowledge {
-  background-color: rgba(51, 89, 138, 0.801);
+  background-color: rgba(190, 75, 9, 0.801);
   padding-left: 30px;
-  width: 900px;
   height: 600px;
   font-size: 20px;
-}
-
-
-.profile-container__text {
-  background-color: rgba(51, 89, 138, 0.801);
-  background: linear-gradient(
-    to right,
-    rgba(51, 89, 138, 0.801),
-    rgba(170, 208, 240, 0.397)
-  );
-  padding: 20px;
 }
 
 #skills-and-certificates {
@@ -153,6 +159,9 @@ footer {
   width: 100%;
 }
 
+.oracle-bell-img {
+  transform: translateX(700px);
+}
 .pt-150 {
   padding-top: 150px;
 }
