@@ -5,10 +5,6 @@ body {
   font-style: normal;
 }
 
-main {
-  height: 165vh;
-}
-
 h2 {
   text-decoration: underline;
 }
@@ -138,8 +134,6 @@ h2 {
   background-color: #ff7e2e;
   padding: 20px;
   width: 100%;
-  margin-top: 1000px;
-  margin-block-start: 300px;
   display: flex;
   flex-direction: row;
   justify-content: center;
