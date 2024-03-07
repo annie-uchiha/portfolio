@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 165vh;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 .main-nav {
   background-color: #ff7e2e;
   color: rgb(10, 20, 63);
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {
@@ -88,108 +88,69 @@ h2 {
   font-size: 20px;
 }
 
-#skills-and-certificates {
-  color: white;
-  width: 300px;
+.harry-potter-tribute-img {
+  transform: translateY(-85px) translateX(1635px);
+}
+
+.supernatural-tribute-img {
+  transform: translateY(160px) translateX(470px);
 }
 
 .skills {
   width: 400px;
-  margin: 25px;
-  background-color: rgb(51, 89, 138, 0.801);
+  margin: 25px 0 0 200px;
+  transform: translateY(-90px);
+  background-color: #265aa8cb;
   padding: 10px;
-  border: 2px solid rgb(167, 126, 76);
-  border-radius: 8px 0 8px 0;
+  border: 2px solid rgb(240, 71, 19);
+  border-radius: 12px 0 12px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.certificate-and-languages {
-  width: 100px;
-  background-color: rgb(98, 142, 201);
-  padding-left: 20px;
-  margin: 10px 8px;
-  width: 300px;
-  height: 150px;
-  padding: 10px;
-  border: 2px solid darkorange;
-  border-radius: 8px 0 8px 0;
-  display: inline-block;
-}
-
 .experience-container {
   padding-left: 500px;
   width: 1000px;
-  transform: translateY(-900px);
+  transform: translateY(-900px) translateX(400px);
 }
 
 .experience-container__text {
-  background-color: rgba(51, 89, 138, 0.801);
-  background: linear-gradient(
-    to right,
-    rgba(51, 89, 138, 0.801),
-    rgba(170, 208, 240, 0.397)
-  );
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
   padding: 10px;
 }
 
 .education-container {
   padding-left: 500px;
-  transform: translateY(-900px);
+  transform: translateY(-800px) translateX(500px);
   width: 610px;
 }
 
 .education-container ul {
-  background-color: rgba(51, 89, 138, 0.801);
-  background: linear-gradient(
-    to right,
-    rgba(51, 89, 138, 0.801),
-    rgba(170, 208, 240, 0.397)
-  );
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
 }
 
 .education-container__item {
   padding: 10px;
 }
 
-footer {
-  background-color: rgb(110, 161, 202);
+.footer-container {
+  background-color: #ff7e2e;
   padding: 20px;
   width: 100%;
-}
-
-.oracle-bell-img {
-  transform: translateX(700px);
-}
-.pt-150 {
-  padding-top: 150px;
-}
-
-.flex-container-contact-me {
+  margin-top: 1000px;
+  margin-block-start: 300px;
   display: flex;
   flex-direction: row;
-  padding-left: 1000px;
+  justify-content: center;
 }
 
-.contact-details {
-  margin: 20px 0 0 300px;
-}
-
-.contact-details-container {
-  margin: 30px 0 0 1200px;
-  height: 100px;
-  width: 310px;
+.contact-information {
+  text-align: center;
 }
 
 .text-center {
   text-align: center;
   padding: 10px;
-}
-
-footer {
-  background-color: rgb(132, 171, 207);
-  color: aliceblue;
-  width: 100%;
-  transform: translateY(840px);
+  width: 100vh;
 }
