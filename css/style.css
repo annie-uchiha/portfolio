@@ -84,20 +84,27 @@ h2 {
   font-size: 20px;
 }
 
-.harry-potter-tribute-img {
-  transform: translateY(-85px) translateX(1635px);
+.kunai-img {
+  width: 300px;
+  margin-left: 800px;
+  margin-right: 800px;
 }
 
-.supernatural-tribute-img {
-  transform: translateY(160px) translateX(470px);
+.kunai-img:hover {
+  transform: rotateX(150deg);
+}
+
+.flex-container-skills-and-experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .skills {
   width: 400px;
-  margin: 25px 0 0 200px;
-  transform: translateY(-90px);
   background-color: #265aa8cb;
   padding: 10px;
+  margin-top: 5px;
   border: 2px solid rgb(240, 71, 19);
   border-radius: 12px 0 12px 0;
   display: flex;
@@ -105,25 +112,28 @@ h2 {
   justify-content: center;
 }
 
+.skills-container {
+  margin-right: 200px;
+  margin-bottom: 20px;
+}
+
 .experience-container {
-  padding-left: 500px;
   width: 1000px;
-  transform: translateY(-900px) translateX(400px);
 }
 
 .experience-container__text {
   background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
   padding: 10px;
+  border-radius: 12px;
 }
 
 .education-container {
-  padding-left: 500px;
-  transform: translateY(-800px) translateX(500px);
   width: 610px;
 }
 
 .education-container ul {
   background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
+  border-radius: 12px;
 }
 
 .education-container__item {
@@ -141,6 +151,11 @@ h2 {
 
 .contact-information {
   text-align: center;
+}
+
+.contact-information:hover {
+  scale: 1.2;
+  transform: rotateZ(20deg);
 }
 
 .text-center {
