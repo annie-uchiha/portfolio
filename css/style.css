@@ -152,7 +152,7 @@ h2 {
 
 @keyframes transform {
   from {
-    transform: translateX(2000px);
+    transform: translateX(2500px);
   }
   to {
     transform: translateX(-300px);
