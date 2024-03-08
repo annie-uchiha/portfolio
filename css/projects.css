@@ -33,15 +33,24 @@ body {
   text-decoration: underline;
 }
 
+.grid-container {
+  margin-left: 45%;
+  margin-right: 25%;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "link1 link2 link3"
+  "link4 link4 link4";
+}
+
 .flex-container-one {
   background-color: rgba(15, 61, 82, 0.966);
   color: rgb(235, 227, 227);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 450px;
+  width: 400px;
   padding-top: 5px;
-  margin-left: 50%;
   text-align: center;
 }
 
@@ -53,7 +62,6 @@ body {
   justify-content: center;
   width: 400px;
   padding-bottom: 5px;
-  margin-left: 39%;
   text-align: center;
 }
 
@@ -65,7 +73,6 @@ body {
   justify-content: center;
   width: 400px;
   padding-top: 5px;
-  margin-left: 50%;
   text-align: center;
 }
 
@@ -77,8 +84,6 @@ body {
   justify-content: center;
   width: 400px;
   padding-bottom: 5px;
-  margin-block-start: -300px;
-  margin-left: 39%;
   text-align: center;
 }
 
