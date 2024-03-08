@@ -31,7 +31,7 @@ h2 {
 }
 
 .main-nav a:hover {
-  color: rgb(230, 201, 75);
+  color: #e76114;
   text-decoration: underline overline;
 }
 
@@ -144,6 +144,19 @@ h2 {
 
 .education-container__item {
   padding: 10px;
+}
+
+.sasuke-run-animation {
+  animation: transform 3000ms ease-out infinite;
+}
+
+@keyframes transform {
+  from {
+    transform: translateX(2000px);
+  }
+  to {
+    transform: translateX(-300px);
+  }
 }
 
 .footer-container {

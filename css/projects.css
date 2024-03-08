@@ -1,16 +1,17 @@
 body {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   background-color: rgba(11, 38, 63, 0.74);
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 22px;
 }
 
 .main-nav-2 {
   background-color: rgba(11, 38, 63, 0.74);
   color: rgb(70, 83, 139);
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav-2 ul {
@@ -29,6 +30,7 @@ body {
 
 .main-nav-2 a:hover {
   color: rgb(32, 129, 209);
+  text-decoration: underline;
 }
 
 .flex-container-one {
@@ -37,10 +39,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  width: 450px;
   padding-top: 5px;
+  margin-left: 50%;
   text-align: center;
-  transform: translateX(1000px);
 }
 
 .flex-container-two {
@@ -51,8 +53,8 @@ body {
   justify-content: center;
   width: 400px;
   padding-bottom: 5px;
+  margin-left: 39%;
   text-align: center;
-  transform: translateX(1400px);
 }
 
 .flex-container-three {
@@ -63,97 +65,40 @@ body {
   justify-content: center;
   width: 400px;
   padding-top: 5px;
+  margin-left: 50%;
   text-align: center;
-  transform: translateX(1000px);
 }
 
-.project-1-calculator {
-  color: antiquewhite;
-  padding-left: 170px;
+.flex-container-four {
+  background-color: rgba(15, 61, 82, 0.966);
+  color: rgb(235, 227, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding-bottom: 5px;
+  margin-block-start: -300px;
+  margin-left: 39%;
+  text-align: center;
 }
 
-.project-1-calculator:hover {
-  color: rgb(14, 67, 128);
-}
-
-.calculator-container {
-  width: 800px;
-  padding: 30px;
-  margin-left: 100px;
-  border-radius: 20px;
-  box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
-  background-color: rgb(218, 144, 34);
-  background: linear-gradient(to top, rgb(218, 144, 34), rgb(233, 93, 12));
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(4, 1 fr);
-  grid-gap: 10px;
-}
-
-input[type="button"] {
-  width: 100%;
-  padding: 10px 30px;
-  font-size: 32px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 4px rgba(1, 9, 17, 0.74);
-}
-
-input[type="text"] {
-  padding: 10px 20px;
-  font-size: 24px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  border: 2px solid black;
-}
-
-.result {
-  width: 580px;
-}
-
-.equal-btn {
-  background-color: rgb(233, 93, 12);
-}
-
-.reset-btn {
-  width: 500px;
-  background-color: rgb(173, 173, 177);
-}
-
-footer {
-  background-color: rgb(110, 161, 202);
+.footer-container {
+  background-color: rgb(11, 38, 63);
   padding: 20px;
   width: 100%;
-}
-
-.pt-150 {
-  padding-top: 150px;
-}
-
-.flex-container-contact-me {
   display: flex;
   flex-direction: row;
-  padding-left: 1000px;
+  justify-content: center;
+  margin-top: 140px;
 }
 
-.contact-details {
-  margin: 20px 0 0 300px;
-}
-
-.contact-details-container {
-  margin: 30px 0 0 1200px;
-  height: 100px;
-  width: 310px;
+.contact-information {
+  text-align: center;
+  color: azure;
 }
 
 .text-center {
   text-align: center;
   padding: 10px;
-}
-
-footer {
-  background-color: rgb(132, 171, 207);
-  color: aliceblue;
-  width: 100%;
-  transform: translateY(100px);
+  width: 100vh;
 }
