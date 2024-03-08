@@ -84,6 +84,12 @@ h2 {
   font-size: 20px;
 }
 
+.it-knowledge:hover {
+  scale: 1.2;
+  border: 2px solid cornflowerblue;
+  border-radius: 12px;
+}
+
 .kunai-img {
   width: 300px;
   margin-left: 800px;
