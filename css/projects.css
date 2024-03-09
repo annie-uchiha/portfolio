@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: rgba(11, 38, 63, 0.74);
+  background-color: rgba(10, 21, 73, 0.877);
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 60vh;
 }
 
 .contact-information {
