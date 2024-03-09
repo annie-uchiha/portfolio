@@ -38,9 +38,9 @@ body {
   margin-right: 25%;
   display: grid;
   gap: 20px;
-  grid-template-areas: 
-  "link1 link2 link3"
-  "link4 link4 link4";
+  grid-template-areas:
+    "link1 link2 link3"
+    "link4 link4 link4";
 }
 
 .flex-container-one {
