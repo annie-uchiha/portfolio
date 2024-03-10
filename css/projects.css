@@ -1,3 +1,8 @@
+.flex-page-layout {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -5,7 +10,7 @@ body {
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 22px;
+  font-size: 1.5rem;
 }
 
 .main-nav-2 {
@@ -20,7 +25,7 @@ body {
 
 .main-nav-2 li {
   display: inline-block;
-  margin: 20px 50px;
+  margin: 20px;
 }
 
 .main-nav-2 a {
@@ -34,8 +39,7 @@ body {
 }
 
 .grid-container {
-  margin-left: 45%;
-  margin-right: 25%;
+  margin: 5% 30% 0 40%;
   display: grid;
   gap: 20px;
   grid-template-areas:
@@ -49,8 +53,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
-  padding-top: 5px;
+  width: 500px;
+  height: 540px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -60,8 +67,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
-  padding-bottom: 5px;
+  width: 500px;
+  height: 540px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -71,8 +81,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
-  padding-top: 5px;
+  width: 500px;
+  height: 540px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -82,9 +95,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
-  padding-bottom: 5px;
+  width: 500px;
+  height: 540px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
   text-align: center;
+}
+
+.github-btn {
+  background-color: rgb(11, 38, 63);
+  width: 130px;
+  border: none;
+  border-radius: 10px;
 }
 
 .footer-container {
@@ -94,7 +117,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 60vh;
+  margin-top: 66vh;
 }
 
 .contact-information {
