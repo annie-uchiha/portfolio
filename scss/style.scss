@@ -45,7 +45,8 @@ h2 {
   flex-direction: row;
   justify-content: center;
   min-width: 757px;
-  margin-left: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-block-start: -15px;
   p {
     padding: 15px;
@@ -118,4 +119,56 @@ h2 {
 .experience-container {
   min-width: 834px;
   margin-left: 5%;
+  .experience-container__text {
+    background: linear-gradient($direction, $colors);
+    padding: 10px;
+    border-radius: 12px;
+  }
+}
+
+.education-container {
+  width: 610px;
+  ul {
+    background: linear-gradient($direction, $colors);
+    border-radius: 12px;
+    .educational-container__item {
+      padding: 10px;
+    }
+  }
+}
+
+.sasuke-run-animation {
+  animation: transform 3000ms ease-out infinite;
+
+  @keyframes transform {
+    from {
+      transform: translateX(2500px);
+    }
+    to {
+      transform: translateX(-300px);
+    }
+  }
+}
+
+.footer-container {
+  background-color: $bgColor;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block-start: -15px;
+  .contact-information {
+    text-align: center;
+    &:hover {
+      scale: 1.2;
+      transform: rotateZ(20deg);
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+  padding: 10px;
+  width: 100vw;
 }

@@ -37,7 +37,8 @@ h2 {
   flex-direction: row;
   justify-content: center;
   min-width: 757px;
-  margin-left: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-block-start: -15px;
 }
 .profile-container-flex p {
@@ -110,4 +111,55 @@ h2 {
 .experience-container {
   min-width: 834px;
   margin-left: 5%;
+}
+.experience-container .experience-container__text {
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.education-container {
+  width: 610px;
+}
+.education-container ul {
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
+  border-radius: 12px;
+}
+.education-container ul .educational-container__item {
+  padding: 10px;
+}
+
+.sasuke-run-animation {
+  animation: transform 3000ms ease-out infinite;
+}
+@keyframes transform {
+  from {
+    transform: translateX(2500px);
+  }
+  to {
+    transform: translateX(-300px);
+  }
+}
+
+.footer-container {
+  background-color: #ff7e2e;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block-start: -15px;
+}
+.footer-container .contact-information {
+  text-align: center;
+}
+.footer-container .contact-information:hover {
+  scale: 1.2;
+  transform: rotateZ(20deg);
+}
+
+.text-center {
+  text-align: center;
+  padding: 10px;
+  width: 100vw;
 }
