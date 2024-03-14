@@ -1,5 +1,13 @@
+$primaryColor: #ff9f06;
+$bgColor: #ff7e2e;
+$textColor: rgb (10, 20, 63);
+$texthoverColor: #e76114;
+
+$direction: to right;
+$colors: rgba(190, 75, 9, 0.801), #ff9f06;
+
 body {
-  background-color: #ff9f06;
+  background-color: $primaryColor;
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -10,26 +18,26 @@ h2 {
 }
 
 .main-nav {
-  background-color: #ff7e2e;
-  color: rgb 10, 20, 63;
+  background-color: $bgColor;
+  color: $textColor;
   width: 100vw;
   min-width: 460px;
-}
-.main-nav ul {
-  list-style: none;
-}
-.main-nav ul li {
-  display: inline-block;
-  margin: 20px 50px;
-}
-.main-nav ul li a {
-  color: white;
-  font-size: 1.7rem;
-  text-decoration: none;
-}
-.main-nav ul li a:hover {
-  color: #e76114;
-  text-decoration: underline overline;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 20px 50px;
+      a {
+        color: white;
+        font-size: 1.7rem;
+        text-decoration: none;
+        &:hover {
+          color: $texthoverColor;
+          text-decoration: underline overline;
+        }
+      }
+    }
+  }
 }
 
 .profile-container-flex {
@@ -39,25 +47,25 @@ h2 {
   min-width: 757px;
   margin-left: 20px;
   margin-block-start: -15px;
-}
-.profile-container-flex p {
-  padding: 15px;
-  min-width: 300px;
-  border: none;
-  border-radius: 12px 20px 45px 10px;
-  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
+  p {
+    padding: 15px;
+    min-width: 300px;
+    border: none;
+    border-radius: 12px 20px 45px 10px;
+    background: linear-gradient($direction, $colors);
+  }
 }
 
 .leaf-village-sign {
   margin-left: 20%;
   margin-top: 10%;
-}
-.leaf-village-sign:hover {
-  transform: rotateY(45deg);
+  &:hover {
+    transform: rotateY(45deg);
+  }
 }
 
 .flex-container-it-skills {
-  background-color: #e76114;
+  background-color: $texthoverColor;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -69,20 +77,20 @@ h2 {
   height: 600px;
   min-width: max-content;
   font-size: 1.2rem;
-}
-.it-knowledge:hover {
-  scale: 1.1;
-  border: 2px solid cornflowerblue;
-  border-radius: 12px;
+  &:hover {
+    scale: 1.1;
+    border: 2px solid cornflowerblue;
+    border-radius: 12px;
+  }
 }
 
 .kunai-img {
   width: 300px;
   margin-left: 25%;
   margin-right: 25%;
-}
-.kunai-img:hover {
-  transform: rotateX(150deg);
+  &:hover {
+    transform: rotateX(150deg);
+  }
 }
 
 .flex-container-skills-and-experience {
@@ -93,10 +101,10 @@ h2 {
 
 .skills {
   width: 400px;
-  background-color: rgba(38, 90, 168, 0.7960784314);
+  background-color: #265aa8cb;
   padding: 10px;
   margin-top: 5px;
-  border: 2px solid rgb 240, 71, 19;
+  border: 2px solid rgb (240, 71, 19);
   border-radius: 12px 0;
   display: flex;
   flex-direction: column;
