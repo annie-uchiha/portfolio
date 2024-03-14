@@ -25,6 +25,7 @@ h2 {
   ul {
     list-style: none;
     li {
+      display: -moz-inline-block;
       display: inline-block;
       margin: 20px 50px;
       a {
@@ -41,6 +42,8 @@ h2 {
 }
 
 .profile-container-flex {
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,6 +71,8 @@ h2 {
 .flex-container-it-skills {
   background-color: $texthoverColor;
   min-height: fit-content;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -95,6 +100,8 @@ h2 {
 }
 
 .flex-container-skills-and-experience {
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -107,6 +114,8 @@ h2 {
   margin-top: 5px;
   border: 2px solid rgb (240, 71, 19);
   border-radius: 12px 0;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,6 +163,8 @@ h2 {
   background-color: $bgColor;
   padding: 20px;
   width: 100%;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;

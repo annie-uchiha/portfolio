@@ -19,6 +19,7 @@ h2 {
   list-style: none;
 }
 .main-nav ul li {
+  display: -moz-inline-block;
   display: inline-block;
   margin: 20px 50px;
 }
@@ -33,6 +34,8 @@ h2 {
 }
 
 .profile-container-flex {
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -60,6 +63,8 @@ h2 {
 .flex-container-it-skills {
   background-color: #e76114;
   min-height: fit-content;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -87,6 +92,8 @@ h2 {
 }
 
 .flex-container-skills-and-experience {
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -99,6 +106,8 @@ h2 {
   margin-top: 5px;
   border: 2px solid rgb 240, 71, 19;
   border-radius: 12px 0;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,6 +154,8 @@ h2 {
   background-color: #ff7e2e;
   padding: 20px;
   width: 100%;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
