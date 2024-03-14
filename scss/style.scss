@@ -20,7 +20,7 @@ h2 {
 .main-nav {
   background-color: $bgColor;
   color: $textColor;
-  width: 100vw;
+  width: 100%;
   min-width: 460px;
   ul {
     list-style: none;
@@ -67,6 +67,7 @@ h2 {
 
 .flex-container-it-skills {
   background-color: $texthoverColor;
+  min-height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,8 +76,7 @@ h2 {
 .it-knowledge {
   background-color: rgba(190, 75, 9, 0.801);
   padding: 30px;
-  height: 600px;
-  min-width: max-content;
+  min-height: fit-content;
   font-size: 1.2rem;
   &:hover {
     scale: 1.1;
