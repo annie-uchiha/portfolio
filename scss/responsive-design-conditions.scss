@@ -1,16 +1,16 @@
 @media only screen and (min-width: 400px) and (max-width: 950px) {
   .flex-container-skills-and-experience {
     flex-direction: column;
-  }
 
-  .flex-container-skills-and-experience .skills-container {
-    min-height: fit-content;
-    margin-left: 800px;
-  }
+    .flex-container-skills-and-experience .skills-container {
+      min-height: fit-content;
+      margin-left: 800px;
 
-  .flex-container-skills-and-experience .experience-container-within-flex {
-    min-height: fit-content;
-    transform: translateX(-600px);
-    margin-top: 850px;
+      .flex-container-skills-and-experience .experience-container-within-flex {
+        min-height: fit-content;
+        transform: translateX(-600px);
+        margin-top: 850px;
+      }
+    }
   }
 }
