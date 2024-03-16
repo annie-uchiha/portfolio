@@ -22,16 +22,20 @@ h2 {
   color: $textColor;
   width: 100%;
   min-width: 460px;
+
   ul {
     list-style: none;
+
     li {
       display: -moz-inline-block;
       display: inline-block;
       margin: 20px 50px;
+
       a {
         color: white;
         font-size: 1.7rem;
         text-decoration: none;
+
         &:hover {
           color: $texthoverColor;
           text-decoration: underline overline;
@@ -51,6 +55,7 @@ h2 {
   margin-left: 25%;
   margin-right: 25%;
   margin-block-start: -15px;
+
   p {
     padding: 15px;
     min-width: 300px;
@@ -63,6 +68,7 @@ h2 {
 .leaf-village-sign {
   margin-left: 20%;
   margin-top: 10%;
+
   &:hover {
     transform: rotateY(45deg);
   }
@@ -83,6 +89,7 @@ h2 {
   padding: 30px;
   min-height: fit-content;
   font-size: 1.2rem;
+
   &:hover {
     scale: 1.1;
     border: 2px solid cornflowerblue;
@@ -94,6 +101,7 @@ h2 {
   width: 300px;
   margin-left: 25%;
   margin-right: 25%;
+
   &:hover {
     transform: rotateX(150deg);
   }
@@ -112,7 +120,7 @@ h2 {
   background-color: #265aa8cb;
   padding: 10px;
   margin-top: 5px;
-  border: 2px solid rgb (240, 71, 19);
+  border: 2px solid rgb(240, 71, 19);
   border-radius: 12px 0;
   display: -moz-flex;
   display: -webkit-flex;
@@ -128,6 +136,7 @@ h2 {
 .experience-container {
   min-width: 834px;
   margin-left: 5%;
+
   .experience-container__text {
     background: linear-gradient($direction, $colors);
     padding: 10px;
@@ -137,10 +146,12 @@ h2 {
 
 .education-container {
   width: 610px;
+
   ul {
     background: linear-gradient($direction, $colors);
     border-radius: 12px;
-    .educational-container__item {
+
+    li {
       padding: 10px;
     }
   }
@@ -169,8 +180,10 @@ h2 {
   flex-direction: row;
   justify-content: center;
   margin-block-start: -15px;
+
   .contact-information {
     text-align: center;
+
     &:hover {
       scale: 1.2;
       transform: rotateZ(20deg);

@@ -104,7 +104,7 @@ h2 {
   background-color: rgba(38, 90, 168, 0.7960784314);
   padding: 10px;
   margin-top: 5px;
-  border: 2px solid rgb 240, 71, 19;
+  border: 2px solid rgb(240, 71, 19);
   border-radius: 12px 0;
   display: -moz-flex;
   display: -webkit-flex;
@@ -134,7 +134,7 @@ h2 {
   background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
   border-radius: 12px;
 }
-.education-container ul .educational-container__item {
+.education-container ul li {
   padding: 10px;
 }
 
