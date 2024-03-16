@@ -8,6 +8,7 @@
   }
   .flex-container-skills-and-experience .experience-container-within-flex {
     min-height: fit-content;
+    transform: translateX(-600px);
     margin-top: 850px;
   }
 }
