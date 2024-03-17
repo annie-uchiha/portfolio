@@ -1,3 +1,6 @@
+$primaryColor: rgba(15, 61, 82, 0.966);
+$textColor: rgb(235, 227, 227);
+
 .flex-page-layout {
   display: flex;
   flex-direction: column;
@@ -12,38 +15,42 @@ body {
   font-style: normal;
   font-size: 1.5rem;
 }
-
 .main-nav-2 {
   background-color: rgba(11, 38, 63, 0.74);
   color: rgb(70, 83, 139);
   width: 100%;
-}
-.main-nav-2 ul {
-  list-style: none;
-}
-.main-nav-2 ul li {
-  display: inline-block;
-  margin: 20px;
-}
-.main-nav-2 ul li a {
-  color: white;
-  text-decoration: none;
-}
-.main-nav-2 ul li a:hover {
-  color: rgb(32, 129, 209);
-  text-decoration: underline;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin: 20px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: rgb(32, 129, 209);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 .grid-container {
   margin: 5% 30% 0 40%;
   display: grid;
   gap: 20px;
-  grid-template-areas: "link1 link2 link3" "link4 link4 link4";
+  grid-template-areas:
+    "link1 link2 link3"
+    "link4 link4 link4";
 }
 
 .flex-container-one {
-  background-color: rgba(15, 61, 82, 0.966);
-  color: rgb(235, 227, 227);
+  background-color: $primaryColor;
+  color: $textColor;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,8 +63,8 @@ body {
 }
 
 .flex-container-two {
-  background-color: rgba(15, 61, 82, 0.966);
-  color: rgb(235, 227, 227);
+  background-color: $primaryColor;
+  color: $textColor;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,8 +77,8 @@ body {
 }
 
 .flex-container-three {
-  background-color: rgba(15, 61, 82, 0.966);
-  color: rgb(235, 227, 227);
+  background-color: $primaryColor;
+  color: $textColor;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,8 +91,8 @@ body {
 }
 
 .flex-container-four {
-  background-color: rgba(15, 61, 82, 0.966);
-  color: rgb(235, 227, 227);
+  background-color: $primaryColor;
+  color: $textColor;
   display: flex;
   flex-direction: column;
   justify-content: center;
