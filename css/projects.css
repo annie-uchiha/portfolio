@@ -94,7 +94,30 @@ body {
     gap: 20px;
     grid-template-areas: "link1" "link2" "link3" "link4";
   }
-  .grid-container .footer-container {
+  .grid-container .flex-container-cards {
+    background-color: rgba(15, 61, 82, 0.966);
+    color: rgb(235, 227, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 440px;
+    height: 480px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+  }
+  .grid-container .flex-container-cards .github-btn {
+    background-color: rgb(11, 39, 63);
+    font-size: 1.2rem;
+    height: fit-content;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+  .grid-container .flex-container-cards .github-btn .footer-container {
     font-size: 0.5rem;
   }
 }
@@ -113,7 +136,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 320px;
-    height: 530px;
+    height: 480px;
     border: none;
     border-radius: 10px;
     font-size: 1rem;
