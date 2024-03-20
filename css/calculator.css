@@ -9,7 +9,7 @@
   border-radius: 5px;
   box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
   width: 400px;
-  margin: 120px 0 20px 120px;
+  margin: 120px 5% 20px 2%;
 }
 
 .calculator-screen {
@@ -68,4 +68,11 @@ button:hover {
 
 .equal-sign:hover {
   background-color: #4e9ed4;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .calculator {
+    width: 350px;
+    margin: 120px 5% 20px 2%;
+  }
 }

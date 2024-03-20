@@ -129,8 +129,8 @@ body {
     background-image: url(../images/300-800px.JPG);
   }
   .grid-container {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
     gap: 20px;
     grid-template-areas: "link1" "link2" "link3" "link4";
