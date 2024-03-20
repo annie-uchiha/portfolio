@@ -64,6 +64,28 @@ body {
   text-align: center;
 }
 
+.flex-container-card-2 {
+  background-image: none;
+  filter: grayscale(60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 540px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+
+  &:hover {
+    background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 20% right 10%;
+  }
+}
+
 .flex-container-card-3 {
   background-image: url(../images/1337462.png);
   background-repeat: no-repeat;
