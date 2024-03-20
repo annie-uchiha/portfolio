@@ -87,6 +87,9 @@ body {
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
+  body {
+    background-image: url(../images/2ac217d1943ba93dd7de989ecd9e5f35.jpg);
+  }
   .grid-container {
     margin-left: 25%;
     margin-right: 25%;
@@ -122,6 +125,9 @@ body {
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 800px) {
+  body {
+    background-image: url(../images/300-800px.JPG);
+  }
   .grid-container {
     margin-left: 25%;
     margin-right: 25%;
