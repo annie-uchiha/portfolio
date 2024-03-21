@@ -3,19 +3,9 @@
   flex-direction: column;
 }
 
-body {
-  background-image: url(../images/sasuke.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: rgba(10, 21, 73, 0.877);
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem;
-}
-
 .main-nav-2 {
   background-color: rgb(11, 38, 63);
+  font-size: 1.5rem;
   color: rgb(70, 83, 139);
   width: 100%;
 }
@@ -35,11 +25,22 @@ body {
   text-decoration: underline;
 }
 
+body {
+  background-image: url(../images/300-800px.JPG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgba(10, 21, 73, 0.877);
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.5rem;
+}
+
 .grid-container {
-  margin: 5% 30% 0 40%;
+  margin: 10%;
   display: grid;
-  gap: 50px;
-  grid-template-areas: "link1 link2" "link3 link4";
+  gap: 20px;
+  grid-template-areas: "link1" "link2" "link3" "link4";
 }
 
 .flex-container-cards {
@@ -48,28 +49,26 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
-  height: 540px;
+  width: 320px;
+  height: 480px;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
   text-align: center;
+  padding: 10px;
 }
 
 .flex-container-card-2 {
-  background-image: none;
+  width: 320px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
-  height: 540px;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
   color: white;
   text-align: center;
-}
-.flex-container-card-2:hover {
   background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,8 +85,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
-  height: 540px;
+  width: 320px;
+  height: 480px;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
@@ -97,7 +96,10 @@ body {
 
 .github-btn {
   background-color: rgb(11, 38, 63);
-  width: 130px;
+  font-size: 1.2rem;
+  height: fit-content;
+  width: 100px;
+  padding: 5px;
   border: none;
   border-radius: 10px;
 }
@@ -115,18 +117,18 @@ body {
 .contact-information {
   text-align: center;
   color: azure;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .text-center {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 0.5rem;
   padding: 10px;
   width: 100vw;
   box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+@media only screen and (min-width: 800px) and (max-width: 1250px) {
   body {
     background-image: url(../images/2ac217d1943ba93dd7de989ecd9e5f35.jpg);
   }
@@ -138,26 +140,12 @@ body {
     grid-template-areas: "link1" "link2" "link3" "link4";
   }
   body .grid-container .flex-container-cards {
-    background-color: rgba(15, 61, 82, 0.966);
-    color: rgb(235, 227, 227);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 440px;
     height: 480px;
-    border: none;
-    border-radius: 10px;
-    font-size: 1rem;
-    text-align: center;
-    padding: 10px;
   }
   body .grid-container .flex-container-cards .flex-container-card-2 {
-    background-image: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    height: 540px;
+    width: 440px;
+    height: 480px;
   }
   body .grid-container .flex-container-cards .flex-container-card-2 .github-btn {
     background-color: rgb(11, 39, 63);
@@ -172,47 +160,62 @@ body {
     font-size: 0.5rem;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 800px) {
+@media only screen and (min-width: 1250px) and (max-width: 2560px) {
   body {
-    background-image: url(../images/300-800px.JPG);
+    background-image: url(../images/sasuke.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(10, 21, 73, 0.877);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
   }
   body .grid-container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 30% 0 40%;
     display: grid;
-    gap: 20px;
-    grid-template-areas: "link1" "link2" "link3" "link4";
+    gap: 50px;
+    grid-template-areas: "link1 link2" "link3 link4";
   }
   body .grid-container .flex-container-cards {
-    background-color: rgba(15, 61, 82, 0.966);
-    color: rgb(235, 227, 227);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 320px;
-    height: 480px;
-    border: none;
-    border-radius: 10px;
+    width: 500px;
+    height: 540px;
     font-size: 1rem;
-    text-align: center;
-    padding: 10px;
   }
   body .grid-container .flex-container-cards .flex-container-card-2 {
+    background-image: none;
+    width: 500px;
+    height: 540px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+  body .grid-container .flex-container-cards .flex-container-card-2:hover {
     background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 20% right 10%;
     filter: hue-rotate(150deg);
-    width: 320px;
-    height: 480px;
   }
-  body .grid-container .flex-container-cards .flex-container-card-2 .github-btn {
+  body .grid-container .flex-container-cards .flex-container-card-2:hover .flex-container-card-3 {
+    width: 500px;
+    height: 540px;
+    font-size: 1rem;
+  }
+  body .grid-container .flex-container-cards .flex-container-card-2:hover .flex-container-card-3 .github-btn {
     background-color: rgb(11, 38, 63);
-    font-size: 1.2rem;
-    height: fit-content;
-    width: 100px;
-    padding: 5px;
+    width: 130px;
     border: none;
     border-radius: 10px;
+    font-size: 2rem;
+  }
+  body .grid-container .flex-container-cards .flex-container-card-2:hover .flex-container-card-3 .github-btn .footer-container {
+    font-size: 1.5rem;
+  }
+  body .grid-container .flex-container-cards .flex-container-card-2:hover .flex-container-card-3 .github-btn .footer-container .contact-information {
+    font-size: 2rem;
+  }
+  body .grid-container .flex-container-cards .flex-container-card-2:hover .flex-container-card-3 .github-btn .footer-container .contact-information .text-center {
+    font-size: 2rem;
   }
 }
