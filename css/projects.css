@@ -164,25 +164,20 @@ body {
     background-position: top 20% right 10%;
     filter: hue-rotate(150deg);
   }
-  body .grid-container .flex-container-cards .link2:hover .flex-container-card-3 {
-    width: 500px;
-    height: 540px;
-    font-size: 1rem;
-  }
-  body .grid-container .flex-container-cards .link2:hover .flex-container-card-3 .github-btn {
+  body .grid-container .flex-container-cards .link2:hover .github-btn {
     background-color: rgb(11, 38, 63);
     width: 130px;
     border: none;
     border-radius: 10px;
     font-size: 2rem;
   }
-  body .grid-container .flex-container-cards .link2:hover .flex-container-card-3 .github-btn .footer-container {
+  body .grid-container .flex-container-cards .link2:hover .github-btn .footer-container {
     font-size: 1.5rem;
   }
-  body .grid-container .flex-container-cards .link2:hover .flex-container-card-3 .github-btn .footer-container .contact-information {
+  body .grid-container .flex-container-cards .link2:hover .github-btn .footer-container .contact-information {
     font-size: 2rem;
   }
-  body .grid-container .flex-container-cards .link2:hover .flex-container-card-3 .github-btn .footer-container .contact-information .text-center {
+  body .grid-container .flex-container-cards .link2:hover .github-btn .footer-container .contact-information .text-center {
     font-size: 2rem;
   }
 }
