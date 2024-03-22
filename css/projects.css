@@ -102,7 +102,7 @@ body {
 
 .text-center {
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 1.2rem;
   padding: 10px;
   width: 100vw;
   box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
@@ -112,72 +112,73 @@ body {
   body {
     background-image: url(../images/2ac217d1943ba93dd7de989ecd9e5f35.jpg);
   }
-  body .grid-container {
+  .grid-container {
     margin-left: 25%;
     margin-right: 25%;
   }
-  body .grid-container .flex-container-cards {
+  .grid-container .flex-container-cards {
     width: 440px;
     height: 480px;
   }
-  body .grid-container .flex-container-cards .github-btn {
+  .grid-container .github-btn {
     background-color: rgb(11, 39, 63);
     font-size: 1.2rem;
     height: fit-content;
     width: 130px;
   }
-  body .grid-container .flex-container-cards .github-btn .footer-container {
+  .grid-container .footer-container {
     font-size: 1.5rem;
   }
-  body .grid-container .flex-container-cards .github-btn .footer-container .contact-information {
+  .grid-container .footer-container .contact-information {
     font-size: 1.5rem;
   }
-  body .grid-container .flex-container-cards .github-btn .footer-container .contact-information .text-center {
+  .grid-container .footer-container .contact-information .text-center {
     font-size: 1.5rem;
   }
 }
-@media only screen and (min-width: 1250px) and (max-width: 2560px) {
+@media only screen and (min-width: 1250px) and (max-width: 3000px) {
   body {
     background-image: url(../images/sasuke.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 1.5rem;
   }
-  body .grid-container {
+  .grid-container {
     margin: 5% 30% 0 40%;
     display: grid;
     gap: 50px;
     grid-template-areas: "link1 link2" "link3 link4";
   }
-  body .grid-container .flex-container-cards {
+  .grid-container .flex-container-cards {
     width: 500px;
     height: 540px;
     font-size: 1rem;
   }
-  body .grid-container .flex-container-cards .link2 {
+  .grid-container .link2 {
     background-image: none;
   }
-  body .grid-container .flex-container-cards .link2:hover {
+  .grid-container .link2:hover {
     background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 20% right 10%;
     filter: hue-rotate(150deg);
   }
-  body .grid-container .flex-container-cards .link2:hover .github-btn {
+  .grid-container .link2 .github-btn {
     background-color: rgb(11, 38, 63);
-    width: 130px;
+    width: 140px;
+    height: 70px;
     border: none;
     border-radius: 10px;
     font-size: 2rem;
   }
-  body .grid-container .flex-container-cards .link2:hover .github-btn .footer-container {
+  .grid-container .link2 .footer-container {
     font-size: 1.5rem;
   }
-  body .grid-container .flex-container-cards .link2:hover .github-btn .footer-container .contact-information {
+  .grid-container .link2 .footer-container .contact-information {
     font-size: 2rem;
   }
-  body .grid-container .flex-container-cards .link2:hover .github-btn .footer-container .contact-information .text-center {
+  .grid-container .link2 .footer-container .contact-information .text-center {
     font-size: 2rem;
   }
 }
