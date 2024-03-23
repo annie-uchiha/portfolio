@@ -87,22 +87,12 @@ body {
   }
 }
 
-.flex-container-card-3 {
+.link3 {
   background-image: url(../images/1337462.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 20% right 90%;
   filter: grayscale(80%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  height: 540px;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  color: white;
-  text-align: center;
 }
 
 .github-btn {
@@ -136,58 +126,64 @@ body {
   box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+@media only screen and (min-width: 800px) and (max-width: 1250px) {
   body {
     background-image: url(../images/2ac217d1943ba93dd7de989ecd9e5f35.jpg);
+  }
 
-    .grid-container {
-      margin-left: 25%;
-      margin-right: 25%;
-      display: grid;
-      gap: 20px;
-      grid-template-areas:
-        "link1"
-        "link2"
-        "link3"
-        "link4";
+  .grid-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "link1"
+      "link2"
+      "link3"
+      "link4";
 
-      .flex-container-cards {
-        background-color: $primaryColor;
-        color: $textColor;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 440px;
-        height: 480px;
-        border: none;
-        border-radius: 10px;
-        font-size: 1rem;
-        text-align: center;
-        padding: 10px;
+    .flex-container-cards {
+      background-color: $primaryColor;
+      color: $textColor;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 440px;
+      height: 480px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      text-align: center;
+      padding: 10px;
+    }
 
-        .flex-container-card-2 {
-          background-image: none;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          width: 500px;
-          height: 540px;
+    .flex-container-card-2 {
+      background-image: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 440px;
+      height: 480px;
+      background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top 20% right 10%;
+      filter: hue-rotate(150deg);
+    }
 
-          .github-btn {
-            background-color: rgb(11, 39, 63);
-            font-size: 1.2rem;
-            height: fit-content;
-            width: 100px;
-            padding: 5px;
-            border: none;
-            border-radius: 10px;
+    .github-btn {
+      background-color: rgb(11, 39, 63);
+      font-size: 1.2rem;
+      height: fit-content;
+      width: 100px;
+      height: 50px;
+      padding: 5px;
+      border: none;
+      border-radius: 10px;
+    }
 
-            .footer-container {
-              font-size: 0.5rem;
-            }
-          }
-        }
-      }
+    .flex-container-contact-me {
+      font-size: 1rem;
     }
   }
 }
@@ -195,52 +191,56 @@ body {
 @media only screen and (min-width: 300px) and (max-width: 800px) {
   body {
     background-image: url(../images/300-800px.JPG);
+  }
 
-    .grid-container {
-      margin-left: 10%;
-      margin-right: 10%;
-      display: grid;
-      gap: 20px;
-      grid-template-areas:
-        "link1"
-        "link2"
-        "link3"
-        "link4";
+  .grid-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "link1"
+      "link2"
+      "link3"
+      "link4";
 
-      .flex-container-cards {
-        background-color: $primaryColor;
-        color: $textColor;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 320px;
-        height: 480px;
-        border: none;
-        border-radius: 10px;
-        font-size: 1rem;
-        text-align: center;
-        padding: 10px;
+    .flex-container-cards {
+      background-color: $primaryColor;
+      color: $textColor;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 320px;
+      height: 480px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      text-align: center;
+      padding: 10px;
+    }
 
-        .flex-container-card-2 {
-          background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: top 20% right 10%;
-          filter: hue-rotate(150deg);
-          width: 320px;
-          height: 480px;
+    .flex-container-card-2 {
+      background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top 20% right 10%;
+      filter: hue-rotate(150deg);
+      width: 320px;
+      height: 480px;
+    }
 
-          .github-btn {
-            background-color: $backgroundColor;
-            font-size: 1.2rem;
-            height: fit-content;
-            width: 100px;
-            padding: 5px;
-            border: none;
-            border-radius: 10px;
-          }
-        }
-      }
+    .github-btn {
+      background-color: $backgroundColor;
+      font-size: 1.2rem;
+      height: fit-content;
+      width: 100px;
+      padding: 5px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .contact-information {
+      font-size: 1rem;
     }
   }
 }
