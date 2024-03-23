@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 1250px) {
+@media only screen and (min-width: 966px) and (max-width: 1250px) {
   .flex-container-skills-and-experience {
     display: flex;
     flex-direction: column;
@@ -13,5 +13,30 @@
     min-height: fit-content;
     transform: translateX(-600px);
     margin-top: 850px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 966px) {
+  .profile-container-flex {
+    display: flex;
+    flex-direction: column;
+
+    .leaf-village-sign {
+      height: 5vh;
+    }
+
+    .flex-container-it-skills {
+      font-size: 1rem;
+    }
+
+    .kunai-img {
+      width: 200px;
+    }
+
+    .flex-container-skills-and-experience {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }
