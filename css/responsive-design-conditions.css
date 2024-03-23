@@ -18,16 +18,16 @@
     display: flex;
     flex-direction: column;
   }
-  .profile-container-flex .leaf-village-sign {
+  .leaf-village-sign {
     height: 5vh;
   }
-  .profile-container-flex .flex-container-it-skills {
+  .flex-container-it-skills {
     font-size: 1rem;
   }
-  .profile-container-flex .kunai-img {
+  .kunai-img {
     width: 200px;
   }
-  .profile-container-flex .flex-container-skills-and-experience {
+  .flex-container-skills-and-experience {
     display: flex;
     flex-direction: column;
     justify-content: center;
