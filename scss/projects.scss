@@ -39,12 +39,8 @@ body {
     display: flex;
 
     .icon-container {
-      display: none;
-      padding-top: 18px;
-      height: 80px;
-
       .fire {
-        font-size: 3rem;
+        font-size: 1.5rem;
         cursor: pointer;
       }
     }
@@ -226,15 +222,17 @@ body {
 
   .icon-container {
     display: block;
+    padding-top: 18px;
+    height: 80px;
   }
 
   ul {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 80px;
     left: 0;
-    background-color: $backgroundColor;
-    height: 20vh;
+    background-color: $primaryColor;
+    height: 10vh;
     width: 100%;
 
     li {

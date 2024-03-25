@@ -32,13 +32,8 @@ body {
 .main-nav-2 .page-navigation {
   display: flex;
 }
-.main-nav-2 .page-navigation .icon-container {
-  display: none;
-  padding-top: 18px;
-  height: 80px;
-}
 .main-nav-2 .page-navigation .icon-container .fire {
-  font-size: 3rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 .main-nav-2 .page-navigation ul {
@@ -199,14 +194,16 @@ body {
   }
   .icon-container {
     display: block;
+    padding-top: 18px;
+    height: 80px;
   }
   ul {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 80px;
     left: 0;
-    background-color: rgb(11, 38, 63);
-    height: 20vh;
+    background-color: rgba(15, 61, 82, 0.966);
+    height: 10vh;
     width: 100%;
   }
   ul li {
