@@ -23,31 +23,35 @@ body {
   align-items: center;
   padding: 20px;
 }
-.main-nav-2 .leaf-sign-nav-icon {
-  height: 50px;
-}
-.main-nav-2 .leaf-sign-nav-icon:hover {
-  transform: rotateY(40deg);
-}
-.main-nav-2 .page-navigation {
+
+.page-navigation {
   display: flex;
 }
-.main-nav-2 .page-navigation .icon-container .fire {
-  font-size: 1.5rem;
+.page-navigation .btn-nav {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  height: 50px;
+}
+.page-navigation .btn-nav .fire {
+  height: 40px;
   cursor: pointer;
 }
-.main-nav-2 .page-navigation ul {
+.page-navigation .btn-nav .fire:hover {
+  transform: rotateY(45deg);
+}
+.page-navigation ul {
   list-style: none;
 }
-.main-nav-2 .page-navigation ul li {
+.page-navigation ul li {
   display: inline-block;
   margin: 0 20px;
 }
-.main-nav-2 .page-navigation ul li a {
+.page-navigation ul li a {
   color: white;
   text-decoration: none;
 }
-.main-nav-2 .page-navigation ul li a:hover {
+.page-navigation ul li a:hover {
   color: rgb(32, 129, 209);
   text-decoration: underline;
 }
@@ -189,13 +193,10 @@ body {
   body {
     background-image: url(../images/300-800px.JPG);
   }
-  .leaf-sign-nav-icon {
-    display: none;
-  }
-  .icon-container {
+  .btn-nav {
     display: block;
-    padding-top: 18px;
-    height: 80px;
+    border: 1px solid black;
+    background-color: none;
   }
   ul {
     display: none;
@@ -203,7 +204,7 @@ body {
     top: 80px;
     left: 0;
     background-color: rgba(15, 61, 82, 0.966);
-    height: 10vh;
+    height: 20vh;
     width: 100%;
   }
   ul li {
@@ -211,7 +212,7 @@ body {
     align-items: center;
     text-align: center;
   }
-  .icon-container:hover ~ ul {
+  .icon-container:hover + ul {
     display: block;
   }
   .grid-container {
