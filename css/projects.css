@@ -34,6 +34,8 @@ body {
 }
 .main-nav-2 .page-navigation .icon-container {
   display: none;
+  padding-top: 18px;
+  height: 80px;
 }
 .main-nav-2 .page-navigation .icon-container .fire {
   font-size: 3rem;
@@ -204,12 +206,13 @@ body {
     top: 60px;
     left: 0;
     background-color: rgb(11, 38, 63);
-    height: 100vh;
+    height: 20vh;
     width: 100%;
   }
   ul li {
     display: block;
     align-items: center;
+    text-align: center;
   }
   .icon-container:hover ~ ul {
     display: block;

@@ -40,6 +40,8 @@ body {
 
     .icon-container {
       display: none;
+      padding-top: 18px;
+      height: 80px;
 
       .fire {
         font-size: 3rem;
@@ -232,12 +234,13 @@ body {
     top: 60px;
     left: 0;
     background-color: $backgroundColor;
-    height: 100vh;
+    height: 20vh;
     width: 100%;
 
     li {
       display: block;
       align-items: center;
+      text-align: center;
     }
   }
 
