@@ -32,6 +32,7 @@ body {
   background-color: transparent;
   box-shadow: none;
   height: 50px;
+  padding-bottom: 20px;
 }
 .page-navigation .btn-nav .fire {
   height: 40px;
