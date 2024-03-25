@@ -1,7 +1,7 @@
-const btnNav - document.querySelector(".btn-nav");
+const btn = document.querySelector(".btn");
 
 const list = document.querySelector("ul");
 
-btnNav.addEventListener("click", () => {
-    list.classList.toggle("active");
-})
+btn.addEventListener("click", () => {
+  list.classList.toggle("active");
+});
