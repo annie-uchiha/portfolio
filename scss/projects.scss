@@ -232,17 +232,12 @@ body {
     top: 80px;
     left: -100vw;
     background-color: $primaryColor;
-    height: 10vh;
+    border-radius: 45px;
     width: 100%;
-    transition: left 2s ease;
-
-    li {
-      display: block;
-      text-align: center;
-    }
+    transition: top;
   }
 
-  .icon-container:hover ~ ul {
+  li {
     display: block;
   }
 

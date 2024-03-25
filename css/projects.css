@@ -208,15 +208,11 @@ body {
     top: 80px;
     left: -100vw;
     background-color: rgba(15, 61, 82, 0.966);
-    height: 10vh;
+    border-radius: 45px;
     width: 100%;
-    transition: left 2s ease;
+    transition: top;
   }
-  ul li {
-    display: block;
-    text-align: center;
-  }
-  .icon-container:hover ~ ul {
+  li {
     display: block;
   }
   .grid-container {
