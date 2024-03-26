@@ -13,7 +13,10 @@
     margin-top: 850px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 966px) {
+@media (max-width: 966px) {
+  .naruto-tribute-img {
+    display: none;
+  }
   .profile-container-flex {
     display: flex;
     flex-direction: column;

@@ -21,7 +21,21 @@ h2 {
   background-color: $bgColor;
   color: $textColor;
   width: 100%;
-  min-width: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+
+.page-navigation {
+  display: flex;
+
+
+      &:hover {
+        transform: rotateY(45deg);
+      }
+    }
+
 
   ul {
     list-style: none;
@@ -54,7 +68,6 @@ h2 {
   min-width: 757px;
   margin-left: 25%;
   margin-right: 25%;
-  margin-block-start: -15px;
 
   p {
     padding: 15px;
