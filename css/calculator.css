@@ -3,13 +3,19 @@
   text-align: center;
 }
 
+.calculator__project-title {
+  color: white;
+  text-align: center;
+}
+
 .calculator {
   background-color: rgba(11, 38, 63, 0.74);
   border: 10px solid #838ef0;
   border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
   box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
   width: 400px;
-  margin: 120px 0 20px 120px;
+  margin: 120px 5% 20px 2%;
 }
 
 .calculator-screen {
@@ -18,7 +24,9 @@
   height: 80px;
   border: none;
   background-color: #252525;
+  -webkit-box-shadow: 10px 5px 4px rgba(55, 74, 92, 0.356) inset;
   box-shadow: 10px 5px 4px rgba(55, 74, 92, 0.356) inset;
+  -webkit-box-shadow: inset 20px;
   box-shadow: inset 20px;
   color: #fff;
   text-align: right;
@@ -27,7 +35,9 @@
 }
 
 .calculator-keys {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr) [4];
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -36,6 +46,7 @@ button {
   background-color: #e9afe9;
   border: 1px solid #631886;
   border-radius: 3px;
+  -webkit-box-shadow: 10px 5px 4px rgba(55, 74, 92, 0.356) inset;
   box-shadow: 10px 5px 4px rgba(55, 74, 92, 0.356) inset;
   font-size: 2rem;
   color: #9a3da7;
@@ -68,4 +79,18 @@ button:hover {
 
 .equal-sign:hover {
   background-color: #4e9ed4;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .calculator {
+    width: 300px;
+    margin: 12%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1250px) {
+  .calculator {
+    width: 350px;
+    margin: 25%;
+  }
 }

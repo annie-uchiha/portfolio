@@ -1,15 +1,61 @@
-@media only screen and (min-width: 400px) and (max-width: 950px) {
+@media only screen and (min-width: 966px) and (max-width: 1250px) {
   .flex-container-skills-and-experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .flex-container-skills-and-experience .skills-container {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     margin-left: 800px;
   }
   .flex-container-skills-and-experience .experience-container-within-flex {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
+    -webkit-transform: translateX(-600px);
+    -ms-transform: translateX(-600px);
     transform: translateX(-600px);
     margin-top: 850px;
+  }
+}
+@media (max-width: 966px) {
+  .naruto-tribute-img {
+    display: none;
+  }
+  .profile-container-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .leaf-village-sign {
+    height: 5vh;
+  }
+  .flex-container-it-skills {
+    font-size: 1rem;
+  }
+  .kunai-img {
+    width: 200px;
+  }
+  .flex-container-skills-and-experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
