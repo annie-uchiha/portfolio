@@ -145,6 +145,17 @@ body {
   border-top: 10px solid rgba(15, 61, 82, 0.966);
   border-bottom: 10px solid rgb(70, 83, 139);
 }
+.js-maths-homework .js-homework__input {
+  height: 50px;
+  width: 400px;
+  margin-left: 60px;
+}
+.js-maths-homework .js-homework__btn {
+  height: 50px;
+  background-color: rgba(15, 61, 82, 0.966);
+  color: rgb(235, 227, 227);
+  border: none;
+}
 
 .footer-container {
   background-color: rgb(11, 38, 63);

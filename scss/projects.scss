@@ -142,6 +142,19 @@ body {
   height: 600px;
   border-top: 10px solid $primaryColor;
   border-bottom: 10px solid rgb(70, 83, 139);
+
+  .js-homework__input {
+    height: 50px;
+    width: 400px;
+    margin-left: 60px;
+  }
+
+  .js-homework__btn {
+    height: 50px;
+    background-color: $primaryColor;
+    color: $textColor;
+    border: none;
+  }
 }
 
 .footer-container {
