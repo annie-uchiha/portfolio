@@ -139,6 +139,13 @@ body {
   border-radius: 10px;
 }
 
+.js-maths-homework {
+  background-color: rgba(65, 67, 70, 0.74);
+  height: 600px;
+  border-top: 10px solid rgba(15, 61, 82, 0.966);
+  border-bottom: 10px solid rgb(70, 83, 139);
+}
+
 .footer-container {
   background-color: rgb(11, 38, 63);
   padding: 20px;
