@@ -42,6 +42,7 @@ main .flex-container__aside {
   background-color: rgba(15, 90, 151, 0.781);
   padding: 20px;
   height: fit-content;
+  margin-top: 180px;
 }
 main a {
   color: white;
