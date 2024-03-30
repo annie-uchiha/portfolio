@@ -17,3 +17,10 @@ function calculateAge() {
   const age = currentYear - birthYear;
   document.getElementById("age").textContent = "Your age is: " + age;
 }
+
+function calculatePerimeter() {
+  const sideLength = parseFloat(document.getElementById("sideLength").value);
+  const perimeter = sideLength * 4;
+  document.getElementById("perimeter").textContent =
+    "The perimeter of the square is: " + perimeter;
+}
