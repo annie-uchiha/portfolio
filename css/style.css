@@ -104,7 +104,7 @@ h2 {
   min-height: -moz-fit-content;
   min-height: fit-content;
   display: -moz-flex;
-  display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
@@ -112,7 +112,6 @@ h2 {
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -150,7 +149,6 @@ h2 {
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -161,8 +159,7 @@ h2 {
   margin-top: 5px;
   border: 2px solid rgb(240, 71, 19);
   border-radius: 12px 0;
-  display: -moz-flex;
-  display: -webkit-flex;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
@@ -231,7 +228,6 @@ h2 {
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-block-start: -15px;
 }

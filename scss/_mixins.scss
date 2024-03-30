@@ -7,3 +7,16 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+@mixin flex-row-center {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+}

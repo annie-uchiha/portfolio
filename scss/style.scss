@@ -6,6 +6,8 @@ $texthoverColor: #e76114;
 $direction: to right;
 $colors: rgba(190, 75, 9, 0.801), #ff9f06;
 
+@use "mixins" as *;
+
 body {
   background-color: $primaryColor;
   font-family: "Anta", sans-serif;
@@ -80,16 +82,7 @@ h2 {
 }
 
 .profile-container-flex {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  justify-content: center;
+  @include flex-row-center;
   min-width: 757px;
   margin-left: 25%;
   margin-right: 25%;
@@ -126,17 +119,7 @@ h2 {
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
-  display: -moz-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-row-center;
 }
 
 .it-knowledge {
@@ -166,17 +149,7 @@ h2 {
 }
 
 .flex-container-skills-and-experience {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-row-center;
 }
 
 .skills {
@@ -186,14 +159,7 @@ h2 {
   margin-top: 5px;
   border: 2px solid rgb(240, 71, 19);
   border-radius: 12px 0;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  @include flex-column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -263,17 +229,7 @@ h2 {
   background-color: $bgColor;
   padding: 20px;
   width: 100%;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-row-center;
   margin-block-start: -15px;
 
   .contact-information {
