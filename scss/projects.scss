@@ -2,14 +2,10 @@ $primaryColor: rgba(15, 61, 82, 0.966);
 $textColor: rgb(235, 227, 227);
 $backgroundColor: rgb(11, 38, 63);
 
+@use "mixins" as *;
+
 .flex-page-layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  @include flex-column;
 }
 
 body {
@@ -95,16 +91,7 @@ body {
 .flex-container-cards {
   background-color: $primaryColor;
   color: $textColor;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-column;
   width: 500px;
   height: 540px;
   border: none;
@@ -115,16 +102,7 @@ body {
 
 .flex-container-card-2 {
   background-image: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-column;
   width: 500px;
   height: 540px;
   border: none;
@@ -211,13 +189,7 @@ body {
     .flex-container-cards {
       background-color: $primaryColor;
       color: $textColor;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      flex-direction: column;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
+      @include flex-column;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
@@ -232,13 +204,7 @@ body {
 
     .flex-container-card-2 {
       background-image: none;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
+      @include flex-column;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
@@ -318,13 +284,7 @@ body {
     .flex-container-cards {
       background-color: $primaryColor;
       color: $textColor;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
+      @include flex-column;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
