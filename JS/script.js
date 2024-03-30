@@ -52,3 +52,13 @@ function calculateSpeed() {
   document.getElementById("speed").textContent =
     "The speed needed to be on time is: " + speed + " km/h";
 }
+
+/* Create a currency converter. A user types in USD and the program converts them to EUR.
+ The exchange rate should be stored as a constant.*/
+
+function convertToEur() {
+  const usdAmount = parseFloat(document.getElementById("usdInput").value);
+  const exchangeRate = 0.93;
+  const eurAmount = usdAmount * exchangeRate;
+  document.getElementById("eurOutput").textContent = "EUR: " + eurAmount;
+}
