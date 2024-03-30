@@ -8,4 +8,5 @@ _Practice: HTML5, CSS, SASS, making pages responsive, graphics responsive,
 navbar responsive, cross-browser compatibility, SEO optimization - developer good practices_
 
 **Adding a professional looking CV**
+
 **Getting into JavaScript**
