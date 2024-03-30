@@ -142,16 +142,7 @@ body {
   padding: 20px;
   width: 100%;
   font-size: 1.2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-row-center;
 }
 
 .contact-information {
@@ -190,11 +181,7 @@ body {
       background-color: $primaryColor;
       color: $textColor;
       @include flex-column;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      width: 440px;
-      height: 480px;
+      @include card-design;
       border: none;
       border-radius: 10px;
       font-size: 1rem;
@@ -205,11 +192,7 @@ body {
     .flex-container-card-2 {
       background-image: none;
       @include flex-column;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      width: 440px;
-      height: 480px;
+      @include card-design;
       background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
       background-repeat: no-repeat;
       background-size: cover;

@@ -144,7 +144,8 @@ body {
   padding: 20px;
   width: 100%;
   font-size: 1.2rem;
-  display: -webkit-box;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
@@ -152,7 +153,6 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
