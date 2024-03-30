@@ -1,12 +1,8 @@
+@use "mixins" as *;
+
 @media only screen and (min-width: 966px) and (max-width: 1250px) {
   .flex-container-skills-and-experience {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    @include flex-column;
   }
 
   .flex-container-skills-and-experience .skills-container {
@@ -33,13 +29,7 @@
   }
 
   .profile-container-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    @include flex-column;
   }
 
   .leaf-village-sign {
@@ -55,13 +45,7 @@
   }
 
   .flex-container-skills-and-experience {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    @include flex-column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
