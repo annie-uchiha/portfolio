@@ -1,0 +1,52 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.fs1-5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
+.top-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(15, 90, 151);
+  color: white;
+  padding: 40px;
+  width: 100%;
+}
+.top-page img {
+  margin-right: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .flex-container__summary-skills {
+  width: 600px;
+  margin: 20px 5%;
+}
+main .flex-container__aside {
+  background-color: rgba(15, 90, 151, 0.781);
+  padding: 20px;
+  height: fit-content;
+}
+main a {
+  color: white;
+  background-color: rgba(15, 90, 151, 0.781);
+  border: 1px solid rgb(5, 78, 173);
+  width: 1000px;
+  padding: 10px;
+}
