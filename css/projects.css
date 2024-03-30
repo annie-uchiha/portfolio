@@ -141,9 +141,10 @@ body {
 
 .js-maths-homework {
   background-color: rgba(65, 67, 70, 0.74);
-  height: 600px;
+  height: 1000px;
   border-top: 10px solid rgba(15, 61, 82, 0.966);
   border-bottom: 10px solid rgb(70, 83, 139);
+  padding-left: 100px;
 }
 .js-maths-homework .js-homework__input {
   height: 50px;
