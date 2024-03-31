@@ -158,6 +158,14 @@ body {
   border: none;
 }
 
+.js-types-of-data-and-math-functions-homework {
+  border-top: 10px solid rgba(15, 61, 82, 0.966);
+  border-bottom: 10px solid rgba(15, 61, 82, 0.966);
+  padding: 40px 100px;
+  height: 800px;
+  background-color: rgb(70, 83, 139);
+}
+
 .footer-container {
   background-color: rgb(11, 38, 63);
   padding: 20px;
