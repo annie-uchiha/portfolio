@@ -160,7 +160,7 @@ body {
 
 .js-maths-homework {
   background-color: rgba(65, 67, 70, 0.74);
-  height: 1200px;
+  height: fit-content;
   border-top: 10px solid rgba(15, 61, 82, 0.966);
   border-bottom: 10px solid rgb(70, 83, 139);
   padding: 40px 100px;
@@ -181,7 +181,7 @@ body {
   border-top: 10px solid rgba(15, 61, 82, 0.966);
   border-bottom: 10px solid rgba(15, 61, 82, 0.966);
   padding: 40px 100px;
-  height: 800px;
+  height: fit-content;
   background-color: rgb(70, 83, 139);
 }
 
@@ -286,6 +286,10 @@ body {
   .grid-container .flex-container-contact-me {
     font-size: 1rem;
   }
+  .calculator-and-list-of-js-homework {
+    display: inline-block;
+    margin: 0;
+  }
 }
 .active {
   left: 0;
@@ -365,7 +369,12 @@ body {
     border: none;
     border-radius: 10px;
   }
-  .grid-container .contact-information {
+  .calculator-and-list-of-js-homework {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .contact-information {
     font-size: 1rem;
   }
 }
