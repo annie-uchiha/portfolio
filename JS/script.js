@@ -66,6 +66,16 @@ function convertToEur() {
 /*A user states a flash drive memory in GB. The program has to count
  how many 820MB files can be stored on this flash drive. */
 
+function calculateFileCount() {
+  const flashDriveSize = parseInt(
+    document.getElementById("flashDriveInput").value
+  );
+  const fileSize = 820; 
+  const fileCount = Math.floor((flashDriveSize * 1024) / fileSize);
+  document.getElementById("fileCountOutput").textContent =
+    "File count: " + fileCount;
+}
+
 /*A user types in an amount of money in a wallet and the price of one chocolate bar.
  The program counts how many chocolate bars the user can buy, and how much change will he/she have left. */
 
