@@ -151,6 +151,7 @@ body {
 .js-maths-homework {
   background-color: rgba(65, 67, 70, 0.74);
   height: fit-content;
+  overflow: scroll;
   border-top: 10px solid $primaryColor;
   border-bottom: 10px solid rgb(70, 83, 139);
   padding: 40px 100px;
@@ -174,6 +175,7 @@ body {
   border-bottom: 10px solid $primaryColor;
   padding: 40px 100px;
   height: fit-content;
+  overflow: scroll;
   background-color: rgb(70, 83, 139);
 }
 
@@ -349,8 +351,7 @@ body {
   }
 
   .calculator-and-list-of-js-homework {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     margin: 0;
   }
 
