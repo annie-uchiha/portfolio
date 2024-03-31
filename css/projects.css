@@ -139,6 +139,25 @@ body {
   border-radius: 10px;
 }
 
+.calculator-and-list-of-js-homework {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.calculator-and-list-of-js-homework .calculator-section-aside__ul {
+  list-style: none;
+  padding-top: 110px;
+}
+
 .js-maths-homework {
   background-color: rgba(65, 67, 70, 0.74);
   height: 1200px;
