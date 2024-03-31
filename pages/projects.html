@@ -60,6 +60,7 @@
 </header>
 
 <main class="flex-page-layout">
+
   <div class="grid-container">
     <section class="flex-container-cards link1 front">
       <img src="../images/1 edited.jpg" alt="img-of-filizi-website" class="img-cards" />
@@ -97,6 +98,7 @@
         <button class="github-btn"><a href="https://github.com/annie-uchiha/CV-webpage-CSS-practice">GitHub</a></button>
       </div>
     </section>
+
     <section class="flex-container-cards link4">
       <img src="../images/the-pink-bear-group-project-img.jpg" alt="the-pink-bear" class="img-cards" />
       <div>
@@ -121,33 +123,43 @@
       </div>
     </section>
   </div>
-  <div class="calculator flex-page-layout">
-    <h2 class="calculator__project-title">Project: Calculator</h2>
-    <input type="text" class="calculator-screen" value="0" disabled />
-    <button type="button" class="all-clear calc-battery-line" value="all-clear">AC</button>
-    <div class="calculator-keys">
-      <button type="button" class="value" value="7">7</button>
-      <button type="button" class="value" value="8">8</button>
-      <button type="button" class="value" value="9">9</button>
-      <button type="button" class="operator" value="*">&times;</button>
 
-      <button type="button" class="value" value="4">4</button>
-      <button type="button" class="value" value="5">5</button>
-      <button type="button" class="value" value="6">6</button>
-      <button type="button" class="operator" value="/">&divide;</button>
+  <section class="calculator-and-list-of-js-homework">
+    <div class="calculator flex-page-layout">
+      <h2 class="calculator__project-title">Project: Calculator</h2>
+      <input type="text" class="calculator-screen" value="0" disabled />
+      <button type="button" class="all-clear calc-battery-line" value="all-clear">AC</button>
+      <div class="calculator-keys">
+        <button type="button" class="value" value="7">7</button>
+        <button type="button" class="value" value="8">8</button>
+        <button type="button" class="value" value="9">9</button>
+        <button type="button" class="operator" value="*">&times;</button>
 
-      <button type="button" class="value" value="1">1</button>
-      <button type="button" class="value" value="2">2</button>
-      <button type="button" class="value" value="3">3</button>
-      <button type="button" class="operator" value="-">-</button>
+        <button type="button" class="value" value="4">4</button>
+        <button type="button" class="value" value="5">5</button>
+        <button type="button" class="value" value="6">6</button>
+        <button type="button" class="operator" value="/">&divide;</button>
 
-      <button type="button" class="value" value="0">0</button>
-      <button type="button" class="decimal" value=".">.</button>
-      <button type="button" class="operator" value="+">+</button>
-      <button type="button" class="equal-sign" value="=">=</button>
+        <button type="button" class="value" value="1">1</button>
+        <button type="button" class="value" value="2">2</button>
+        <button type="button" class="value" value="3">3</button>
+        <button type="button" class="operator" value="-">-</button>
+
+        <button type="button" class="value" value="0">0</button>
+        <button type="button" class="decimal" value=".">.</button>
+        <button type="button" class="operator" value="+">+</button>
+        <button type="button" class="equal-sign" value="=">=</button>
+      </div>
     </div>
-  </div>
-  <section class="js-maths-homework">
+    <div class="calculator-section-aside">
+      <ul>
+        <li><a href="#js-maths-homework">Introduction to JavaScript</a></li>
+        <li><a href="#js-types-of-data-and-math-functions-homework">Types of Data and Math Functions</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="js-maths-homework" id="js-maths-homework">
     <h2 style="color: white;">Introduction to JavaScript</h2>
     <div class="js-homework-container">
       <h3 class="js-homework-container">1. Request a user’s name and display the response “Hello, [name]”.</h3>
@@ -203,12 +215,14 @@
         chocolate bar.<br>
         The program counts how many chocolate bars the user can buy, and how much change will he/she have left. </h3>
       <input type="text" class="js-homework__input" id="walletMoney" placeholder="Enter cash amount in wallet">
-      <input type="text" class="js-homework__input" id="chocolateBarsAmount" placeholder="Enter chocolate bars amount">
+      <input type="text" class="js-homework__input" id="chocolateBarsAmount"
+        placeholder="Enter amount od chocolate bars">
       <button class="js-homework__btn" onclick="calculateChocolateBars()">Calculate</button>
       <p id="chocolateBarsCountOutput"></p>
     </div>
   </section>
-  <section class="js-types-of-data-and-math-functions-homework">
+
+  <section class="js-types-of-data-and-math-functions-homework" id="js-types-of-data-and-math-functions-homework">
     <h2 style="color: white;">Types of data and math functions</h2>
     <div class="js-homework-container">
       <h3 class="js-homework-container">1. Request a three-digit number from a user and check whether it has identical
@@ -230,7 +244,7 @@
     </div>
     <div class="js-homework-container">
       <h3 class="js-homework-container">5. Request a date (dd:mm:yy) and put out the one that goes after it.<br>
-         Pay attention to the start of a new month, new year, and also leap years.
+        Pay attention to the start of a new month, new year, and also leap years.
       </h3>
     </div>
   </section>
