@@ -70,7 +70,7 @@ function calculateFileCount() {
   const flashDriveSize = parseInt(
     document.getElementById("flashDriveInput").value
   );
-  const fileSize = 820; 
+  const fileSize = 820;
   const fileCount = Math.floor((flashDriveSize * 1024) / fileSize);
   document.getElementById("fileCountOutput").textContent =
     "File count: " + fileCount;
@@ -78,6 +78,16 @@ function calculateFileCount() {
 
 /*A user types in an amount of money in a wallet and the price of one chocolate bar.
  The program counts how many chocolate bars the user can buy, and how much change will he/she have left. */
+
+function calculateChocolateBars() {
+  const walletMoney = parseFloat(document.getElementById("walletMoney").value);
+  const chocolateBarsAmount = parseFloat(
+    document.getElementById("chocolateBarsAmount").value
+  );
+  const chocolateAmount = walletMoney - chocolateBarsAmount;
+  document.getElementById("chocolateBarsCountOutput").textContent =
+    "You can buy: " + chocolateAmount;
+}
 
 /*The user types in a sum of bank deposits for 2 months with a yearly interest rate of 5%.
  The program counts the sum of interest.*/
