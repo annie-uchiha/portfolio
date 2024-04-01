@@ -136,3 +136,28 @@ function checkPalindrome() {
       "The number is not a palindrome.";
   }
 }
+
+//Request a length of a circumference and a perimeter of a square from a user. Define whether that circumference can fit in that square.
+function checkFit() {
+  const pi = 3.14;
+  const circumferenceInput = document.getElementById("circumferenceInput");
+  const circumference = parseFloat(circumferenceInput.value);
+
+  const perimeterInput = document.getElementById("perimeterInput");
+  const perimeter = parseFloat(perimeterInput.value);
+
+  // Calculate the radius of the circumference using the formula: r = C / (2 * pi)
+  const radius = circumference / (2 * Math.PI);
+
+  // Calculate the side length of the square using the formula: s = P / 4
+  const sideLength = perimeter / 4;
+
+  // Check if the circumference can fit in the square by comparing their dimensions
+  if (radius <= sideLength / 2) {
+    document.getElementById("willItFit").textContent =
+      "The circumference can fit inside the square!";
+  } else {
+    document.getElementById("willItFit").textContent =
+      "The circumference cannot fit inside the square.";
+  }
+}
