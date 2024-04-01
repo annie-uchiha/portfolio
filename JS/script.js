@@ -161,3 +161,31 @@ function checkFit() {
       "The circumference cannot fit inside the square.";
   }
 }
+
+/*Request a date (dd:mm:yy) and put out the one that goes after it.<br>
+Pay attention to the start of a new month, new year, and also leap years.*/
+
+function getNextDay() {
+  const dateInput = document.getElementById("dateInput");
+  const dateStr = dateInput.value;
+  const parts = dateStr.split(":");
+  const day = parseInt(parts[0]);
+  const month = parseInt(parts[1]);
+  const year = parseInt(parts[2]);
+
+  const inputDate = new Date(year, month - 1, day);
+  const nextDate = new Date(inputDate);
+  nextDate.setDate(inputDate.getDate() + 1);
+
+  const formattedNextDate = formatNextDate(nextDate);
+  document.getElementById("nextDayIs").textContent =
+    "The next date is:" + formattedNextDate;
+}
+
+function formatNextDate(date) {
+  const day = ("0" + date.getDate()).slice(-2);
+  const month = ("0" + (date.getMonth() + 1)).slice(-2);
+  const year = date.getFullYear();
+
+  return day + ":" + month + ":" + year;
+}
