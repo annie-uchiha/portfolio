@@ -170,34 +170,26 @@ const exchangeRates = {
   AUD: 1.37,
   GBP: 0.79,
   JPY: 151.64,
-  BGN: 1,82,
-  CHF: 0,90,
+  BGN: 1.82,
+  CHF: 0.90,
 };
 
-function convertCurrency() {
-  const amount = Number(document.getElementById('amountInput').value);
-  const fromCurrency = document.getElementById('fromCurrencySelect').value;
-  const toCurrency = document.getElementById('toCurrencySelect').value;
+document.getElementById('convertButton').addEventListener('click', function(){
+  var amount = document.getElementById('amountInput').value;
+  var fromCurrency = document.getElementById('fromCurrencySelect').value;
+  var toCurrency = document.getElementById('toCurrencySelect').value;
 
-  if (isNaN(amount)) {
-    alert('Please enter a valid amount');
-    return;
+  // Conversion logic using exchange rates
+  var convertedAmount;
+  if (fromCurrency === "USD") {
+    convertedAmount = amount * exchangeRates[toCurrency];
+  } else {
+    var usdAmount = amount / exchangeRates[fromCurrency];
+    convertedAmount = usdAmount * exchangeRates[toCurrency];
   }
 
-  if (fromCurrency === toCurrency) {
-    document.getElementById('convert').textContent = amount.toFixed(2);
-    return;
-  }
-
-  const exchangeRate = exchangeRates[fromCurrency];
-  const convertedAmount = amount * exchangeRate;
-
-  document.getElementById('convert').textContent = convertedAmount.toFixed(2);
-}
-
-document.getElementById('convertButton').addEventListener('click', convertCurrency);
-
-
+  document.getElementById('convertedAmount').textContent = convertedAmount;
+});
 
 /*Request a date (dd:mm:yy) and put out the one that goes after it.<br>
 Pay attention to the start of a new month, new year, and also leap years.*/
