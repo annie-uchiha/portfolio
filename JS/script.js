@@ -101,3 +101,38 @@ function calculateInterest() {
   document.getElementById("interestOutput").textContent =
     "The sum of interest is:" + interestSumAmount;
 }
+
+//Request a three-digit number from a user and check whether it has identical digits in it
+
+function checkIdenticalDigits() {
+  const numberInput = document.getElementById("numberInput");
+  const number = Number(numberInput.value);
+
+  const firstDigit = Math.floor(number / 100);
+  const secondDigit = Math.floor((number % 100) / 10);
+  const thirdDigit = number % 10;
+
+  if (firstDigit === secondDigit && secondDigit === thirdDigit) {
+    document.getElementById("result").textContent =
+      "The number has identical digits!";
+  } else {
+    document.getElementById("result").textContent =
+      "The number does not have identical digits.";
+  }
+}
+
+//Request a five-unit number from a user and check whether it is a palindrome.
+function checkPalindrome() {
+  const numberInput = document.getElementById("fiveDigitNumberInput");
+  const number = numberInput.value;
+
+  const reversedNumber = number.split("").reverse().join("");
+
+  if (number === reversedNumber) {
+    document.getElementById("palindrome").textContent =
+      "The number is a palindrome!";
+  } else {
+    document.getElementById("palindrome").textContent =
+      "The number is not a palindrome.";
+  }
+}

@@ -161,13 +161,14 @@ body {
 .js-maths-homework {
   background-color: rgba(65, 67, 70, 0.74);
   height: fit-content;
+  overflow: scroll;
   border-top: 10px solid rgba(15, 61, 82, 0.966);
   border-bottom: 10px solid rgb(70, 83, 139);
   padding: 40px 100px;
 }
 .js-maths-homework .js-homework__input {
   height: 50px;
-  width: 400px;
+  width: 500px;
   margin-left: 60px;
 }
 .js-maths-homework .js-homework__btn {
@@ -182,7 +183,18 @@ body {
   border-bottom: 10px solid rgba(15, 61, 82, 0.966);
   padding: 40px 100px;
   height: fit-content;
+  overflow: scroll;
   background-color: rgb(70, 83, 139);
+}
+.js-types-of-data-and-math-functions-homework .js-homework__input-2 {
+  height: 50px;
+  width: 500px;
+}
+.js-types-of-data-and-math-functions-homework .js-homework__btn-2 {
+  height: 50px;
+  background-color: rgb(235, 227, 227);
+  color: rgba(15, 61, 82, 0.966);
+  border: none;
 }
 
 .footer-container {
@@ -370,8 +382,7 @@ body {
     border-radius: 10px;
   }
   .calculator-and-list-of-js-homework {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     margin: 0;
   }
   .contact-information {

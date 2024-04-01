@@ -158,7 +158,7 @@ body {
 
   .js-homework__input {
     height: 50px;
-    width: 400px;
+    width: 500px;
     margin-left: 60px;
   }
 
@@ -177,6 +177,18 @@ body {
   height: fit-content;
   overflow: scroll;
   background-color: rgb(70, 83, 139);
+
+  .js-homework__input-2 {
+    height: 50px;
+    width: 500px;
+  }
+
+  .js-homework__btn-2 {
+    height: 50px;
+    background-color: $textColor;
+    color: $primaryColor;
+    border: none;
+  }
 }
 
 .footer-container {
