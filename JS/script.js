@@ -162,6 +162,43 @@ function checkFit() {
   }
 }
 
+/*Execute a currency converter. A user puts in USD, chooses a currency (EUR, SEK, AUD etc.) and gets the result.*/
+
+const exchangeRates = {
+  EUR: 0.82,
+  SEK: 8.38,
+  AUD: 1.37,
+  GBP: 0.79,
+  JPY: 151.64,
+  BGN: 1,82,
+  CHF: 0,90,
+};
+
+function convertCurrency() {
+  const amount = Number(document.getElementById('amountInput').value);
+  const fromCurrency = document.getElementById('fromCurrencySelect').value;
+  const toCurrency = document.getElementById('toCurrencySelect').value;
+
+  if (isNaN(amount)) {
+    alert('Please enter a valid amount');
+    return;
+  }
+
+  if (fromCurrency === toCurrency) {
+    document.getElementById('convert').textContent = amount.toFixed(2);
+    return;
+  }
+
+  const exchangeRate = exchangeRates[fromCurrency];
+  const convertedAmount = amount * exchangeRate;
+
+  document.getElementById('convert').textContent = convertedAmount.toFixed(2);
+}
+
+document.getElementById('convertButton').addEventListener('click', convertCurrency);
+
+
+
 /*Request a date (dd:mm:yy) and put out the one that goes after it.<br>
 Pay attention to the start of a new month, new year, and also leap years.*/
 
