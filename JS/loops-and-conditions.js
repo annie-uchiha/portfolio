@@ -35,6 +35,7 @@ console.log(
 );
 
 // Request a number and display all the divisors of it. For example, for number 8 it would be 2, 4, and 8.
+
 let num = parseInt(prompt("Enter a number:"));
 
 console.log("The divisors of", num, "are:");
@@ -107,6 +108,7 @@ if (
 }
 
 // Request a number and check if the number is odd, even or zero. Use switch.
+
 let num = parseInt(prompt("Enter a number:"));
 
 switch (true) {
