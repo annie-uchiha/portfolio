@@ -155,3 +155,32 @@ function formatTime(hours, minutes, seconds) {
 
   return formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
 }
+
+//Write a function that accepts hours, minutes, and seconds and returns that time only in seconds.
+function convertToSeconds() {
+  var hours = parseInt(document.getElementById("hours-input").value);
+  var minutes = parseInt(document.getElementById("minutes-input").value);
+  var seconds = parseInt(document.getElementById("seconds-input").value);
+
+  var totalSeconds = calculateTotalSeconds(hours, minutes, seconds);
+
+  document.getElementById("outputTotal").innerHTML =
+    "Total seconds: " + totalSeconds;
+}
+
+function calculateTotalSeconds(hours, minutes, seconds) {
+  var totalSeconds = 0;
+
+  totalSeconds += hours * 3600;
+  totalSeconds += minutes * 60;
+  totalSeconds += seconds;
+
+  return totalSeconds;
+}
+
+/*Write a function that accepts the number of seconds,
+ translates it into hours, minutes, and seconds, and returns as a hh:mm:ss string.*/
+
+/*Write a function that counts the difference between the dates. The function accepts 6 parameters that describe 2 dates,
+ and returns them as hh:mm:ss. While solving this problem use the functions from the two previous ones:
+ at first, make the dates in seconds, count the difference in seconds, and translate it back into hh:mm:ss.*/

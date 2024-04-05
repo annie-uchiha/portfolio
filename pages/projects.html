@@ -372,7 +372,11 @@
       <div class="js-homework-container">
         <h3 class="js-homework-container">8. Write a function that accepts hours, minutes, and seconds and returns that
           time only in seconds. For example, 1 hour 25 minutes 43 seconds returns 5145 seconds. </h3>
-
+        <input type="number" class="js-homework__input" id="hours-input" placeholder="Hours">
+        <input type="number" class="js-homework__input" id="minutes-input" placeholder="Minutes">
+        <input type="number" class="js-homework__input" id="seconds-input" placeholder="Seconds">
+        <button class="js-homework__btn" onclick="convertToSeconds()">Convert to Seconds</button>
+        <p id="outputTotal"></p>
       </div>
       <div class="js-homework-container">
         <h3 class="js-homework-container">9. Write a function that accepts the number of seconds, translates it into
