@@ -52,25 +52,24 @@ function combineDigits() {
 //Write a function that accepts the width and length of a rectangle and calculates its area. If there is only one parameter given, it counts as a square.
 function calculateAreaOfRectangle() {
   var width = parseInt(document.getElementById("rectangle-width").value);
-  var length = parseInt(document.getElementById("rectangle-length").value);
+  var height = parseInt(document.getElementById("rectangle-height").value);
 
   if (isNaN(width) || isNaN(length)) {
     if (!isNaN(width)) {
       var area = width * width;
-
-      document.getElementById("calculateAOR").innerHTML =
+      document.getElementById("areaResult").innerHTML =
         "Area of the square: " + area;
     } else if (!isNaN(length)) {
       var area = length * length;
-      document.getElementById("calculateAOR").innerHTML =
+      document.getElementById("areaResult").innerHTML =
         "Area of the square: " + area;
     } else {
-      document.getElementById("calculateAOR").innerHTML =
+      document.getElementById("areaResult").innerHTML =
         "Please provide at least one parameter.";
     }
   } else {
     var area = width * length;
-    document.getElementById("calculateAOR").innerHTML =
+    document.getElementById("areaResult").innerHTML =
       "Area of the rectangle: " + area;
   }
 }
