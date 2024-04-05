@@ -61,333 +61,346 @@
   </nav>
 </header>
 
-<main class="flex-page-layout">
+<body>
 
-  <div class="grid-container">
-    <section class="flex-container-cards link1 front">
-      <img src="../images/1 edited.jpg" alt="img-of-filizi-website" class="img-cards" />
-      <div>
-        <h1>"Filizi 33" Ltd. website</h1>
+  <main class="flex-page-layout">
+
+    <div class="grid-container">
+      <section class="flex-container-cards link1 front">
+        <img src="../images/1 edited.jpg" alt="img-of-filizi-website" class="img-cards" />
+        <div>
+          <h1>"Filizi 33" Ltd. website</h1>
+          <p>
+            This is a code version of the "Filizi 33" Ltd. website. The design
+            is slowly starting to represent the original website that was build
+            using Wix.
+          </p>
+          <button class="github-btn"><a href="https://github.com/annie-uchiha/Filizi33-code-version">GitHub</a></button>
+        </div>
+      </section>
+
+      <section class="flex-container-card-2 link2">
+        <img src="../images/2.JPG" alt="image-of-daily-owls" class="img-cards" />
+        <div>
+          <h1>Daily Owl website</h1>
+          <p>
+            This is a fan page of the Wizarding World. It is created with
+            HTML5 and CSS. Eventually I will add JavaScript. Practice transition and animation.
+          </p>
+          <button class="github-btn"><a
+              href="https://github.com/annie-uchiha/Daily-Owls-CSS-practice">GitHub</a></button>
+        </div>
+      </section>
+
+      <section class="flex-container-cards link3">
+        <img src="../images/cv-new-look.JPG" alt="img-of-cv-webpage" class="img-cards" />
+        <div>
+          <h1>CV webpage</h1>
+          <p>
+            This CV webpage is created with HTML5 and CSS.
+            Eventually I will add JavaScript. Practice: flexbox, grid and animations.
+          </p>
+          <button class="github-btn"><a
+              href="https://github.com/annie-uchiha/CV-webpage-CSS-practice">GitHub</a></button>
+        </div>
+      </section>
+
+      <section class="flex-container-cards link4">
+        <img src="../images/the-pink-bear-group-project-img.jpg" alt="the-pink-bear" class="img-cards" />
+        <div>
+          <h1>The Pink Bear Restaurant</h1>
+          <p>
+            Group project. Learning new things.
+            Mastering GitHub. Observing different approaches for the same task.
+          </p>
+          <button class="github-btn"> <a
+              href="https://github.com/BeetrootAcademyAccount2/group1-html-css">GitHub</a></button>
+        </div>
+      </section>
+      <section class="flex-container-cards link5">
+        <img src="../images/individual-project-1.JPG" alt="individual-project-1" class="img-cards" />
+        <div>
+          <h1>BHROMAON</h1>
+          <p>
+            End of HTML/CSS module. Observing different approaches for the same task.
+            Practice: SASS.
+          </p>
+          <button class="github-btn"> <a href="https://github.com/annie-uchiha/individual-project-1">GitHub</a></button>
+        </div>
+      </section>
+    </div>
+
+    <section class="calculator-and-list-of-js-homework">
+      <div class="calculator flex-page-layout">
+        <h2 class="calculator__project-title">Project: Calculator</h2>
+        <input type="text" class="calculator-screen" value="0" disabled />
+        <button type="button" class="all-clear calc-battery-line" value="all-clear">AC</button>
+        <div class="calculator-keys">
+          <button type="button" class="value" value="7">7</button>
+          <button type="button" class="value" value="8">8</button>
+          <button type="button" class="value" value="9">9</button>
+          <button type="button" class="operator" value="*">&times;</button>
+
+          <button type="button" class="value" value="4">4</button>
+          <button type="button" class="value" value="5">5</button>
+          <button type="button" class="value" value="6">6</button>
+          <button type="button" class="operator" value="/">&divide;</button>
+
+          <button type="button" class="value" value="1">1</button>
+          <button type="button" class="value" value="2">2</button>
+          <button type="button" class="value" value="3">3</button>
+          <button type="button" class="operator" value="-">-</button>
+
+          <button type="button" class="value" value="0">0</button>
+          <button type="button" class="decimal" value=".">.</button>
+          <button type="button" class="operator" value="+">+</button>
+          <button type="button" class="equal-sign" value="=">=</button>
+        </div>
+      </div>
+      <div class="calculator-section-aside">
+        <ul class="calculator-section-aside__ul">
+          <li class="calculator-section-aside__li"><a href="#js-maths-homework">Introduction to JavaScript</a></li>
+          <li class="calculator-section-aside__li"><a href="#js-types-of-data-and-math-functions-homework">Types of Data
+              and Math Functions</a></li>
+          <li><a href="#functions">Functions</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="js-maths-homework" id="js-maths-homework">
+      <h2 style="color: white;">Introduction to JavaScript</h2>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">1. Request a user’s name and display the response “Hello, [name]”.</h3>
+        <input type="text" class="js-homework__input" id="nameInput" placeholder="Enter your name, please">
+        <button class="js-homework__btn" onclick="greetUser()">Greet</button>
+        <p id="greeting"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">2. Request a user’s year of birth, count his age, and display the result.
+          Store the current year as a constant. </h3>
+        <input type="text" class="js-homework__input" id="birthYear" placeholder="Enter your birth year, please">
+        <button class="js-homework__btn" onclick="calculateAge()">Calculate</button>
+        <p id="age"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">3. Request a length of a side of a square from a user and display the
+          perimeter of the square. </h3>
+        <input type="number" class="js-homework__input" id="sideLength" placeholder="Enter the length of a side">
+        <button class="js-homework__btn" onclick="calculatePerimeter()">Calculate</button>
+        <p id="perimeter"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">4. Request a radius of a circle and display the area of such a circle.
+        </h3>
+        <input type="number" class="js-homework__input" id="radius" placeholder="Enter the radius">
+        <button class="js-homework__btn" onclick="calculateArea()">Calculate</button>
+        <p id="area"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">5. Request a distance in km between the two cities from a user, and the
+          time they want to cover it within. Count the speed needed to be on time. </h3>
+        <input type="number" class="js-homework__input" id="distance" placeholder="Enter the distance in km">
+        <input type="number" class="js-homework__input" id="time" placeholder="Enter the time in hours">
+        <button class="js-homework__btn" onclick="calculateSpeed()">Calculate</button>
+        <p id="speed"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">6. Create a currency converter. A user types in USD and the program
+          converts them to EUR. The exchange rate should be stored as a constant. </h3>
+        <input type="text" class="js-homework__input" id="usdInput" placeholder="Enter USD amount">
+        <button class="js-homework__btn" onclick="convertToEur()">Calculate</button>
+        <p id="eurOutput"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">7. A user states a flash drive memory in GB. The program has to count
+          how many 820MB files can be stored on this flash drive. </h3>
+        <input type="text" class="js-homework__input" id="flashDriveInput" placeholder="Enter flash drive memory in GB">
+        <button class="js-homework__btn" onclick="calculateFileCount()">Calculate</button>
+        <p id="fileCountOutput"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">8. A user types in an amount of money in a wallet and the price of one
+          chocolate bar.<br>
+          The program counts how many chocolate bars the user can buy, and how much change will he/she have left. </h3>
+        <input type="text" class="js-homework__input" id="walletMoney" placeholder="Enter cash amount in wallet">
+        <input type="text" class="js-homework__input" id="chocolateBarsAmount"
+          placeholder="Enter amount of chocolate bars">
+        <button class="js-homework__btn" onclick="calculateChocolateBars()">Calculate</button>
+        <p id="chocolateBarsCountOutput"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">9. The user types in a sum of bank deposits for 2 months with a yearly
+          interest
+          rate of 5%.<br> The program counts the sum of interest. </h3>
+        <input type="text" class="js-homework__input" id="bankDeposits"
+          placeholder="Enter the sum of bank deposits for 2 months">
+        <button class="js-homework__btn" onclick="calculateInterest()">Calculate</button>
+        <p id="interestOutput"></p>
+      </div>
+    </section>
+
+    <section class="js-types-of-data-and-math-functions-homework" id="js-types-of-data-and-math-functions-homework">
+      <h2 style="color: white;">Types of data and math functions</h2>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">1. Request a three-digit number from a user and check whether it has identical
+          digits in it.</h3>
+        <input type="text" class="js-homework__input-2" id="numberInput"
+          placeholder="Please enter a three-digit number">
+        <button class="js-homework__btn-2" onclick="checkIdenticalDigits()">Check</button>
+        <p id="result"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">2. Request a five-unit number from a user and check whether it is a
+          palindrome.
+        </h3>
+        <input type="text" class="js-homework__input-2" id="fiveDigitNumberInput"
+          placeholder="Please enter a five-digit number">
+        <button class="js-homework__btn-2" onclick="checkPalindrome()">Check</button>
+        <p id="palindrome"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">3. Request a length of a circumference and a perimeter of a square from a
+          user.<br>Define whether that circumference can fit in that square.
+        </h3>
+        <input type="number" class="js-homework__input-2" id="circumferenceInput"
+          placeholder="Enter a lenght of circumference">
+        <input type="number" class="js-homework__input-2" id="perimeterInput"
+          placeholder="Enter a perimeter of a square">
+        <button class="js-homework__btn-2" onclick="checkFit()">Check</button>
+        <p id="willItFit"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">4. Execute a currency converter. A user puts in USD, chooses a currency (EUR,
+          SEK, AUD etc.) and gets the result.
+        </h3>
+        <input type="number" id="amountInput" class="js-homework__input-2" placeholder="Enter amount">
+        <select id="fromCurrencySelect">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="SEK">SEK</option>
+          <option value="AUD">AUD</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="BGN">BGN</option>
+          <option value="CHF">CHF</option>
+        </select>
+        <select id="toCurrencySelect">
+          <option value="EUR">EUR</option>
+          <option value="SEK">SEK</option>
+          <option value="AUD">AUD</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="BGN">BGN</option>
+          <option value="CHF">CHF</option>
+        </select>
+        <button id="convertButton" class="js-homework__btn-2">Convert</button>
+        <p id="convertedAmount">Converted amount</p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">5. Request a date (dd:mm:yy) and put out the one that goes after it.<br>
+          Pay attention to the start of a new month, new year, and also leap years.
+        </h3>
+        <input type="text" class="js-homework__input-2" id="dateInput" placeholder="Please, enter a date (dd:mm:yy)">
+        <button class="js-homework__btn-2" onclick="getNextDay()">Check next date</button>
+        <p id="nextDayIs"></p>
+      </div>
+    </section>
+
+    <section class="js-maths-homework" id="functions">
+      <h2 style="color: white;">Functions</h2>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">1. Write a function that accepts 2 numbers and returns -1 if the first one is
+          smaller than the second, 1 if it is vice versa, and 0 if they are equal.</h3>
+        <input type="number" class="js-homework__input" id="num1">
+        <input type="number" class="js-homework__input" id="num2">
+        <button class="js-homework__btn" onclick="compareNumbers()">Compare</button>
+        <p id="compare"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">2. Write a function that counts the factorial of a given number. </h3>
+        <input type="number" class="js-homework__input" id="number">
+        <button class="js-homework__btn" onclick="calculateFactorial()">Calculate Factorial</button>
+        <p id="factorial"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">3. Write a function that accepts three separate digits and makes them a
+          number.
+          For example, 1, 4, and 9 will become 149. </h3>
+        <input type="number" class="js-homework__input" id="digit1">
+        <input type="number" class="js-homework__input" id="digit2">
+        <input type="number" class="js-homework__input" id="digit3">
+        <button class="js-homework__btn" onclick="combineDigits()">Combine Digits</button>
+        <p id="combination"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">4. Write a function that accepts the width and length of a rectangle and
+          calculates its area. If there is only one parameter given, it counts as a square.
+        </h3>
+        <input type="number" class="js-homework__input" id="rectangle-width">
+        <input type="number" class="js-homework__input" id="rectangle-height">
+        <button class="js-homework__btn" onclick="calculateAreaOfRectangle()">Calculate</button>
+        <p id="areaResult"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">5. Write a function that checks if the given number is perfect. A perfect
+          number
+          is a number equal to the sum of all its divisors.<br>
+          For example, the smallest perfect number is 6, which is the sum of 1, 2, and 3. </h3>
+        <input type="number" class="js-homework__input" id="number-input">
+        <button class="js-homework__btn" onclick="checkPerfectNumber()">Check</button>
+        <p id="perfectNumber"></p>
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">6. Write a function that accepts the min and max values of a range, and only
+          puts out the perfect numbers within that range. Use the previous function to check, if numbers are perfect.
+        </h3>
+
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">7. Write a function that accepts time (hours, minutes, seconds) and returns a
+          string in the format hh:mm:ss. If the seconds are not given, they should be displayed as 00. </h3>
+
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">8. Write a function that accepts hours, minutes, and seconds and returns that
+          time only in seconds. For example, 1 hour 25 minutes 43 seconds returns 5145 seconds. </h3>
+
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">9. Write a function that accepts the number of seconds, translates it into
+          hours, minutes, and seconds, and returns as a hh:mm:ss string. </h3>
+
+      </div>
+      <div class="js-homework-container">
+        <h3 class="js-homework-container">10. Write a function that counts the difference between the dates. The
+          function
+          accepts 6 parameters that describe 2 dates, and returns them as hh:mm:ss. While solving this problem use the
+          functions from the two previous ones: at first, make the dates in seconds, count the difference in seconds,
+          and
+          translate it back into hh:mm:ss. </h3>
+
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer-container flex-page-layout">
+    <div class="flex-container-contact-me">
+      <section class="contact-information">
+        <h4>Contact me</h4>
         <p>
-          This is a code version of the "Filizi 33" Ltd. website. The design
-          is slowly starting to represent the original website that was build
-          using Wix.
+          e-mail:
+          annie.pirosmani@yahoo.com
         </p>
-        <button class="github-btn"><a href="https://github.com/annie-uchiha/Filizi33-code-version">GitHub</a></button>
-      </div>
-    </section>
-
-    <section class="flex-container-card-2 link2">
-      <img src="../images/2.JPG" alt="image-of-daily-owls" class="img-cards" />
-      <div>
-        <h1>Daily Owl website</h1>
         <p>
-          This is a fan page of the Wizarding World. It is created with
-          HTML5 and CSS. Eventually I will add JavaScript. Practice transition and animation.
+          phone:
+          +359 XXX XX XX XX
         </p>
-        <button class="github-btn"><a href="https://github.com/annie-uchiha/Daily-Owls-CSS-practice">GitHub</a></button>
-      </div>
-    </section>
-
-    <section class="flex-container-cards link3">
-      <img src="../images/cv-new-look.JPG" alt="img-of-cv-webpage" class="img-cards" />
-      <div>
-        <h1>CV webpage</h1>
-        <p>
-          This CV webpage is created with HTML5 and CSS.
-          Eventually I will add JavaScript. Practice: flexbox, grid and animations.
-        </p>
-        <button class="github-btn"><a href="https://github.com/annie-uchiha/CV-webpage-CSS-practice">GitHub</a></button>
-      </div>
-    </section>
-
-    <section class="flex-container-cards link4">
-      <img src="../images/the-pink-bear-group-project-img.jpg" alt="the-pink-bear" class="img-cards" />
-      <div>
-        <h1>The Pink Bear Restaurant</h1>
-        <p>
-          Group project. Learning new things.
-          Mastering GitHub. Observing different approaches for the same task.
-        </p>
-        <button class="github-btn"> <a
-            href="https://github.com/BeetrootAcademyAccount2/group1-html-css">GitHub</a></button>
-      </div>
-    </section>
-    <section class="flex-container-cards link5">
-      <img src="../images/individual-project-1.JPG" alt="individual-project-1" class="img-cards" />
-      <div>
-        <h1>BHROMAON</h1>
-        <p>
-          End of HTML/CSS module. Observing different approaches for the same task.
-          Practice: SASS.
-        </p>
-        <button class="github-btn"> <a href="https://github.com/annie-uchiha/individual-project-1">GitHub</a></button>
-      </div>
-    </section>
-  </div>
-
-  <section class="calculator-and-list-of-js-homework">
-    <div class="calculator flex-page-layout">
-      <h2 class="calculator__project-title">Project: Calculator</h2>
-      <input type="text" class="calculator-screen" value="0" disabled />
-      <button type="button" class="all-clear calc-battery-line" value="all-clear">AC</button>
-      <div class="calculator-keys">
-        <button type="button" class="value" value="7">7</button>
-        <button type="button" class="value" value="8">8</button>
-        <button type="button" class="value" value="9">9</button>
-        <button type="button" class="operator" value="*">&times;</button>
-
-        <button type="button" class="value" value="4">4</button>
-        <button type="button" class="value" value="5">5</button>
-        <button type="button" class="value" value="6">6</button>
-        <button type="button" class="operator" value="/">&divide;</button>
-
-        <button type="button" class="value" value="1">1</button>
-        <button type="button" class="value" value="2">2</button>
-        <button type="button" class="value" value="3">3</button>
-        <button type="button" class="operator" value="-">-</button>
-
-        <button type="button" class="value" value="0">0</button>
-        <button type="button" class="decimal" value=".">.</button>
-        <button type="button" class="operator" value="+">+</button>
-        <button type="button" class="equal-sign" value="=">=</button>
+      </section>
+      <div class="text-center" style="background-color: rgba(197, 70, 11, 0.76)">
+        © 2024 Uchiha Annie
       </div>
     </div>
-    <div class="calculator-section-aside">
-      <ul class="calculator-section-aside__ul">
-        <li class="calculator-section-aside__li"><a href="#js-maths-homework">Introduction to JavaScript</a></li>
-        <li class="calculator-section-aside__li"><a href="#js-types-of-data-and-math-functions-homework">Types of Data
-            and Math Functions</a></li>
-        <li><a href="#functions">Functions</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="js-maths-homework" id="js-maths-homework">
-    <h2 style="color: white;">Introduction to JavaScript</h2>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">1. Request a user’s name and display the response “Hello, [name]”.</h3>
-      <input type="text" class="js-homework__input" id="nameInput" placeholder="Enter your name, please">
-      <button class="js-homework__btn" onclick="greetUser()">Greet</button>
-      <p id="greeting"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">2. Request a user’s year of birth, count his age, and display the result.
-        Store the current year as a constant. </h3>
-      <input type="text" class="js-homework__input" id="birthYear" placeholder="Enter your birth year, please">
-      <button class="js-homework__btn" onclick="calculateAge()">Calculate</button>
-      <p id="age"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">3. Request a length of a side of a square from a user and display the
-        perimeter of the square. </h3>
-      <input type="number" class="js-homework__input" id="sideLength" placeholder="Enter the length of a side">
-      <button class="js-homework__btn" onclick="calculatePerimeter()">Calculate</button>
-      <p id="perimeter"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">4. Request a radius of a circle and display the area of such a circle.
-      </h3>
-      <input type="number" class="js-homework__input" id="radius" placeholder="Enter the radius">
-      <button class="js-homework__btn" onclick="calculateArea()">Calculate</button>
-      <p id="area"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">5. Request a distance in km between the two cities from a user, and the
-        time they want to cover it within. Count the speed needed to be on time. </h3>
-      <input type="number" class="js-homework__input" id="distance" placeholder="Enter the distance in km">
-      <input type="number" class="js-homework__input" id="time" placeholder="Enter the time in hours">
-      <button class="js-homework__btn" onclick="calculateSpeed()">Calculate</button>
-      <p id="speed"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">6. Create a currency converter. A user types in USD and the program
-        converts them to EUR. The exchange rate should be stored as a constant. </h3>
-      <input type="text" class="js-homework__input" id="usdInput" placeholder="Enter USD amount">
-      <button class="js-homework__btn" onclick="convertToEur()">Calculate</button>
-      <p id="eurOutput"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">7. A user states a flash drive memory in GB. The program has to count
-        how many 820MB files can be stored on this flash drive. </h3>
-      <input type="text" class="js-homework__input" id="flashDriveInput" placeholder="Enter flash drive memory in GB">
-      <button class="js-homework__btn" onclick="calculateFileCount()">Calculate</button>
-      <p id="fileCountOutput"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">8. A user types in an amount of money in a wallet and the price of one
-        chocolate bar.<br>
-        The program counts how many chocolate bars the user can buy, and how much change will he/she have left. </h3>
-      <input type="text" class="js-homework__input" id="walletMoney" placeholder="Enter cash amount in wallet">
-      <input type="text" class="js-homework__input" id="chocolateBarsAmount"
-        placeholder="Enter amount of chocolate bars">
-      <button class="js-homework__btn" onclick="calculateChocolateBars()">Calculate</button>
-      <p id="chocolateBarsCountOutput"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">9. The user types in a sum of bank deposits for 2 months with a yearly interest
-        rate of 5%.<br> The program counts the sum of interest. </h3>
-      <input type="text" class="js-homework__input" id="bankDeposits"
-        placeholder="Enter the sum of bank deposits for 2 months">
-      <button class="js-homework__btn" onclick="calculateInterest()">Calculate</button>
-      <p id="interestOutput"></p>
-    </div>
-  </section>
-
-  <section class="js-types-of-data-and-math-functions-homework" id="js-types-of-data-and-math-functions-homework">
-    <h2 style="color: white;">Types of data and math functions</h2>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">1. Request a three-digit number from a user and check whether it has identical
-        digits in it.</h3>
-      <input type="text" class="js-homework__input-2" id="numberInput" placeholder="Please enter a three-digit number">
-      <button class="js-homework__btn-2" onclick="checkIdenticalDigits()">Check</button>
-      <p id="result"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">2. Request a five-unit number from a user and check whether it is a palindrome.
-      </h3>
-      <input type="text" class="js-homework__input-2" id="fiveDigitNumberInput"
-        placeholder="Please enter a five-digit number">
-      <button class="js-homework__btn-2" onclick="checkPalindrome()">Check</button>
-      <p id="palindrome"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">3. Request a length of a circumference and a perimeter of a square from a
-        user.<br>Define whether that circumference can fit in that square.
-      </h3>
-      <input type="number" class="js-homework__input-2" id="circumferenceInput"
-        placeholder="Enter a lenght of circumference">
-      <input type="number" class="js-homework__input-2" id="perimeterInput" placeholder="Enter a perimeter of a square">
-      <button class="js-homework__btn-2" onclick="checkFit()">Check</button>
-      <p id="willItFit"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">4. Execute a currency converter. A user puts in USD, chooses a currency (EUR,
-        SEK, AUD etc.) and gets the result.
-      </h3>
-      <input type="number" id="amountInput" class="js-homework__input-2" placeholder="Enter amount">
-      <select id="fromCurrencySelect">
-        <option value="USD">USD</option>
-        <option value="EUR">EUR</option>
-        <option value="SEK">SEK</option>
-        <option value="AUD">AUD</option>
-        <option value="GBP">GBP</option>
-        <option value="JPY">JPY</option>
-        <option value="BGN">BGN</option>
-        <option value="CHF">CHF</option>
-      </select>
-      <select id="toCurrencySelect">
-        <option value="EUR">EUR</option>
-        <option value="SEK">SEK</option>
-        <option value="AUD">AUD</option>
-        <option value="GBP">GBP</option>
-        <option value="JPY">JPY</option>
-        <option value="BGN">BGN</option>
-        <option value="CHF">CHF</option>
-      </select>
-      <button id="convertButton" class="js-homework__btn-2">Convert</button>
-      <p id="convertedAmount">Converted amount</p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">5. Request a date (dd:mm:yy) and put out the one that goes after it.<br>
-        Pay attention to the start of a new month, new year, and also leap years.
-      </h3>
-      <input type="text" class="js-homework__input-2" id="dateInput" placeholder="Please, enter a date (dd:mm:yy)">
-      <button class="js-homework__btn-2" onclick="getNextDay()">Check next date</button>
-      <p id="nextDayIs"></p>
-    </div>
-  </section>
-
-  <section class="js-maths-homework" id="functions">
-    <h2 style="color: white;">Functions</h2>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">1. Write a function that accepts 2 numbers and returns -1 if the first one is
-        smaller than the second, 1 if it is vice versa, and 0 if they are equal.</h3>
-      <input type="number" class="js-homework__input" id="num1">
-      <input type="number" class="js-homework__input" id="num2">
-      <button class="js-homework__btn" onclick="compareNumbers()">Compare</button>
-      <p id="compare"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">2. Write a function that counts the factorial of a given number. </h3>
-      <input type="number" class="js-homework__input" id="number">
-      <button class="js-homework__btn" onclick="calculateFactorial()">Calculate Factorial</button>
-      <p id="factorial"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">3. Write a function that accepts three separate digits and makes them a number.
-        For example, 1, 4, and 9 will become 149. </h3>
-      <input type="number" class="js-homework__input" id="digit1">
-      <input type="number" class="js-homework__input" id="digit2">
-      <input type="number" class="js-homework__input" id="digit3">
-      <button class="js-homework__btn" onclick="combineDigits()">Combine Digits</button>
-      <p id="combination"></p>
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">4. Write a function that accepts the width and length of a rectangle and
-        calculates its area. If there is only one parameter given, it counts as a square.
-      </h3>
-      <input type="number" class="js-homework__input" id="rectangle-width">
-      <input type="number" class="js-homework__input" id="rectangle-height">
-      <button class="js-homework__btn" onclick="calculateAreaOfRectangle()">Calculate</button>
-      <p id="areaResult"></p>
-
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">5. Write a function that checks if the given number is perfect. A perfect number
-        is a number equal to the sum of all its divisors.<br>
-        For example, the smallest perfect number is 6, which is the sum of 1, 2, and 3. </h3>
-
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">6. Write a function that accepts the min and max values of a range, and only
-        puts out the perfect numbers within that range. Use the previous function to check, if numbers are perfect.
-      </h3>
-
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">7. Write a function that accepts time (hours, minutes, seconds) and returns a
-        string in the format hh:mm:ss. If the seconds are not given, they should be displayed as 00. </h3>
-
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">8. Write a function that accepts hours, minutes, and seconds and returns that
-        time only in seconds. For example, 1 hour 25 minutes 43 seconds returns 5145 seconds. </h3>
-
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">9. Write a function that accepts the number of seconds, translates it into
-        hours, minutes, and seconds, and returns as a hh:mm:ss string. </h3>
-
-    </div>
-    <div class="js-homework-container">
-      <h3 class="js-homework-container">10. Write a function that counts the difference between the dates. The function
-        accepts 6 parameters that describe 2 dates, and returns them as hh:mm:ss. While solving this problem use the
-        functions from the two previous ones: at first, make the dates in seconds, count the difference in seconds, and
-        translate it back into hh:mm:ss. </h3>
-
-    </div>
-  </section>
-
-</main>
-<footer class="footer-container flex-page-layout">
-  <div class="flex-container-contact-me">
-    <section class="contact-information">
-      <h4>Contact me</h4>
-      <p>
-        e-mail:
-        annie.pirosmani@yahoo.com
-      </p>
-      <p>
-        phone:
-        +359 XXX XX XX XX
-      </p>
-    </section>
-    <div class="text-center" style="background-color: rgba(197, 70, 11, 0.76)">
-      © 2024 Uchiha Annie
-    </div>
-  </div>
-</footer>
+  </footer>
 
 
 </body>

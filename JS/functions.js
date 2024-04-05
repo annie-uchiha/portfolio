@@ -73,3 +73,37 @@ function calculateAreaOfRectangle() {
       "Area of the rectangle: " + area;
   }
 }
+
+//Write a function that checks if the given number is perfect.
+
+function isPerfectNumber(number) {
+  if (number <= 0) {
+    return false;
+  }
+
+  let sum = 0;
+  for (let divisor = 1; divisor < number; divisor++) {
+    if (number % divisor === 0) {
+      sum += divisor;
+    }
+  }
+
+  return sum === number;
+}
+
+function checkPerfectNumber() {
+  var inputNumber = parseInt(
+    document.getElementById("number-input").value.trim()
+  );
+
+  if (isNaN(inputNumber) || inputNumber <= 0) {
+    document.getElementById("perfectNumber").innerHTML =
+      "Please enter a positive integer.";
+  } else {
+    var isPerfect = isPerfectNumber(inputNumber);
+    var resultMessage = isPerfect
+      ? "The number is perfect."
+      : "The number is not perfect.";
+    document.getElementById("perfectNumber").innerHTML = resultMessage;
+  }
+}
