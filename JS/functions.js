@@ -16,3 +16,21 @@ function compareNumbers() {
 
   document.getElementById("compare").innerHTML = "The result is: " + result;
 }
+
+//Write a function that counts the factorial of a given number.
+
+function calculateFactorial() {
+  var number = parseInt(document.getElementById("number").value);
+
+  if (number < 0) {
+    document.getElementById("factorial").innerHTML =
+      "Factorial cannot be calculated for a negative number.";
+    return;
+  }
+  var factorial = 1;
+  for (var i = 2; i <= number; i++) {
+    factorial *= i;
+  }
+  document.getElementById("factorial").innetHTML =
+    "Factorial of" + number + "is" + factorial;
+}
