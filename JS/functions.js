@@ -58,19 +58,19 @@ function calculateAreaOfRectangle() {
     if (!isNaN(width)) {
       var area = width * width;
 
-      document.getElementById("calculateAreaOfRectangle").innerHTML =
+      document.getElementById("calculateAOR").innerHTML =
         "Area of the square: " + area;
     } else if (!isNaN(length)) {
       var area = length * length;
-      document.getElementById("calculateAreaOfRectangle").innerHTML =
+      document.getElementById("calculateAOR").innerHTML =
         "Area of the square: " + area;
     } else {
-      document.getElementById("calculateAreaOfRectangle").innerHTML =
+      document.getElementById("calculateAOR").innerHTML =
         "Please provide at least one parameter.";
     }
   } else {
     var area = width * length;
-    document.getElementById("calculateAreaOfRectangle").innerHTML =
+    document.getElementById("calculateAOR").innerHTML =
       "Area of the rectangle: " + area;
   }
 }
