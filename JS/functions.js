@@ -107,3 +107,27 @@ function checkPerfectNumber() {
     document.getElementById("perfectNumber").innerHTML = resultMessage;
   }
 }
+
+/* Write a function that accepts the min and max values of a range, and only puts out the perfect numbers within that range. Use the previous function to check, if numbers are perfect. */
+function findPerfectNumbers() {
+  var min = parseInt(document.getElementById("min-input").value);
+  var max = parseInt(document.getElementById("max-input").value);
+  var output = "";
+
+  for (var num = min; num <= max; num++) {
+    var sumOfDivisors = 0;
+
+    for (var i = 1; i < num; i++) {
+      if (num % i === 0) {
+        sumOfDivisors += i;
+      }
+    }
+
+    if (sumOfDivisors === num) {
+      output += num + " ";
+    }
+  }
+
+  document.getElementById("output").innerHTML =
+    "Perfect Numbers: " + output;
+}
