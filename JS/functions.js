@@ -48,3 +48,29 @@ function combineDigits() {
   document.getElementById("combination").innerHTML =
     "Combined number: " + combinedNumber;
 }
+
+//Write a function that accepts the width and length of a rectangle and calculates its area. If there is only one parameter given, it counts as a square.
+function calculateAreaOfRectangle() {
+  var width = parseInt(document.getElementById("rectangle-width").value);
+  var length = parseInt(document.getElementById("rectangle-length").value);
+
+  if (isNaN(width) || isNaN(length)) {
+    if (!isNaN(width)) {
+      var area = width * width;
+
+      document.getElementById("calculateAreaOfRectangle").innerHTML =
+        "Area of the square: " + area;
+    } else if (!isNaN(length)) {
+      var area = length * length;
+      document.getElementById("calculateAreaOfRectangle").innerHTML =
+        "Area of the square: " + area;
+    } else {
+      document.getElementById("calculateAreaOfRectangle").innerHTML =
+        "Please provide at least one parameter.";
+    }
+  } else {
+    var area = width * length;
+    document.getElementById("calculateAreaOfRectangle").innerHTML =
+      "Area of the rectangle: " + area;
+  }
+}
