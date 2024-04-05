@@ -36,3 +36,15 @@ function calculateFactorial() {
   document.getElementById("factorial").innerHTML =
     "Factorial of " + number + " is: " + factorial;
 }
+
+//Write a function that accepts three separate digits and makes them a number. For example, 1, 4, and 9 will become 149.
+function combineDigits() {
+  var digit1 = parseInt(document.getElementById("digit1").value);
+  var digit2 = parseInt(document.getElementById("digit2").value);
+  var digit3 = parseInt(document.getElementById("digit3").value);
+
+  var combinedNumber = digit1 * 100 + digit2 * 10 + digit3;
+
+  document.getElementById("combination").innerHTML =
+    "Combined number: " + combinedNumber;
+}
