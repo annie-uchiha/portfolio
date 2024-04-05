@@ -54,13 +54,13 @@ function calculateAreaOfRectangle() {
   var width = parseInt(document.getElementById("rectangle-width").value);
   var height = parseInt(document.getElementById("rectangle-height").value);
 
-  if (isNaN(width) || isNaN(length)) {
+  if (isNaN(width) || isNaN(height)) {
     if (!isNaN(width)) {
       var area = width * width;
       document.getElementById("areaResult").innerHTML =
         "Area of the square: " + area;
-    } else if (!isNaN(length)) {
-      var area = length * length;
+    } else if (!isNaN(height)) {
+      var area = height * height;
       document.getElementById("areaResult").innerHTML =
         "Area of the square: " + area;
     } else {
@@ -68,7 +68,7 @@ function calculateAreaOfRectangle() {
         "Please provide at least one parameter.";
     }
   } else {
-    var area = width * length;
+    var area = width * height;
     document.getElementById("areaResult").innerHTML =
       "Area of the rectangle: " + area;
   }
