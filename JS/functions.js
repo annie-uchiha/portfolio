@@ -27,10 +27,12 @@ function calculateFactorial() {
       "Factorial cannot be calculated for a negative number.";
     return;
   }
+
   var factorial = 1;
   for (var i = 2; i <= number; i++) {
     factorial *= i;
   }
-  document.getElementById("factorial").innetHTML =
-    "Factorial of" + number + "is" + factorial;
+
+  document.getElementById("factorial").innerHTML =
+    "Factorial of " + number + " is: " + factorial;
 }
