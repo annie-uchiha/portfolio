@@ -205,3 +205,53 @@ function calculateTimeString(inputSeconds) {
 /*Write a function that counts the difference between the dates. The function accepts 6 parameters that describe 2 dates,
  and returns them as hh:mm:ss. While solving this problem use the functions from the two previous ones:
  at first, make the dates in seconds, count the difference in seconds, and translate it back into hh:mm:ss.*/
+
+function calculateTimeDifference() {
+  var date1Hours = parseInt(document.getElementById("date1-hours").value);
+  var date1Minutes = parseInt(document.getElementById("date1-minutes").value);
+  var date1Seconds = parseInt(document.getElementById("date1-seconds").value);
+
+  var date2Hours = parseInt(document.getElementById("date2-hours").value);
+  var date2Minutes = parseInt(document.getElementById("date2-minutes").value);
+  var date2Seconds = parseInt(document.getElementById("date2-seconds").value);
+
+  var totalSeconds1 = calculateTotalSeconds(
+    date1Hours,
+    date1Minutes,
+    date1Seconds
+  );
+  var totalSeconds2 = calculateTotalSeconds(
+    date2Hours,
+    date2Minutes,
+    date2Seconds
+  );
+
+  var timeDifference = Math.abs(totalSeconds1 - totalSeconds2);
+
+  var timeString = calculateTimeString(timeDifference);
+
+  document.getElementById("outputCompareTime").innerHTML =
+    "Time Difference: " + timeString;
+}
+
+function calculateTotalSeconds(hours, minutes, seconds) {
+  var totalSeconds = 0;
+
+  totalSeconds += hours * 3600;
+  totalSeconds += minutes * 60;
+  totalSeconds += seconds;
+
+  return totalSeconds;
+}
+
+function calculateTimeString(inputSeconds) {
+  var hours = Math.floor(inputSeconds / 3600);
+  var minutes = Math.floor((inputSeconds % 3600) / 60);
+  var seconds = inputSeconds % 60;
+
+  var formattedHours = ("0" + hours).slice(-2);
+  var formattedMinutes = ("0" + minutes).slice(-2);
+  var formattedSeconds = ("0" + seconds).slice(-2);
+
+  return formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
+}
