@@ -128,6 +128,30 @@ function findPerfectNumbers() {
     }
   }
 
-  document.getElementById("output").innerHTML =
-    "Perfect Numbers: " + output;
+  document.getElementById("output").innerHTML = "Perfect Numbers: " + output;
+}
+
+/*Write a function that accepts time (hours, minutes, seconds) and returns a string in the format hh:mm:ss.
+ If the seconds are not given, they should be displayed as 00.*/
+
+function displayFormattedTime() {
+  var hours = parseInt(document.getElementById("hours").value);
+  var minutes = parseInt(document.getElementById("minutes").value);
+  var seconds = parseInt(document.getElementById("seconds").value);
+
+  var formattedTime = formatTime(hours, minutes, seconds);
+
+  document.getElementById("outputTime").innerHTML = formattedTime;
+}
+
+function formatTime(hours, minutes, seconds) {
+  if (seconds === undefined) {
+    seconds = 0;
+  }
+
+  var formattedHours = ("0" + hours).slice(-2);
+  var formattedMinutes = ("0" + minutes).slice(-2);
+  var formattedSeconds = ("0" + seconds).slice(-2);
+
+  return formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
 }

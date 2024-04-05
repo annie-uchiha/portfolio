@@ -363,7 +363,11 @@
       <div class="js-homework-container">
         <h3 class="js-homework-container">7. Write a function that accepts time (hours, minutes, seconds) and returns a
           string in the format hh:mm:ss. If the seconds are not given, they should be displayed as 00. </h3>
-
+        <input type="number" class="js-homework__input" id="hours" placeholder="Hours">
+        <input type="number" class="js-homework__input" id="minutes" placeholder="Minutes">
+        <input type="number" class="js-homework__input" id="seconds" placeholder="Seconds">
+        <button class="js-homework__btn" onclick="displayFormattedTime()">Format Time</button>
+        <p id="outputTime"></p>
       </div>
       <div class="js-homework-container">
         <h3 class="js-homework-container">8. Write a function that accepts hours, minutes, and seconds and returns that
