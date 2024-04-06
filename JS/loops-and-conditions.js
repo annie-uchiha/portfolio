@@ -36,22 +36,22 @@ console.log(
 
 // Request a number and display all the divisors of it. For example, for number 8 it would be 2, 4, and 8.
 
-let num = parseInt(prompt("Enter a number:"));
+let number = parseInt(prompt("Enter a number:"));
 
-console.log("The divisors of", num, "are:");
+console.log("The divisors of", number, "are:");
 
-for (let i = 1; i <= num; i++) {
-  if (num % i === 0) {
+for (let i = 1; i <= number; i++) {
+  if (number % i === 0) {
     console.log(i);
   }
 }
 
 // Define the number of digits in a requested number. For example, there are 4 digits in the number 6834.
 
-let num = parseInt(prompt("Enter a number:"));
-let numDigits = num.toString().length;
+let numberR = parseInt(prompt("Enter a number:"));
+let numDigits = numberR.toString().length;
 
-console.log("The number of digits in", num, "is", numDigits);
+console.log("The number of digits in", numberR, "is", numDigits);
 
 /* Request 10 numbers from a user and count, how many are positive, negative, or zero. 
  Also, count odd and even. Display the statistics. There’s only one variable (not 10) needed for input by a user. */
@@ -63,17 +63,17 @@ let oddCount = 0;
 let evenCount = 0;
 
 for (let i = 0; i < 10; i++) {
-  let num = parseInt(prompt("Enter a number:"));
+  let numberR = parseInt(prompt("Enter a number:"));
 
-  if (num > 0) {
+  if (numberR > 0) {
     positiveCount++;
-  } else if (num < 0) {
+  } else if (numberR < 0) {
     negativeCount++;
   } else {
     zeroCount++;
   }
 
-  if (num % 2 === 0) {
+  if (numberR % 2 === 0) {
     evenCount++;
   } else {
     oddCount++;
@@ -109,13 +109,13 @@ if (
 
 // Request a number and check if the number is odd, even or zero. Use switch.
 
-let num = parseInt(prompt("Enter a number:"));
+let numberRR = parseInt(prompt("Enter a number:"));
 
 switch (true) {
-  case num === 0:
+  case numberRR === 0:
     console.log("The number is zero");
     break;
-  case num % 2 === 0:
+  case numberR % 2 === 0:
     console.log("The number is even");
     break;
   default:
