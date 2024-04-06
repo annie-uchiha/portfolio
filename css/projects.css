@@ -229,6 +229,17 @@ body {
   box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
 }
 
+.scroll-back-up {
+  margin-left: 25%;
+}
+.scroll-back-up .fa-leaf {
+  color: rgb(235, 227, 227);
+}
+.scroll-back-up a {
+  text-decoration: none;
+  color: rgb(235, 227, 227);
+}
+
 @media only screen and (min-width: 800px) and (max-width: 1250px) {
   body {
     background-image: url(../images/2ac217d1943ba93dd7de989ecd9e5f35.jpg);
