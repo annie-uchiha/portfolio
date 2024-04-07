@@ -115,7 +115,7 @@ switch (true) {
   case numberRR === 0:
     console.log("The number is zero");
     break;
-  case numberR % 2 === 0:
+  case numberRR % 2 === 0:
     console.log("The number is even");
     break;
   default:
