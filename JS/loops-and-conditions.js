@@ -1,5 +1,7 @@
-/* Write a program that requests a number from a user and finds the summation of every number from 1 to num. 
-For example, for number 4 it is 1 + 2 + 3 + 4 = 10.*/
+/* 
+
+1. Write a program that requests a number from a user and finds the summation of every number from 1 to num. 
+For example, for number 4 it is 1 + 2 + 3 + 4 = 10.
 
 let num = parseInt(prompt("Enter a number:"));
 let summation = 0;
@@ -10,7 +12,7 @@ for (let i = 1; i <= num; i++) {
 
 console.log("The summation of every number from 1 to", num, "is", summation);
 
-// Request two numbers and find only their largest common divisor.
+2. Request two numbers and find only their largest common divisor.
 
 let num1 = parseInt(prompt("Enter the first number:"));
 let num2 = parseInt(prompt("Enter the second number:"));
@@ -34,7 +36,7 @@ console.log(
   largestCommonDivisor
 );
 
-// Request a number and display all the divisors of it. For example, for number 8 it would be 2, 4, and 8.
+3. Request a number and display all the divisors of it. For example, for number 8 it would be 2, 4, and 8.
 
 let number = parseInt(prompt("Enter a number:"));
 
@@ -46,15 +48,15 @@ for (let i = 1; i <= number; i++) {
   }
 }
 
-// Define the number of digits in a requested number. For example, there are 4 digits in the number 6834.
+4. Define the number of digits in a requested number. For example, there are 4 digits in the number 6834.
 
 let numberR = parseInt(prompt("Enter a number:"));
 let numDigits = numberR.toString().length;
 
 console.log("The number of digits in", numberR, "is", numDigits);
 
-/* Request 10 numbers from a user and count, how many are positive, negative, or zero. 
- Also, count odd and even. Display the statistics. There’s only one variable (not 10) needed for input by a user. */
+5. Request 10 numbers from a user and count, how many are positive, negative, or zero. 
+ Also, count odd and even. Display the statistics. There’s only one variable (not 10) needed for input by a user. 
 
 let positiveCount = 0;
 let negativeCount = 0;
@@ -86,8 +88,8 @@ console.log("Zero numbers:", zeroCount);
 console.log("Odd numbers:", oddCount);
 console.log("Even numbers:", evenCount);
 
-/* Request favourite fruit from user. If it is Peach, Apple or Banana show message that it is your
- favourite food, if it is Pear or Grapefruit show message that you hate it otherwise show message that you have not tried this fruit*/
+6. Request favourite fruit from user. If it is Peach, Apple or Banana show message that it is your
+ favourite food, if it is Pear or Grapefruit show message that you hate it otherwise show message that you have not tried this fruit
 
 let favoriteFruit = prompt("Enter your favorite fruit:");
 
@@ -107,7 +109,7 @@ if (
   console.log("You haven't tried this fruit!");
 }
 
-// Request a number and check if the number is odd, even or zero. Use switch.
+7. Request a number and check if the number is odd, even or zero. Use switch.
 
 let numberRR = parseInt(prompt("Enter a number:"));
 
@@ -122,3 +124,5 @@ switch (true) {
     console.log("The number is odd");
     break;
 }
+
+*/
