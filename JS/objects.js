@@ -39,6 +39,7 @@ car1.calculateTravelTime(1500);
     A function for multiplying two fraction objects.
     A function for dividing two fraction objects.
     A function for simplifying a fraction object.*/
+    
 // Fraction object
 
 const Fraction = {
