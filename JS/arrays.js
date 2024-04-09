@@ -137,7 +137,7 @@ const styledText = applyStyles(
   cssStyles,
   "This is a sample text with applied styles."
 );
-console.log(styledText); // Output the styled text to console
+console.log(styledText);
 
 /* 4. Create an array of academy classrooms. A classroom object consists of a name, a number of seats (10 to 20) and the faculty it is meant for. Write a few functions for working with it.
 
@@ -146,3 +146,71 @@ console.log(styledText); // Output the styled text to console
     - Display only the classrooms that would fit a given group. A group object contains a name, the number of students, and the faculty name.
     -  A function for sorting all the classrooms by number of seats.
     - A function for sorting all the classrooms by name in alphabetical order.*/
+
+let classrooms = [
+  { name: "Classroom A", seats: 15, faculty: "IT" },
+  { name: "Classroom B", seats: 18, faculty: "History of Art" },
+  { name: "Classroom C", seats: 12, faculty: "Engineering" },
+  { name: "Classroom D", seats: 20, faculty: "Mathematics" },
+  { name: "Classroom E", seats: 10, faculty: "Cinema" },
+  { name: "Classroom F", seats: 20, faculty: "Biology" },
+];
+
+function displayAllClassrooms() {
+  console.log("All Classrooms:");
+  classrooms.forEach((classroom) => {
+    console.log(
+      `Name: ${classroom.name}, Seats: ${classroom.seats}, Faculty: ${classroom.faculty}`
+    );
+  });
+}
+
+function displayClassroomsForFaculty(faculty) {
+  console.log(`Classrooms for ${faculty}:`);
+  const facultyClassrooms = classrooms.filter(
+    (classroom) => classroom.faculty === faculty
+  );
+  facultyClassrooms.forEach((classroom) => {
+    console.log(`Name: ${classroom.name}, Seats: ${classroom.seats}`);
+  });
+}
+
+function displayClassroomsForGroup(group) {
+  console.log(
+    `Classrooms for group "${group.name}" with ${group.number_of_students} students in ${group.faculty}:`
+  );
+  const fittingClassrooms = classrooms.filter(
+    (classroom) =>
+      classroom.seats >= group.number_of_students &&
+      classroom.faculty === group.faculty
+  );
+  fittingClassrooms.forEach((classroom) => {
+    console.log(`Name: ${classroom.name}, Seats: ${classroom.seats}`);
+  });
+}
+
+function sortClassroomsBySeats() {
+  return classrooms.slice().sort((a, b) => a.seats - b.seats);
+}
+
+function sortClassroomsByName() {
+  return classrooms.slice().sort((a, b) => a.name.localeCompare(b.name));
+}
+
+displayAllClassrooms();
+console.log("---");
+displayClassroomsForFaculty("Engineering");
+console.log("---");
+displayClassroomsForGroup({
+  name: "Group A",
+  number_of_students: 14,
+  faculty: "Engineering",
+});
+console.log("---");
+const sortedBySeats = sortClassroomsBySeats();
+console.log("Classrooms sorted by seats:");
+console.log(sortedBySeats);
+console.log("---");
+const sortedByName = sortClassroomsByName();
+console.log("Classrooms sorted by name:");
+console.log(sortedByName);
