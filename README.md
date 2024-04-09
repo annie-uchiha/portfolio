@@ -10,4 +10,5 @@ navbar responsive, cross-browser compatibility, SEO optimization - developer goo
 **Adding a professional looking CV**
 
 **Getting into JavaScript**
+
 _Practice: types nad math functions, loops and conditions, functions, objects, arrays_
