@@ -69,7 +69,7 @@ console.log("--------------------");
 let shopReceipt = [
   { name: "Chocolate", amount: 3, price: 1.2 },
   { name: "Apples", amount: 20, price: 2.45 },
-  { name: "Eggs", amount: 15, price: 0.50 },
+  { name: "Eggs", amount: 15, price: 0.5 },
   { name: "Bananas", amount: 10, price: 1.32 },
   { name: "Avocado", amount: 3, price: 4.27 },
 ];
@@ -117,6 +117,27 @@ console.log("Average item price: " + calculateAveragePrice() + " dollars");
 /* 3. Create an array of css-styles (color, font size, alignment, underline etc.) Each element of the array is an object
  consisting of two properties: style name and style value, Write a function that accepts the style array and a text
   and puts out this text via document.write() in the <p></p> tags, adding the style attribute with all the styles in the array to the opening tag.*/
+
+let cssStyles = [
+  { name: "color", value: "blue" },
+  { name: "font-size", value: "22px" },
+  { name: "text-align", value: "center" },
+  { name: "text-decoration", value: "underline" },
+];
+
+function applyStyles(styles, text) {
+  let styleAttribute = "";
+  styles.forEach((style) => {
+    styleAttribute += `${style.name}: ${style.value}; `;
+  });
+  return `<p style="${styleAttribute}">${text}</p>`;
+}
+
+const styledText = applyStyles(
+  cssStyles,
+  "This is a sample text with applied styles."
+);
+console.log(styledText); // Output the styled text to console
 
 /* 4. Create an array of academy classrooms. A classroom object consists of a name, a number of seats (10 to 20) and the faculty it is meant for. Write a few functions for working with it.
 
