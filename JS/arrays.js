@@ -52,7 +52,7 @@ displayList();
 console.log("--------------------");
 
 addPurchase("bananas", 5);
-addPurchase("eggs", 10); 
+addPurchase("eggs", 10);
 purchaseProduct("oranges");
 
 console.log("--- Updated List ---");
@@ -61,10 +61,58 @@ console.log("--------------------");
 
 /* 2. Create an array that describes a shop receipt. Each element of the array consists of the name of the product, an amount bought, and price per item. Write the following functions. 
 
-    Print the receipt out on the screen.
-    Counting the sum of the purchase.
-    Extracting the most expensive item on the receipt.
-    Counting an average item price on the receipt. */
+   - Print the receipt out on the screen.
+   - Counting the sum of the purchase.
+   - Extracting the most expensive item on the receipt.
+   - Counting an average item price on the receipt. */
+
+let shopReceipt = [
+  { name: "Chocolate", amount: 3, price: 1.2 },
+  { name: "Apples", amount: 20, price: 2.45 },
+  { name: "Eggs", amount: 15, price: 0.50 },
+  { name: "Bananas", amount: 10, price: 1.32 },
+  { name: "Avocado", amount: 3, price: 4.27 },
+];
+
+function printReceipt() {
+  console.log("Receipt:");
+  shopReceipt.forEach((item) => {
+    console.log(
+      `${item.amount} ${item.name} - ${item.amount * item.price} dollars`
+    );
+  });
+}
+
+function calculateTotal() {
+  let total = 0;
+  shopReceipt.forEach((item) => {
+    total += item.amount * item.price;
+  });
+  return total;
+}
+
+function findMostExpensiveItem() {
+  let mostExpensiveItem = shopReceipt[0];
+  shopReceipt.forEach((item) => {
+    if (item.price > mostExpensiveItem.price) {
+      mostExpensiveItem = item;
+    }
+  });
+  return mostExpensiveItem;
+}
+
+function calculateAveragePrice() {
+  let totalPrices = 0;
+  shopReceipt.forEach((item) => {
+    totalPrices += item.price;
+  });
+  return totalPrices / shopReceipt.length;
+}
+
+printReceipt();
+console.log("Total: " + calculateTotal() + " dollars");
+console.log("Most expensive item: " + findMostExpensiveItem().name);
+console.log("Average item price: " + calculateAveragePrice() + " dollars");
 
 /* 3. Create an array of css-styles (color, font size, alignment, underline etc.) Each element of the array is an object
  consisting of two properties: style name and style value, Write a function that accepts the style array and a text
