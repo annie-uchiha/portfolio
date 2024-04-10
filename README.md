@@ -4,11 +4,11 @@ This was created to practice CSS but is slowly evolving into a bigger project
 
 **New idea for a CV webpage with the knowledge gained so far**
 
-_Practice: HTML5, CSS, SASS, making pages responsive, graphics responsive, 
+_Practice: HTML5, CSS, SASS, making pages responsive, making graphics responsive, 
 navbar responsive, cross-browser compatibility, SEO optimization - developer good practices_
 
 **Adding a professional looking CV**
 
 **Getting into JavaScript**
 
-_Practice: types nad math functions, loops and conditions, functions, objects, arrays_
+_Practice: types and math functions, loops and conditions, functions, objects, arrays_
