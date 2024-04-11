@@ -65,7 +65,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Function to switch the color of the streetlights
+// Streetlights functionality
+var streetlights = document.querySelectorAll(".streetlight");
+var switchButton = document.getElementById("switchButton");
 var streetlights = document.querySelectorAll(".streetlight");
 var switchButton = document.getElementById("switchButton");
 
