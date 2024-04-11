@@ -47,7 +47,7 @@
   <script async src="../JS/script.js"></script>
   <script async src="../JS/loops-and-conditions.js"></script>
   <script async src="../JS/functions.js"></script>
-  <script async src="../JS/dom.js"></script>
+
   <link rel="stylesheet" href="../css/normalize.css" type="text/css" />
   <link rel="stylesheet" href="../css/calculator.css" type="text/css" />
   <link rel="stylesheet" href="../css/projects.css" type="text/css" />
@@ -420,6 +420,14 @@
       </div>
       <div class="js-homework-container">
         <h2 style="color: white">Modal Box</h2>
+        <button id="openBtn">OPEN</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Click the CLOSE, please.</p>
+            <button id="closeBtn">CLOSE</button>
+          </div>
+        </div>
       </div>
 
     </section>
@@ -444,7 +452,7 @@
     </div>
   </footer>
 
-
+  <script src="../JS/dom.js"></script>
 </body>
 
 </html>
