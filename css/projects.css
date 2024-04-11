@@ -208,8 +208,7 @@ body {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
 }
-
-.modal-content {
+.modal .modal-content {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
@@ -218,19 +217,24 @@ body {
   max-width: 400px;
   text-align: center;
 }
-
-.close {
+.modal .close {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-
-.close:hover,
-.close:focus {
+.modal .close:hover, .modal .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.streetlight {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: rgba(15, 61, 82, 0.966);
 }
 
 .footer-container {

@@ -64,3 +64,28 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+// Function to switch the color of the streetlights
+var streetlights = document.querySelectorAll(".streetlight");
+var switchButton = document.getElementById("switchButton");
+
+function switchColor() {
+  streetlights.forEach(function (light) {
+    var currentColor = light.style.backgroundColor;
+    switch (currentColor) {
+      case "red":
+        light.style.backgroundColor = "yellow";
+        break;
+      case "yellow":
+        light.style.backgroundColor = "green";
+        break;
+      case "green":
+        light.style.backgroundColor = "red";
+        break;
+      default:
+        light.style.backgroundColor = "red";
+    }
+  });
+}
+
+switchButton.addEventListener("click", switchColor);
