@@ -229,6 +229,13 @@ body {
   cursor: pointer;
 }
 
+.traffic-lights {
+  background-color: rgb(11, 38, 63);
+  width: 124px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
 .streetlight {
   width: 100px;
   height: 100px;

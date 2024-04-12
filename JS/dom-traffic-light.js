@@ -26,7 +26,7 @@ function switchLights() {
 
 switchLights();
 
-setInterval(switchLights, 10000);
+setInterval(switchLights, 5000);
 
 /*var streetlights = document.querySelectorAll(".streetlight");
 var switchButton = document.getElementById("switchButton");

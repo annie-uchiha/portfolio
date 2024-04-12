@@ -226,6 +226,13 @@ body {
   }
 }
 
+.traffic-lights {
+  background-color: $backgroundColor;
+  width: 124px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
 .streetlight {
   width: 100px;
   height: 100px;
