@@ -232,6 +232,18 @@ body {
   border-radius: 50%;
   margin: 10px;
   background-color: $primaryColor;
+
+  &.active {
+    background-color: red;
+  }
+
+  &.yellow {
+    background-color: yellow;
+  }
+
+  &.green {
+    background-color: green;
+  }
 }
 
 .footer-container {

@@ -236,6 +236,15 @@ body {
   margin: 10px;
   background-color: rgba(15, 61, 82, 0.966);
 }
+.streetlight.active {
+  background-color: red;
+}
+.streetlight.yellow {
+  background-color: yellow;
+}
+.streetlight.green {
+  background-color: green;
+}
 
 .footer-container {
   background-color: rgb(11, 38, 63);
