@@ -177,6 +177,7 @@
               and Math Functions</a></li>
           <li><a href="#functions"><i class="fa-solid fa-leaf"></i> Functions</a></li>
           <li><a href="#dom"><i class="fa-solid fa-leaf"></i> DOM</a></li>
+          <li><a href="#events"><i class="fa-solid fa-leaf"></i> Events</a></li>
         </ul>
       </div>
     </section>
@@ -475,6 +476,21 @@
           artist and runtime.<br> Also should be able to delete song from list and see runtime in details below song
           name and
           artist when clicking on the row.</h3>
+        <div>
+          <label for="songName">Song Name:</label>
+          <input type="text" id="songName">
+
+          <label for="artist">Artist:</label>
+          <input type="text" id="artist">
+
+          <label for="runtime">Runtime:</label>
+          <input type="text" id="runtime">
+
+          <button onclick="addSong()">Add Song</button>
+        </div>
+
+        <div id="songList"></div>
+
       </div>
     </section>
 
