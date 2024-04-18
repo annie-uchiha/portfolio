@@ -253,6 +253,7 @@ body {
   }
 }
 
+//jQuery homework - moving rectangle
 #movingElement {
   width: 50px;
   height: 50px;
@@ -261,6 +262,23 @@ body {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+//jQuery homework - to-do list
+.completed {
+  text-decoration: line-through;
+  color: $primaryColor;
+}
+
+//jQuery homework - list with details on hover
+.details {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
 }
 
 .footer-container {
