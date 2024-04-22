@@ -49,6 +49,7 @@
   <script async src="../JS/script.js"></script>
   <script async src="../JS/loops-and-conditions.js"></script>
   <script async src="../JS/functions.js"></script>
+  <script async src="../JS/ajax-homework.js"></script>
 
   <link rel="stylesheet" href="../css/normalize.css" type="text/css" />
   <link rel="stylesheet" href="../css/calculator.css" type="text/css" />
@@ -580,11 +581,26 @@
       <div class="js-homework-container">
         <h3 class="js-homework-container">3. Ask a user to submit an artist name and song and after 2 seconds add it to
           the screen </h3>
+        <label for="artist">Artist: </label>
+        <input type="text" class="js-homework__input" id="artistInput" name="artist">
+
+        <label for="song">Song: </label>
+        <input type="text" class="js-homework__input" id="song" name="song">
+
+        <button class="js-homework__btn" onclick="submitArtistAndSong()">Submit</button>
+
+        <div id="resultArtistAndSong"></div>
       </div>
       <div class="js-homework-container">
         <h3 class="js-homework-container">4. Ask a user for age, if the input is not a number or a number over 120 or
           below 0,<br> show error in console, else print in on the page with a welcome message
         </h3>
+        <label for="age">Enter your age:</label>
+        <input type="text" class="js-homework__input" id="ageInput">
+
+        <button class="js-homework__btn" onclick="submitAge()">Submit</button>
+
+        <div id="resultAge"></div>
       </div>
     </section>
 
