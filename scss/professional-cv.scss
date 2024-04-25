@@ -45,11 +45,15 @@ main {
     height: fit-content;
     margin-top: 180px;
   }
-  a {
+  .contact-information__link {
     color: white;
     background-color: rgba(15, 90, 151, 0.781);
     border: 1px solid rgb(5, 78, 173);
     width: 1000px;
     padding: 10px;
   }
+}
+
+.skills-icons {
+  font-size: 3rem;
 }
