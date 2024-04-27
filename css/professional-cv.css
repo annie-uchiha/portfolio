@@ -52,6 +52,30 @@ main .contact-information__link {
   padding: 10px;
 }
 
-.skills-icons {
+@keyframes flyFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes flyFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.skill-icon {
   font-size: 3rem;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+.skill-icon:nth-child(even) {
+  animation-name: flyFromTop;
+}
+.skill-icon:nth-child(odd) {
+  animation-name: flyFromBottom;
 }

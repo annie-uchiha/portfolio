@@ -54,6 +54,36 @@ main {
   }
 }
 
-.skills-icons {
+$animation-duration: 5s;
+
+@keyframes flyFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes flyFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.skill-icon {
   font-size: 3rem;
+  animation-duration: $animation-duration;
+  animation-fill-mode: forwards;
+
+  &:nth-child(even) {
+    animation-name: flyFromTop;
+  }
+
+  &:nth-child(odd) {
+    animation-name: flyFromBottom;
+  }
 }
