@@ -80,7 +80,7 @@ body {
 }
 
 .grid-container {
-  margin: 5% 30% 0 40%;
+  margin: 5% 20% 0 32%;
   display: grid;
   gap: 50px;
   grid-template-areas:
@@ -93,10 +93,10 @@ body {
   color: $textColor;
   @include flex-column;
   width: 500px;
-  height: 540px;
+  height: 590px;
   border: none;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -104,10 +104,10 @@ body {
   background-image: none;
   @include flex-column;
   width: 500px;
-  height: 540px;
+  height: 580px;
   border: none;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: white;
   text-align: center;
 
@@ -138,13 +138,18 @@ body {
 }
 
 .calculator-and-list-of-js-homework {
+  background-image: url(../images/naruto-boruto-sasuke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   @include flex-row-center;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  margin-top: 140px;
 
   .calculator-section-aside__ul {
     list-style: none;
     padding-top: 110px;
+    padding-left: 800px;
+    font-size: 1.5rem;
   }
 }
 
