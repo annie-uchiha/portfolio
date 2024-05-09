@@ -26,41 +26,61 @@ person2.introduce();
 accountHolder, and balance. Implement methods for depositing and withdrawing funds from the account.*/
 
 function createBankAccount(accountNumber, accountHolder, initialBalance) {
-    return {
-        accountNumber: accountNumber,
-        accountHolder: accountHolder,
-        balance: initialBalance,
-        deposit: function(amount) {
-            if (amount > 0) {
-                this.balance += amount;
-                console.log(`Successfully deposited ${amount} into account ${this.accountNumber}. New balance: ${this.balance}`);
-            } else {
-                console.log("Invalid amount for deposit.");
-            }
-        },
-        withdraw: function(amount) {
-            if (amount > 0 && amount <= this.balance) {
-                this.balance -= amount;
-                console.log(`Successfully withdrew ${amount} from account ${this.accountNumber}. New balance: ${this.balance}`);
-            } else {
-                console.log("Invalid amount for withdrawal or insufficient balance.");
-            }
-        }
-    };
+  return {
+    accountNumber: accountNumber,
+    accountHolder: accountHolder,
+    balance: initialBalance,
+    deposit: function (amount) {
+      if (amount > 0) {
+        this.balance += amount;
+        console.log(
+          `Successfully deposited ${amount} into account ${this.accountNumber}. New balance: ${this.balance}`
+        );
+      } else {
+        console.log("Invalid amount for deposit.");
+      }
+    },
+    withdraw: function (amount) {
+      if (amount > 0 && amount <= this.balance) {
+        this.balance -= amount;
+        console.log(
+          `Successfully withdrew ${amount} from account ${this.accountNumber}. New balance: ${this.balance}`
+        );
+      } else {
+        console.log("Invalid amount for withdrawal or insufficient balance.");
+      }
+    },
+  };
 }
-
 
 const account1 = createBankAccount("123456789", "Sirius Black", 1000);
 console.log("Account Number:", account1.accountNumber);
 console.log("Account Holder:", account1.accountHolder);
 console.log("Balance:", account1.balance);
-account1.deposit(500); 
-account1.withdraw(200); 
+account1.deposit(500);
+account1.withdraw(200);
 account1.withdraw(2000);
-
 
 /*Create a constructor function named Animal that takes species, name, and sound as parameters and creates animal objects.
  Include a method called makeSound that logs the sound the animal makes.*/
+
+function Animal(species, name, sound) {
+  this.species = species;
+  this.name = name;
+  this.sound = sound;
+
+  this.makeSound = function () {
+    console.log(
+      `${this.name}, the ${this.species}, makes the sound: ${this.sound}`
+    );
+  };
+}
+
+const dog = new Animal("Dog", "Becky", "Woof");
+dog.makeSound();
+
+const cat = new Animal("Cat", "Karabosko", "Meow");
+cat.makeSound();
 
 /*Create a constructor function named Book that takes title, author, and pages as parameters and creates book objects.
  Implement a method called read that logs a message indicating the book has been read.*/
