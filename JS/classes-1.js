@@ -84,6 +84,25 @@ cat.makeSound();
 
 /*Create a constructor function named Book that takes title, author, and pages as parameters and creates book objects.
  Implement a method called read that logs a message indicating the book has been read.*/
+function Book(title, author, pages) {
+  this.title = title;
+  this.author = author;
+  this.pages = pages;
+
+  this.read = function () {
+    console.log(`You have read "${this.title}" by ${this.author}.`);
+  };
+}
+
+const book1 = new Book("The Night in Lisbon", "Erich Maria Remarque", 272);
+book1.read();
+
+const book2 = new Book(
+  "Harry Potter and the Prisoner of Azkaban",
+  "J.K. Rowling",
+  435
+);
+book2.read();
 
 /*Create a class called Student with a constructor that takes name, age, and grade as parameters. 
 Add a method called study that logs a message indicating the student is studying.*/
