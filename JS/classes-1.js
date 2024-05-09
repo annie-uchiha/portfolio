@@ -106,3 +106,22 @@ book2.read();
 
 /*Create a class called Student with a constructor that takes name, age, and grade as parameters. 
 Add a method called study that logs a message indicating the student is studying.*/
+class Student {
+  constructor(name, age, grade) {
+    this.name = name;
+    this.age = age;
+    this.grade = grade;
+  }
+
+  study() {
+    console.log(`${this.name} is studying.`);
+  }
+}
+
+const student1 = new Student("Matilda", 7, 1);
+student1.study();
+
+const student2 = new Student("Dean", 16, 11);
+student2.study();
+
+// Homework II
