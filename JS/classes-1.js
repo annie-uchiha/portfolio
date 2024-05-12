@@ -124,4 +124,4 @@ student1.study();
 const student2 = new Student("Dean", 16, 11);
 student2.study();
 
-// Homework II
+
