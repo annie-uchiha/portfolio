@@ -137,3 +137,58 @@ const shirt = new Clothing("T-Shirt", 25, "M", "Blue");
 shirt.addMaterial("Cotton");
 shirt.applyDiscount(20);
 console.log("Clothing:", shirt);
+
+/* Create a class hierarchy representing different types of animals in a zoo.
+ Use inheritance to create a base class Animal and derived classes like Mammal,
+  Bird, and Reptile. Each class should have appropriate properties and methods.
+  Should have properties name, species and method makeSound(). 
+  Override the makeSound() method to log an appropriate sound for each type.*/
+class Animal {
+  constructor(name, species) {
+    this.name = name;
+    this.species = species;
+  }
+
+  makeSound() {
+    console.log(`${this.name} makes a sound`);
+  }
+}
+
+class Mammal extends Animal {
+  constructor(name, species) {
+    super(name, species);
+  }
+
+  makeSound() {
+    console.log(`${this.name} the ${this.species} mammal makes roaring sounds`);
+  }
+}
+
+class Bird extends Animal {
+  constructor(name, species) {
+    super(name, species);
+  }
+
+  makeSound() {
+    console.log(`${this.name} the ${this.species} bird makes croaking sounds`);
+  }
+}
+
+class Reptile extends Animal {
+  constructor(name, species) {
+    super(name, species);
+  }
+
+  makeSound() {
+    console.log(`${this.name} the ${this.species} reptile hisses`);
+  }
+}
+
+const lion = new Mammal("Simba", "lion");
+lion.makeSound();
+
+const parrot = new Bird("Zazu", "toucan");
+parrot.makeSound();
+
+const snake = new Reptile("Kaa", "snake");
+snake.makeSound();
