@@ -139,6 +139,10 @@ body {
   border-radius: 10px;
 }
 
+.additional-cards {
+  margin-top: 200px;
+}
+
 .calculator-and-list-of-js-homework {
   background-image: url(../images/naruto-boruto-sasuke.jpg);
   background-repeat: no-repeat;
