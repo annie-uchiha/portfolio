@@ -1,4 +1,4 @@
-# CV-webpage-CSS-practice
+# portfolio
 
 This was created to practice CSS but is slowly evolving into a bigger project
 
@@ -6,8 +6,6 @@ This was created to practice CSS but is slowly evolving into a bigger project
 
 _Practice: HTML5, CSS, SASS, making pages responsive, making graphics responsive, 
 navbar responsive, cross-browser compatibility, SEO optimization - developer good practices_
-
-**Adding a professional looking CV**
 
 **Getting into JavaScript**
 
