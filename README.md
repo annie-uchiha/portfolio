@@ -9,4 +9,4 @@ navbar responsive, cross-browser compatibility, SEO optimization - developer goo
 
 **Getting into JavaScript**
 
-_Practice: types and math functions, loops and conditions, functions, objects, arrays_
+_Practice: types and math functions, loops and conditions, functions, objects, arrays, work with DOM, events, jQuery, AJAX, work with API, work with web storage, gulp, classes_
