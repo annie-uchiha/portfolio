@@ -88,6 +88,9 @@ h2 {
   background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
   background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
 }
+.profile-container-flex .profile-container-flex__text {
+  font-size: 1.2rem;
+}
 
 .leaf-village-sign {
   margin-left: 20%;
