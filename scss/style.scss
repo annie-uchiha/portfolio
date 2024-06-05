@@ -218,12 +218,12 @@ h2 {
 
   @keyframes transform {
     from {
-      -webkit-transform: translateX(2500px);
-      transform: translateX(2500px);
+      -webkit-transform: translateX(100vw);
+      transform: translateX(100vw);
     }
     to {
-      -webkit-transform: translateX(-300px);
-      transform: translateX(-300px);
+      -webkit-transform: translateX(-100vw);
+      transform: translateX(-100vw);
     }
   }
 }
