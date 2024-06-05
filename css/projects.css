@@ -20,7 +20,7 @@ body {
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .main-nav-2 {
@@ -97,8 +97,9 @@ body {
   height: 590px;
   border: none;
   border-radius: 10px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
+  padding: 5px;
 }
 
 .flex-container-card-2 {
@@ -114,9 +115,10 @@ body {
   height: 580px;
   border: none;
   border-radius: 10px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: white;
   text-align: center;
+  padding: 5px;
 }
 .flex-container-card-2:hover {
   background-image: url(../images/harry-potter-4k-3840-x-2160-wallpaper-72auu5t7jk2yqssn.jpg);
