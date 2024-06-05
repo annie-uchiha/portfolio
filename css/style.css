@@ -7,6 +7,7 @@ body {
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1rem;
 }
 
 h2 {
@@ -16,7 +17,7 @@ h2 {
 .main-nav {
   background-color: #ff7e2e;
   color: rgb 10, 20, 63;
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +80,7 @@ h2 {
   flex-direction: row;
   -webkit-box-pack: center;
   justify-content: center;
-  min-width: 757px;
+  min-width: fit-content;
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -128,7 +129,7 @@ h2 {
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .it-knowledge:hover {
   scale: 1.1;
@@ -137,7 +138,7 @@ h2 {
 }
 
 .kunai-img {
-  width: 300px;
+  width: 200px;
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -213,12 +214,12 @@ h2 {
 }
 @keyframes transform {
   from {
-    -webkit-transform: translateX(2500px);
-    transform: translateX(2500px);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
   }
   to {
-    -webkit-transform: translateX(-300px);
-    transform: translateX(-300px);
+    -webkit-transform: translateX(-100vw);
+    transform: translateX(-100vw);
   }
 }
 
