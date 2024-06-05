@@ -80,7 +80,7 @@ body {
   margin: 5% 20% 0 32%;
   display: grid;
   gap: 50px;
-  grid-template-areas: "link1 link2 link3" "link4 link5 link6";
+  grid-template-areas: "link1 link2" "link3 link4" "link5 link6";
 }
 
 .flex-container-cards {
