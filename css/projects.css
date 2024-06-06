@@ -13,9 +13,10 @@
 }
 
 body {
-  background-image: url(../images/sasuke.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: url(../images/sasuke.jpg), url(""), url("");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center top, center 10%, center 20%;
+  background-size: 100% auto, 100% auto;
   background-color: rgba(10, 21, 73, 0.877);
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
