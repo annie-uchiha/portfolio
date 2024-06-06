@@ -41,7 +41,7 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-button {
+.calc-btn {
   height: 80px;
   background-color: #e9afe9;
   border: 1px solid #631886;

@@ -86,7 +86,13 @@ body {
   grid-template-areas:
     "link1 link2"
     "link3 link4"
-    "link5 link6";
+    "link5 link6"
+    "link7 link8"
+    "link9 link10";
+}
+
+button{
+  padding: 10px;
 }
 
 .flex-container-cards {
@@ -94,7 +100,7 @@ body {
   color: $textColor;
   @include flex-column;
   width: 500px;
-  height: 590px;
+  height: 490px;
   border: none;
   border-radius: 10px;
   font-size: 1.1rem;
@@ -106,7 +112,7 @@ body {
   background-image: none;
   @include flex-column;
   width: 500px;
-  height: 580px;
+  height: 490px;
   border: none;
   border-radius: 10px;
   font-size: 1.1rem;
