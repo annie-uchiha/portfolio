@@ -176,13 +176,13 @@ button {
   flex-direction: row;
   -webkit-box-pack: center;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 50px;
 }
 .calculator-and-list-of-js-homework .calculator-section-aside__ul {
   list-style: none;
   padding-top: 110px;
   padding-left: 800px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .js-maths-homework {
