@@ -9,8 +9,7 @@ $backgroundColor: rgb(11, 38, 63);
 }
 
 body {
-  background-image: url(../images/sasuke.jpg),
-    url(""), url("");
+  background-image: url(../images/sasuke.jpg), url(""), url("");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center top, center 10%, center 20%;
   background-size: 100% auto, 100% auto;
@@ -82,15 +81,19 @@ body {
 }
 
 .grid-container {
-  margin: 5% 20% 0 32%;
+  margin: 15% 20% 0 32%;
+  display: grid;
+  gap: 50px;
+  grid-template-areas: "link1 link2";
+}
+
+.grid-container-1 {
+  margin: 15% 20% 0 10%;
   display: grid;
   gap: 50px;
   grid-template-areas:
-    "link1 link2"
-    "link3 link4"
-    "link5 link6"
-    "link7 link8"
-    "link9 link10";
+    "link3 link4 link5"
+    "link6 link7 link8";
 }
 
 button {

@@ -78,10 +78,17 @@ body {
 }
 
 .grid-container {
-  margin: 5% 20% 0 32%;
+  margin: 15% 20% 0 32%;
   display: grid;
   gap: 50px;
-  grid-template-areas: "link1 link2" "link3 link4" "link5 link6" "link7 link8" "link9 link10";
+  grid-template-areas: "link1 link2";
+}
+
+.grid-container-1 {
+  margin: 15% 20% 0 10%;
+  display: grid;
+  gap: 50px;
+  grid-template-areas: "link3 link4 link5" "link6 link7 link8";
 }
 
 button {
