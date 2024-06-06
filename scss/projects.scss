@@ -461,6 +461,23 @@ button {
       "link2";
   }
 
+  .grid-container-1 {
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: -ms-grid;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "link3"
+      "link4"
+      "link5"
+      "link6"
+      "link7"
+      "link8"
+      "link9";
+  }
+
   .flex-container-cards {
     background-color: $primaryColor;
     color: $textColor;
@@ -514,19 +531,4 @@ button {
   font-size: 1rem;
 }
 
-.grid-container-1 {
-  margin: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  display: -ms-grid;
-  display: grid;
-  gap: 20px;
-  grid-template-areas:
-    "link3"
-    "link4"
-    "link5"
-    "link6"
-    "link7"
-    "link8"
-    "link9";
-}
+

@@ -467,6 +467,15 @@ button {
     gap: 20px;
     grid-template-areas: "link1" "link2";
   }
+  .grid-container-1 {
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: -ms-grid;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "link3" "link4" "link5" "link6" "link7" "link8" "link9";
+  }
   .flex-container-cards {
     background-color: rgba(15, 61, 82, 0.966);
     color: rgb(235, 227, 227);
@@ -521,14 +530,4 @@ button {
 
 .contact-information {
   font-size: 1rem;
-}
-
-.grid-container-1 {
-  margin: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  display: -ms-grid;
-  display: grid;
-  gap: 20px;
-  grid-template-areas: "link3" "link4" "link5" "link6" "link7" "link8" "link9";
 }
