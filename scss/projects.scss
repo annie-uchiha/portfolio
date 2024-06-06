@@ -413,6 +413,7 @@ button {
     font-size: 1rem;
   }
 }
+
 .calculator-and-list-of-js-homework {
   display: inline-block;
   margin: 0;
@@ -527,8 +528,14 @@ button {
   display: none;
 }
 
+.js-homework__input {
+  width: 50px;
+}
+
+.js-homework__input-2 {
+  width: 50px;
+}
+
 .contact-information {
   font-size: 1rem;
 }
-
-
