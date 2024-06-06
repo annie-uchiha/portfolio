@@ -1,6 +1,10 @@
 @use "mixins" as *;
 
 @media only screen and (min-width: 966px) and (max-width: 1250px) {
+  .it-certificates {
+    margin-left: 50px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 966px) {

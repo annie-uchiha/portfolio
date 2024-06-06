@@ -85,14 +85,10 @@ body {
 }
 
 .grid-container-1 {
-  margin: 15% 20% 0 10%;
+  margin: 15% 20% 5% 10%;
   display: grid;
   gap: 50px;
   grid-template-areas: "link3 link4 link5" "link6 link7 link8";
-}
-
-button {
-  padding: 10px;
 }
 
 .flex-container-cards {
@@ -155,10 +151,7 @@ button {
   width: 130px;
   border: none;
   border-radius: 10px;
-}
-
-.additional-cards {
-  margin-top: 200px;
+  padding: 10px;
 }
 
 .calculator-and-list-of-js-homework {
@@ -176,13 +169,28 @@ button {
   flex-direction: row;
   -webkit-box-pack: center;
   justify-content: center;
-  margin-top: 50px;
 }
 .calculator-and-list-of-js-homework .calculator-section-aside__ul {
   list-style: none;
-  padding-top: 110px;
-  padding-left: 800px;
   font-size: 1rem;
+  background-color: rgba(15, 61, 82, 0.966);
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.js-homework-anchors a {
+  color: rgb(235, 227, 227);
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-left: 25px;
 }
 
 .js-maths-homework {
@@ -469,8 +477,6 @@ button {
   }
   .grid-container-1 {
     margin: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
     display: -ms-grid;
     display: grid;
     gap: 20px;
