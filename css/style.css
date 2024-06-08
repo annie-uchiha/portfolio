@@ -81,8 +81,8 @@ h2 {
   -webkit-box-pack: center;
   justify-content: center;
   min-width: fit-content;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .profile-container-flex p {
   padding: 15px;

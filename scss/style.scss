@@ -85,8 +85,8 @@ h2 {
 .profile-container-flex {
   @include flex-row-center;
   min-width: fit-content;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
 
   p {
     padding: 15px;
