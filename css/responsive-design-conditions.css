@@ -2,14 +2,8 @@
   font-size: 1.2rem;
 }
 
-@media only screen and (min-width: 966px) and (max-width: 1250px) {
-  .it-certificates {
-    margin-left: 50px;
-    height: 20px;
-  }
-}
 @media (max-width: 966px) {
-  .naruto-tribute-img {
+  .naruto-tribute {
     display: none;
   }
   .profile-container-flex {
@@ -28,7 +22,21 @@
     font-size: 1rem;
   }
   .kunai-img {
-    width: 200px;
+    display: none;
+  }
+  .it-certificates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 110px;
+  }
+  .it-certificates img {
+    display: block;
+    margin-bottom: 10px;
   }
   .flex-container-skills-and-experience {
     display: -webkit-box;

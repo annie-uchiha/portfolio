@@ -1,14 +1,10 @@
 @use "mixins" as *;
 
 @media only screen and (min-width: 966px) and (max-width: 1250px) {
-  .it-certificates {
-    margin-left: 50px;
-    height: 20px;
-  }
 }
 
 @media (max-width: 966px) {
-  .naruto-tribute-img {
+  .naruto-tribute {
     display: none;
   }
 
@@ -25,7 +21,17 @@
   }
 
   .kunai-img {
-    width: 200px;
+    display: none;
+  }
+
+  .it-certificates {
+    @include flex-column;
+    margin-bottom: 110px;
+  }
+
+  .it-certificates img {
+    display: block;
+    margin-bottom: 10px;
   }
 
   .flex-container-skills-and-experience {

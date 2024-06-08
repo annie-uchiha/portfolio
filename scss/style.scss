@@ -157,10 +157,14 @@ h2 {
 }
 
 .it-certificates {
-  @include flex-row-center;
-  margin: 50px 50%;
-  width: 100px;
+  display: flex;
+  margin: 40px 20%;
+  width: 300px;
   height: 350px;
+
+  .middle-certificate {
+    margin: 10px;
+  }
 }
 
 .flex-container-skills-and-experience {
