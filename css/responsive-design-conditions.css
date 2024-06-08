@@ -2,6 +2,40 @@
   font-size: 1.2rem;
 }
 
+@media only screen and (min-width: 966px) and (max-width: 1250px) {
+  .naruto-tribute {
+    display: none;
+  }
+  .it-certificates {
+    margin: 40px 0;
+    width: 300px;
+    height: 350px;
+  }
+  .it-certificates .middle-certificate {
+    margin: 10px;
+  }
+  .flex-container-skills-and-experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 20%;
+  }
+  .experience-container {
+    width: 520px;
+    margin-left: 5%;
+  }
+  .education-container {
+    width: 410px;
+    margin-left: 5%;
+  }
+}
 @media (max-width: 966px) {
   .naruto-tribute {
     display: none;

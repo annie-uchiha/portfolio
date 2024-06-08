@@ -23,7 +23,7 @@ h2 {
 .main-nav {
   background-color: $bgColor;
   color: $textColor;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,5 +266,4 @@ h2 {
 .text-center {
   text-align: center;
   padding: 10px;
-  width: 100vw;
 }
