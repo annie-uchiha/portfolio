@@ -41,6 +41,10 @@
     justify-content: center;
   }
 
+.skills {
+  width: 350px;
+}
+
   .experience-container {
     width: 320px;
     margin-left: 5%;
@@ -49,5 +53,21 @@
   .education-container {
     width: 310px;
     margin-left: 5%;
+  }
+
+  .sasuke-run-animation {
+    -webkit-animation: transform 3000ms infinite;
+    animation: transform 3000ms infinite;
+
+    @keyframes transform {
+      from {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+      }
+      to {
+        -webkit-transform: translateX(-100vw);
+        transform: translateX(-100vw);
+      }
+    }
   }
 }
