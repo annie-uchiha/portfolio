@@ -35,6 +35,11 @@
 }
 
 @media (max-width: 966px) {
+  .main-nav {
+    width: 100%;
+    display: block;
+  }
+
   .naruto-tribute {
     display: none;
   }
@@ -100,5 +105,10 @@
         transform: translateX(-100vw);
       }
     }
+  }
+
+  .footer-container {
+    width: 100%;
+    padding: 1px;
   }
 }
