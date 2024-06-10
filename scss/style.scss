@@ -158,8 +158,8 @@ h2 {
 
 .it-certificates {
   display: flex;
-  margin: 40px 20%;
-  width: 300px;
+  margin: 40px 5%;
+  width: 200px;
   height: 350px;
 
   .middle-certificate {
@@ -234,8 +234,8 @@ h2 {
 
   @keyframes transform {
     from {
-      -webkit-transform: translateX(100vw);
-      transform: translateX(100vw);
+      -webkit-transform: translateX(99vw);
+      transform: translateX(99vw);
     }
     to {
       -webkit-transform: translateX(-100vw);
@@ -246,7 +246,6 @@ h2 {
 
 .footer-container {
   background-color: $bgColor;
-  padding: 20px;
   width: 100%;
   @include flex-row-center;
   margin-block-start: -15px;
