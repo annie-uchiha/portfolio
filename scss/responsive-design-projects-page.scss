@@ -91,7 +91,7 @@ $backgroundColor: rgb(11, 38, 63);
   left: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 966px) {
   body {
     background-image: url(../images/300-800px.JPG);
   }
@@ -190,19 +190,14 @@ $backgroundColor: rgb(11, 38, 63);
   margin: 0;
 }
 
+.calculator-section-aside ul {
+  display: none;
+}
+
 .js-homework-anchors {
   display: none;
 }
 
-.js-homework__input {
-  width: 200px;
-  margin-left: 5px;
-}
-
-.js-homework__input-2 {
-  width: 200px;
-  margin-left: 5px;
-}
 
 .contact-information {
   font-size: 1rem;

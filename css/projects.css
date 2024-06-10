@@ -206,8 +206,7 @@ body {
 }
 .js-maths-homework .js-homework__input {
   height: 50px;
-  width: 400px;
-  margin-left: 60px;
+  width: 300px;
 }
 .js-maths-homework .js-homework__btn {
   height: 50px;
@@ -225,7 +224,7 @@ body {
 }
 .js-types-of-data-and-math-functions-homework .js-homework__input-2 {
   height: 50px;
-  width: 500px;
+  width: 300px;
 }
 .js-types-of-data-and-math-functions-homework .js-homework__btn-2 {
   height: 50px;
