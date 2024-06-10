@@ -233,13 +233,17 @@ h2 {
   animation: transform 3000ms ease-out infinite;
 
   @keyframes transform {
-    from {
-      -webkit-transform: translateX(99vw);
+    0% {
       transform: translateX(99vw);
+      opacity: 0;
     }
-    to {
-      -webkit-transform: translateX(-100vw);
-      transform: translateX(-100vw);
+    80% {
+      transform: translateX(-50vw);
+      opacity: 100;
+    }
+    100% {
+      transform: translateX(-80vw);
+      opacity: 0;
     }
   }
 }
@@ -247,6 +251,7 @@ h2 {
 .footer-container {
   background-color: $bgColor;
   width: 100%;
+  padding: 1px;
   @include flex-row-center;
   margin-block-start: -15px;
 

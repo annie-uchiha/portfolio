@@ -97,8 +97,8 @@
 
     @keyframes transform {
       from {
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
+        -webkit-transform: translateX(99vw);
+        transform: translateX(99vw);
       }
       to {
         -webkit-transform: translateX(-100vw);
