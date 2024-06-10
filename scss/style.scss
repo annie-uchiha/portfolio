@@ -21,8 +21,15 @@ h2 {
 }
 
 .main-nav {
-  background-color: $bgColor;
-  color: $textColor;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(190, 75, 9, 0.801)),
+    to(#ff9f06)
+  );
+  background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
+  background: linear-gradient($direction, $colors);
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,7 +126,15 @@ h2 {
 }
 
 .flex-container-it-skills {
-  background-color: $texthoverColor;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(190, 75, 9, 0.801)),
+    to(#ff9f06)
+  );
+  background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
+  background: linear-gradient($direction, $colors);
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
@@ -235,21 +250,26 @@ h2 {
   @keyframes transform {
     0% {
       transform: translateX(99vw);
-      opacity: 0;
     }
     80% {
       transform: translateX(-50vw);
-      opacity: 100;
     }
     100% {
       transform: translateX(-80vw);
-      opacity: 0;
     }
   }
 }
 
 .footer-container {
-  background-color: $bgColor;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(190, 75, 9, 0.801)),
+    to(#ff9f06)
+  );
+  background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
+  background: linear-gradient($direction, $colors);
   width: 100%;
   padding: 1px;
   @include flex-row-center;

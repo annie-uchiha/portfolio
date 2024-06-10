@@ -15,8 +15,9 @@ h2 {
 }
 
 .main-nav {
-  background-color: #ff7e2e;
-  color: rgb 10, 20, 63;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(190, 75, 9, 0.801)), to(#ff9f06));
+  background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,7 +108,9 @@ h2 {
 }
 
 .flex-container-it-skills {
-  background-color: #e76114;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(190, 75, 9, 0.801)), to(#ff9f06));
+  background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
@@ -227,20 +230,23 @@ h2 {
   animation: transform 3000ms ease-out infinite;
 }
 @keyframes transform {
-  from {
-    -webkit-transform: translateX(100vw);
-    transform: translateX(100vw);
+  0% {
+    transform: translateX(99vw);
   }
-  to {
-    -webkit-transform: translateX(-100vw);
-    transform: translateX(-100vw);
+  80% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(-80vw);
   }
 }
 
 .footer-container {
-  background-color: #ff7e2e;
-  padding: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(190, 75, 9, 0.801)), to(#ff9f06));
+  background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
+  background: linear-gradient(to right, rgba(190, 75, 9, 0.801), #ff9f06);
   width: 100%;
+  padding: 1px;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flexbox;
