@@ -208,15 +208,6 @@ h2 {
   margin-left: 5%;
 
   .experience-container__text {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(190, 75, 9, 0.801)),
-      to(#ff9f06)
-    );
-    background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
-    background: linear-gradient($direction, $colors);
     padding: 10px;
     border-radius: 12px;
   }
@@ -226,15 +217,6 @@ h2 {
   width: 610px;
 
   ul {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(190, 75, 9, 0.801)),
-      to(#ff9f06)
-    );
-    background: -o-linear-gradient(left, rgba(190, 75, 9, 0.801), #ff9f06);
-    background: linear-gradient($direction, $colors);
     border-radius: 12px;
 
     li {
